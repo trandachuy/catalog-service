@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+			http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+	<!-- Added the data for entity TermMetadata. -->
+	<changeSet id="20171011134600-1" author="huyen.lam">
+        <delete tableName="term_metadata">
+            <where>term_id in (1472,1133,1135,1139,1488)</where>
+        </delete>
+        <delete tableName="term">
+            <where>id in (1472,1133,1135,1139,1488)</where>
+        </delete>
+        <loadData encoding="UTF-8"
+            file="config/liquibase/changelog/20171011124900_data_term.csv"
+            tableName="term" separator="," />
+        <loadData encoding="UTF-8"
+            file="config/liquibase/changelog/20171011134600_data_term_metadata.csv"
+            tableName="term_metadata" separator="," />
+        <loadData encoding="UTF-8"
+            file="config/liquibase/changelog/20171011134600_data_term_metadata_vi.csv"
+            tableName="term_metadata" separator="," />
+        <loadData encoding="UTF-8"
+            file="config/liquibase/changelog/20171011134600_data_term_metadata_zh-cn.csv"
+            tableName="term_metadata" separator="," />
+        <loadData encoding="UTF-8"
+            file="config/liquibase/changelog/20171011134600_data_term_metadata_zh-tw.csv"
+            tableName="term_metadata" separator="," />
+        <loadData encoding="UTF-8"
+            file="config/liquibase/changelog/20171011134600_data_term_metadata_my.csv"
+            tableName="term_metadata" separator="," />
+        <loadData encoding="UTF-8"
+            file="config/liquibase/changelog/20171011134600_data_term_metadata_my-zawgyi.csv"
+            tableName="term_metadata" separator="," />
+        <loadUpdateData encoding="UTF-8"
+            file="config/liquibase/changelog/20171011124900_data_term2.csv"
+            tableName="term" primaryKey="id" separator="," />
+        <loadUpdateData encoding="UTF-8"
+            file="config/liquibase/changelog/20171011124900_data_term3.csv"
+            tableName="term" primaryKey="id" separator="," />
+        <loadUpdateData encoding="UTF-8"
+            file="config/liquibase/changelog/20171011134600_data_term_metadata_vi2.csv"
+            tableName="term_metadata" primaryKey="id" separator="," />
+	</changeSet>
+</databaseChangeLog>

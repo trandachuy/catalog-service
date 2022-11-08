@@ -1,0 +1,17 @@
+id,name,display_name,term_level,term_order,taxonomy_id,parent_id,created_by
+1654,home-appliances,Home Appliances,1,999,1001,1007,liquibase
+1655,ironing-machine,Ironing Machine,2,999,1001,1654,liquibase
+1656,personal-care,Personal Care,1,999,1001,1009,liquibase
+1657,tooth-care,Tooth Care,2,999,1001,1656,liquibase
+1658,haircare,Haircare,1,999,1001,1009,liquibase
+1659,curling-irons,Curling Irons,2,999,1001,1658,liquibase
+1660,hair-dryers,Hair Dryers,2,999,1001,1658,liquibase
+1661,hair-straighteners,Hair Straighteners,2,999,1001,1658,liquibase
+1662,hair-styler,Hair Styler,2,999,1001,1658,liquibase
+1663,hair-shavers,Hair Shavers,2,999,1001,1658,liquibase
+1664,skincare,Skincare,1,999,1001,1009,liquibase
+1665,hair-wash,Hair Wash,1,999,1001,1009,liquibase
+1666,beard-trimmers,Beard Trimmers,1,999,1001,1009,liquibase
+1667,toys,Toys,1,999,1001,1008,liquibase
+1668,domestic-travel,Domestic travel,1,999,1001,1013,liquibase
+1669,international-travel,International travel,1,999,1001,1013,liquibase

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    
+    <!--
+        Added the entity PackageCurrency.
+    -->
+    <changeSet id="20220524031030-1" author="jhipster">
+        <createTable tableName="package_currency">
+            <column name="id" type="bigint">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="currency_code" type="varchar(10)">
+                <constraints nullable="true" />
+            </column>
+            <column name="symbol" type="varchar(10)">
+                <constraints nullable="true" />
+            </column>
+            <column name="exchange_rate_vn" type="${floatType}">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+
+    <changeSet id="20220524031030-1-relations" author="jhipster">
+
+    </changeSet>
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+
+    <changeSet id="20220524031030-2" author="jhipster">
+        <addUniqueConstraint tableName="package_currency" columnNames="currency_code"/>
+    </changeSet>
+
+    <changeSet id="20220818000000-5-modify-data-type" author="minh.tran">
+        <modifyDataType tableName="package_currency" columnName="exchange_rate_vn" newDataType="numeric"/>
+    </changeSet>
+
+    <changeSet id="20220818000000-6-data" author="minh.tran">
+        <sql>
+            TRUNCATE TABLE "catalog-services".package_currency;
+            INSERT INTO "catalog-services".package_currency(id, currency_code, symbol, exchange_rate_vn) VALUES(1, 'VND', 'đ', 1);
+            INSERT INTO "catalog-services".package_currency(id, currency_code, symbol, exchange_rate_vn) VALUES(2, 'USD', '$', 0.000042553191489362);
+        </sql>
+    </changeSet>
+
+</databaseChangeLog>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <property name="now" value="now()" dbms="h2"/>
+
+    <property name="now" value="current_timestamp" dbms="postgresql"/>
+
+    <property name="floatType" value="float4" dbms="postgresql, h2"/>
+    <property name="floatType" value="float" dbms="mysql, oracle, mssql"/>
+
+    <!--
+        Added/Edit the entity data for term and term metadata.
+    -->
+    <changeSet id="20171108000000" author="quang.huynh">
+        <loadData encoding="UTF-8"
+			file="config/liquibase/changelog/20171108000000_added_term_data.csv"
+			tableName="term" separator="," />
+    </changeSet>
+
+    <changeSet id="20171108000000-1" author="quang.huynh">
+        <loadData encoding="UTF-8"
+			file="config/liquibase/changelog/20171108000000_added_term_meta_data.csv"
+			tableName="term_metadata" separator="," />
+    </changeSet>
+
+    <changeSet id="20171108000000-2" author="quang.huynh">
+        <loadUpdateData encoding="UTF-8"
+            file="config/liquibase/changelog/20171108000000_edited_term_data.csv"
+            tableName="term" primaryKey="id" separator="," />
+    </changeSet>
+
+    <changeSet id="20171108000000-3" author="quang.huynh">
+        <loadUpdateData encoding="UTF-8"
+            file="config/liquibase/changelog/20171108000000_edited_term_meta_data.csv"
+            tableName="term_metadata" primaryKey="id" separator="," />
+    </changeSet>
+
+    <changeSet id="20171108000000-4" author="quang.huynh">
+        <loadData encoding="UTF-8"
+			file="config/liquibase/changelog/20171114000000_added_term_meta_data.csv"
+			tableName="term_metadata" separator="," />
+    </changeSet>
+
+    <changeSet id="20171220000000-5" author="quang.huynh">
+        <loadData encoding="UTF-8"
+                  file="config/liquibase/changelog/20171220000000_added_term_meta_data.csv"
+                  tableName="term_metadata" separator="," />
+    </changeSet>
+
+    <changeSet id="20171225000000-6" author="hiep.vo">
+        <loadData encoding="UTF-8"
+                  file="config/liquibase/changelog/20171225000000_added_term_meta_data.csv"
+                  tableName="term_metadata" separator="," />
+    </changeSet>
+
+</databaseChangeLog>

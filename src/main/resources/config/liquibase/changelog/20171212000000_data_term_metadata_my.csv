@@ -1,0 +1,63 @@
+id,meta_key,meta_value,term_id,created_by
+2818,displayName.my,ကြော်ငြာနှင့် လူမှုဆက်ဆံရေး/ မာကတ်တင်း,1016,liquibase
+2821,displayName.my,ဗိသုကာ/ အိမ်တွင်း အလှဆင် ဒီဇိုင်း,1019,liquibase
+2823,displayName.my,ဘဏ်/ လုံခြုံရေး/ ရင်းနှီးမြှုပ်နှံရေး,1021,liquibase
+2824,displayName.my,အလှအပ/ Spa/ အလှကုန်,1022,liquibase
+2833,displayName.my,ဒီဇိုင်း/ လက်မှု အနုပညာ,1031,liquibase
+2834,displayName.my,ဖြန့်ဖြူးရေး/ သယ်ယူပို့ဆောင်ရေး/ လေကြောင်းလိုင်း,1032,liquibase
+2835,displayName.my,ပညာရေး/ လေ့ကျင့်ရေး,1033,liquibase
+2837,displayName.my,အင်ဂျင်နီယာ/ စက်ပြုပြင်ထိန်းသိမ်းရေး/ HVAC,1035,liquibase
+2846,displayName.my,ဥပဒေဆိုင်ရာ ဝန်ဆောင်မှုများ/ စာချုပ်ချုပ်ဆိုမှု,1044,liquibase
+2847,displayName.my,ထုတ်လုပ်ရေး,1045,liquibase
+2850,displayName.my,အနုပညာ/ ရုပ်ရှင်,1048,liquibase
+2857,displayName.my,လုံခြုံရေး/ အစောင့်,1055,liquibase
+2861,displayName.my,ဟိုတယ်နှင့် ခရီးသွား,1059,liquibase
+3412,displayName.my-zawgyi,ေၾကာ္ျငာႏွင့္ လူမႈဆက္ဆံေရး/ မာကတ္တင္း,1016,liquibase
+3415,displayName.my-zawgyi,ဗိသုကာ/ အိမ္တြင္း အလွဆင္ ဒီဇိုင္း,1019,liquibase
+3417,displayName.my-zawgyi,ဘဏ္/ လုံျခံဳေရး/ ရင္းႏွီးျမွဳပ္ႏွံေရး,1021,liquibase
+3418,displayName.my-zawgyi,အလွအပ/ Spa/ အလွကုန္,1022,liquibase
+3427,displayName.my-zawgyi,ဒီဇိုင္း/ လက္မႈ အႏုပညာ,1031,liquibase
+3428,displayName.my-zawgyi,ျဖန္႔ျဖဴးေရး/ သယ္ယူပို႔ေဆာင္ေရး/ ေလေၾကာင္းလိုင္း,1032,liquibase
+3429,displayName.my-zawgyi,ပညာေရး/ ေလ့က်င့္ေရး,1033,liquibase
+3431,displayName.my-zawgyi,အင္ဂ်င္နီယာ/ စက္ျပဳျပင္ထိန္းသိမ္းေရး/ HVAC,1035,liquibase
+3440,displayName.my-zawgyi,ဥပေဒဆိုင္ရာ ဝန္ေဆာင္မႈမ်ား/ စာခ်ဳပ္ခ်ဳပ္ဆိုမႈ,1044,liquibase
+3441,displayName.my-zawgyi,ထုတ္လုပ္ေရး,1045,liquibase
+3444,displayName.my-zawgyi,အႏုပညာ/ ရုပ္ရွင္,1048,liquibase
+3451,displayName.my-zawgyi,လုံျခံဳေရး/ အေစာင့္,1055,liquibase
+3455,displayName.my-zawgyi,ဟိုတယ္ႏွင့္ ခရီးသြား,1059,liquibase
+4723,displayName.my,အချိန်ပိုင်း/ ကာလပိုင်း,1634,liquibase
+4724,displayName.my,အယ်ဒီတာ,1635,liquibase
+4725,displayName.my,စကားပြန်/ ဘာသာပြန်,1636,liquibase
+4726,displayName.my,Customer Service,1637,liquibase
+4727,displayName.my,အထည်အလိပ်နှင့် အဝတ်အထည်,1638,liquibase
+4728,displayName.my,ဖျော်ဖြေရေး,1639,liquibase
+4729,displayName.my,ရုံးအုပ်ချုပ်ရေးပိုင်း,1640,liquibase
+4730,displayName.my,ကုန်သိုလှောင် ရောင်းဝယ်ရေး,1641,liquibase
+4731,displayName.my,ကာယလုပ်သားနှင့် အိမ်မှုထိန်းသိမ်းရေး,1642,liquibase
+4732,displayName.my,အရောင်း,1643,liquibase
+4733,displayName.my,ဧည့်ကြို,1644,liquibase
+4734,displayName.my,မာကတ်တင်း ဌာန,1645,liquibase
+4735,displayName.my,အကြီးတန်း စီမံခန့်ခွဲမှု,1646,liquibase
+4736,displayName.my,ကနဦး အဆင့်/အလုပ်သင်,1647,liquibase
+4737,displayName.my,ယာဉ်မောင်း,1648,liquibase
+4738,displayName.my,QA/QC,1649,liquibase
+4739,displayName.my,ဂရပ်ဖစ် ဒီဇိုင်း/ ဝက်ဘ်ဒီဇိုင်း,1650,liquibase
+4740,displayName.my,အာမခံ တိုင်ပင်ဆွေးနွေးရေး,1651,liquibase
+4741,displayName.my-zawgyi,အခ်ိန္ပိုင္း/ ကာလပိုင္း,1634,liquibase
+4742,displayName.my-zawgyi,အယ္ဒီတာ,1635,liquibase
+4743,displayName.my-zawgyi,စကားျပန္/ ဘာသာျပန္,1636,liquibase
+4744,displayName.my-zawgyi,Customer Service,1637,liquibase
+4745,displayName.my-zawgyi,အထည္အလိပ္ႏွင့္ အဝတ္အထည္,1638,liquibase
+4746,displayName.my-zawgyi,ေဖ်ာ္ေျဖေရး,1639,liquibase
+4747,displayName.my-zawgyi,ရုံးအုပ္ခ်ဳပ္ေရးပိုင္း,1640,liquibase
+4748,displayName.my-zawgyi,ကုန္သိုေလွာင္ ေရာင္းဝယ္ေရး,1641,liquibase
+4749,displayName.my-zawgyi,ကာယလုပ္သားႏွင့္ အိမ္မႈထိန္းသိမ္းေရး,1642,liquibase
+4750,displayName.my-zawgyi,အေရာင္း,1643,liquibase
+4751,displayName.my-zawgyi,ဧည့္ၾကိဳ,1644,liquibase
+4752,displayName.my-zawgyi,မာကတ္တင္း ဌာန,1645,liquibase
+4753,displayName.my-zawgyi,အၾကီးတန္း စီမံခန္႔ခြဲမႈ,1646,liquibase
+4754,displayName.my-zawgyi,ကနဦး အဆင့္/အလုပ္သင္,1647,liquibase
+4755,displayName.my-zawgyi,ယာဥ္ေမာင္း,1648,liquibase
+4756,displayName.my-zawgyi,QA/QC,1649,liquibase
+4757,displayName.my-zawgyi,ဂရပ္ဖစ္ ဒီဇိုင္း/ ဝက္ဘ္ဒီဇိုင္း,1650,liquibase
+4758,displayName.my-zawgyi,အာမခံ တိုင္ပင္ေဆြးေႏြးေရး,1651,liquibase

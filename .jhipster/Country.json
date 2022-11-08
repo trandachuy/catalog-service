@@ -1,0 +1,28 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "city",
+            "otherEntityName": "city",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "country"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "code",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170509090424",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "country",
+    "pagination": "infinite-scroll",
+    "microserviceName": "catalogServices",
+    "searchEngine": "elasticsearch"
+}

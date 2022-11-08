@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2017 (C) Mediastep Software Inc.
+  ~
+  ~ Created on : 10/11/2018
+  ~ Author: Dai Mai <email: dai.mai@mediastep.com>
+  -->
+
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <changeSet id="20181150000000-1" author="Paul Mai">
+        <sqlFile path="classpath:config/liquibase/changelog/20181115_rename_ward.sql"/>
+    </changeSet>
+
+    <changeSet id="20181150000000-2" author="Paul Mai">
+        <loadData tableName="ward" file="classpath:config/liquibase/changelog/20181115_add_missing_ward.csv"/>
+    </changeSet>
+
+    <changeSet id="20181150000000-3" author="Paul Mai">
+        <sql>
+            UPDATE "catalog-services".district
+            SET code='0906'
+            WHERE id=672;
+        </sql>
+    </changeSet>
+
+    <changeSet id="20181150000000-4" author="Paul Mai">
+        <loadData tableName="ward" file="classpath:config/liquibase/changelog/20181116000000_add_missing_ward_district_0906.csv"/>
+    </changeSet>
+</databaseChangeLog>

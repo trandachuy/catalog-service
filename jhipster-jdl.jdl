@@ -1,0 +1,8 @@
+entity PackageCurrency {
+	currencyCode String
+	symbol String
+	exchangeRateVN Float
+}
+
+dto * with mapstruct
+service all with serviceImpl

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet id="20220609000000-1" author="Long Vuong">
+        <addColumn tableName="country">
+            <column name="currency_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="20220609000000-2" author="Long Vuong">
+        <sql>
+            UPDATE "catalog-services".country SET currency_name = 'CFA Franc BEAC' WHERE currency_code = 'XAF';
+            UPDATE "catalog-services".country SET currency_name = 'Dalasi' WHERE currency_code = 'GMD';
+            UPDATE "catalog-services".country SET currency_name = 'Lari' WHERE currency_code = 'GEL';
+            UPDATE "catalog-services".country SET currency_name = 'Quetzal' WHERE currency_code = 'GTQ';
+            UPDATE "catalog-services".country SET currency_name = 'Guinean Franc' WHERE currency_code = 'GNF';
+            UPDATE "catalog-services".country SET currency_name = 'Guyana Dollar' WHERE currency_code = 'GYD';
+            UPDATE "catalog-services".country SET currency_name = 'Gourde' WHERE currency_code = 'HTG';
+            UPDATE "catalog-services".country SET currency_name = 'Lempira' WHERE currency_code = 'HNL';
+            UPDATE "catalog-services".country SET currency_name = 'Hong Kong Dollar' WHERE currency_code = 'HKD';
+            UPDATE "catalog-services".country SET currency_name = 'Forint' WHERE currency_code = 'HUF';
+            UPDATE "catalog-services".country SET currency_name = 'Iceland Krona' WHERE currency_code = 'ISK';
+            UPDATE "catalog-services".country SET currency_name = 'Indian Rupee' WHERE currency_code = 'INR';
+            UPDATE "catalog-services".country SET currency_name = 'Rupiah' WHERE currency_code = 'IDR';
+            UPDATE "catalog-services".country SET currency_name = 'Iranian Rial' WHERE currency_code = 'IRR';
+            UPDATE "catalog-services".country SET currency_name = 'Iraqi Dinar' WHERE currency_code = 'IQD';
+            UPDATE "catalog-services".country SET currency_name = 'Jamaican Dollar' WHERE currency_code = 'JMD';
+            UPDATE "catalog-services".country SET currency_name = 'Yen' WHERE currency_code = 'JPY';
+            UPDATE "catalog-services".country SET currency_name = 'Jordanian Dinar' WHERE currency_code = 'JOD';
+            UPDATE "catalog-services".country SET currency_name = 'Tenge' WHERE currency_code = 'KZT';
+            UPDATE "catalog-services".country SET currency_name = 'Kenyan Shilling' WHERE currency_code = 'KES';
+            UPDATE "catalog-services".country SET currency_name = 'Som' WHERE currency_code = 'KGS';
+            UPDATE "catalog-services".country SET currency_name = 'Lao Kip' WHERE currency_code = 'LAK';
+            UPDATE "catalog-services".country SET currency_name = 'Lebanese Pound' WHERE currency_code = 'LBP';
+            UPDATE "catalog-services".country SET currency_name = 'Loti' WHERE currency_code = 'LSL';
+            UPDATE "catalog-services".country SET currency_name = 'Liberian Dollar' WHERE currency_code = 'LRD';
+            UPDATE "catalog-services".country SET currency_name = 'Libyan Dinar' WHERE currency_code = 'LYD';
+            UPDATE "catalog-services".country SET currency_name = 'Pataca' WHERE currency_code = 'MOP';
+            UPDATE "catalog-services".country SET currency_name = 'Denar' WHERE currency_code = 'MKD';
+            UPDATE "catalog-services".country SET currency_name = 'Malagasy Ariary' WHERE currency_code = 'MGA';
+            UPDATE "catalog-services".country SET currency_name = 'Malawi Kwacha' WHERE currency_code = 'MWK';
+            UPDATE "catalog-services".country SET currency_name = 'Malaysian Ringgit' WHERE currency_code = 'MYR';
+            UPDATE "catalog-services".country SET currency_name = 'Rufiyaa' WHERE currency_code = 'MVR';
+            UPDATE "catalog-services".country SET currency_name = 'Mauritius Rupee' WHERE currency_code = 'MUR';
+            UPDATE "catalog-services".country SET currency_name = 'Mexican Peso' WHERE currency_code = 'MXN';
+            UPDATE "catalog-services".country SET currency_name = 'Moldovan Leu' WHERE currency_code = 'MDL';
+            UPDATE "catalog-services".country SET currency_name = 'Tugrik' WHERE currency_code = 'MNT';
+            UPDATE "catalog-services".country SET currency_name = 'Mozambique Metical' WHERE currency_code = 'MZN';
+            UPDATE "catalog-services".country SET currency_name = 'Kyat' WHERE currency_code = 'MMK';
+            UPDATE "catalog-services".country SET currency_name = 'Namibia Dollar' WHERE currency_code = 'NAD';
+            UPDATE "catalog-services".country SET currency_name = 'Nepalese Rupee' WHERE currency_code = 'NPR';
+            UPDATE "catalog-services".country SET currency_name = 'Cordoba Oro' WHERE currency_code = 'NIO';
+            UPDATE "catalog-services".country SET currency_name = 'Naira' WHERE currency_code = 'NGN';
+            UPDATE "catalog-services".country SET currency_name = 'Rial Omani' WHERE currency_code = 'OMR';
+            UPDATE "catalog-services".country SET currency_name = 'Pakistan Rupee' WHERE currency_code = 'PKR';
+            UPDATE "catalog-services".country SET currency_name = 'New Israeli Sheqel' WHERE currency_code = 'ILS';
+            UPDATE "catalog-services".country SET currency_name = 'Balboa' WHERE currency_code = 'PAB';
+            UPDATE "catalog-services".country SET currency_name = 'Kina' WHERE currency_code = 'PGK';
+            UPDATE "catalog-services".country SET currency_name = 'Guarani' WHERE currency_code = 'PYG';
+            UPDATE "catalog-services".country SET currency_name = 'Sol' WHERE currency_code = 'PEN';
+            UPDATE "catalog-services".country SET currency_name = 'Philippine Peso' WHERE currency_code = 'PHP';
+            UPDATE "catalog-services".country SET currency_name = 'Zloty' WHERE currency_code = 'PLN';
+            UPDATE "catalog-services".country SET currency_name = 'Peso Convertible' WHERE currency_code = 'CUC';
+            UPDATE "catalog-services".country SET currency_name = 'Algerian Dinar' WHERE currency_code = 'DZD';
+            UPDATE "catalog-services".country SET currency_name = 'Kwanza' WHERE currency_code = 'AOA';
+            UPDATE "catalog-services".country SET currency_name = 'Argentine Peso' WHERE currency_code = 'ARS';
+            UPDATE "catalog-services".country SET currency_name = 'Azerbaijan Manat' WHERE currency_code = 'AZN';
+            UPDATE "catalog-services".country SET currency_name = 'Taka' WHERE currency_code = 'BDT';
+            UPDATE "catalog-services".country SET currency_name = 'Boliviano' WHERE currency_code = 'BOB';
+            UPDATE "catalog-services".country SET currency_name = 'Brazilian Real' WHERE currency_code = 'BRL';
+            UPDATE "catalog-services".country SET currency_name = 'Canadian Dollar' WHERE currency_code = 'CAD';
+            UPDATE "catalog-services".country SET currency_name = 'Chilean Peso' WHERE currency_code = 'CLP';
+            UPDATE "catalog-services".country SET currency_name = 'Yuan Renminbi' WHERE currency_code = 'CNY';
+            UPDATE "catalog-services".country SET currency_name = 'Colombian Peso' WHERE currency_code = 'COP';
+            UPDATE "catalog-services".country SET currency_name = 'Costa Rican Colon' WHERE currency_code = 'CRC';
+            UPDATE "catalog-services".country SET currency_name = 'Czech Koruna' WHERE currency_code = 'CZK';
+            UPDATE "catalog-services".country SET currency_name = 'Dominican Peso' WHERE currency_code = 'DOP';
+            UPDATE "catalog-services".country SET currency_name = 'Egyptian Pound' WHERE currency_code = 'EGP';
+            UPDATE "catalog-services".country SET currency_name = 'Ethiopian Birr' WHERE currency_code = 'ETB';
+            UPDATE "catalog-services".country SET currency_name = 'Ghana Cedi' WHERE currency_code = 'GHS';
+            UPDATE "catalog-services".country SET currency_name = 'Danish Krone' WHERE currency_code = 'DKK';
+            UPDATE "catalog-services".country SET currency_name = 'El Salvador Colon' WHERE currency_code = 'SVC';
+            UPDATE "catalog-services".country SET currency_name = 'Afghani' WHERE currency_code = 'AFN';
+            UPDATE "catalog-services".country SET currency_name = 'Lek' WHERE currency_code = 'ALL';
+            UPDATE "catalog-services".country SET currency_name = 'Armenian Dram' WHERE currency_code = 'AMD';
+            UPDATE "catalog-services".country SET currency_name = 'Bahamian Dollar' WHERE currency_code = 'BSD';
+            UPDATE "catalog-services".country SET currency_name = 'Bahraini Dinar' WHERE currency_code = 'BHD';
+            UPDATE "catalog-services".country SET currency_name = 'Pula' WHERE currency_code = 'BWP';
+            UPDATE "catalog-services".country SET currency_name = 'Brunei Dollar' WHERE currency_code = 'BND';
+            UPDATE "catalog-services".country SET currency_name = 'Bulgarian Lev' WHERE currency_code = 'BGN';
+            UPDATE "catalog-services".country SET currency_name = 'Burundi Franc' WHERE currency_code = 'BIF';
+            UPDATE "catalog-services".country SET currency_name = 'Riel' WHERE currency_code = 'KHR';
+            UPDATE "catalog-services".country SET currency_name = 'Cabo Verde Escudo' WHERE currency_code = 'CVE';
+            UPDATE "catalog-services".country SET currency_name = 'Cayman Islands Dollar' WHERE currency_code = 'KYD';
+            UPDATE "catalog-services".country SET currency_name = 'Comorian Franc ' WHERE currency_code = 'KMF';
+            UPDATE "catalog-services".country SET currency_name = 'Congolese Franc' WHERE currency_code = 'CDF';
+            UPDATE "catalog-services".country SET currency_name = 'Djibouti Franc' WHERE currency_code = 'DJF';
+            UPDATE "catalog-services".country SET currency_name = 'Nakfa' WHERE currency_code = 'ERN';
+            UPDATE "catalog-services".country SET currency_name = 'Fiji Dollar' WHERE currency_code = 'FJD';
+            UPDATE "catalog-services".country SET currency_name = 'Qatari Rial' WHERE currency_code = 'QAR';
+            UPDATE "catalog-services".country SET currency_name = 'Dong' WHERE currency_code = 'VND';
+            UPDATE "catalog-services".country SET currency_name = 'Romanian Leu' WHERE currency_code = 'RON';
+            UPDATE "catalog-services".country SET currency_name = 'Russian Ruble' WHERE currency_code = 'RUB';
+            UPDATE "catalog-services".country SET currency_name = 'Rwanda Franc' WHERE currency_code = 'RWF';
+            UPDATE "catalog-services".country SET currency_name = 'Saudi Riyal' WHERE currency_code = 'SAR';
+            UPDATE "catalog-services".country SET currency_name = 'Serbian Dinar' WHERE currency_code = 'RSD';
+            UPDATE "catalog-services".country SET currency_name = 'Seychelles Rupee' WHERE currency_code = 'SCR';
+            UPDATE "catalog-services".country SET currency_name = 'Leone' WHERE currency_code = 'SLL';
+            UPDATE "catalog-services".country SET currency_name = 'Singapore Dollar' WHERE currency_code = 'SGD';
+            UPDATE "catalog-services".country SET currency_name = 'Somali Shilling' WHERE currency_code = 'SOS';
+            UPDATE "catalog-services".country SET currency_name = 'Rand' WHERE currency_code = 'ZAR';
+            UPDATE "catalog-services".country SET currency_name = 'Won' WHERE currency_code = 'KRW';
+            UPDATE "catalog-services".country SET currency_name = 'South Sudanese Pound' WHERE currency_code = 'SSP';
+            UPDATE "catalog-services".country SET currency_name = 'Sri Lanka Rupee' WHERE currency_code = 'LKR';
+            UPDATE "catalog-services".country SET currency_name = 'Sudanese Pound' WHERE currency_code = 'SDG';
+            UPDATE "catalog-services".country SET currency_name = 'Surinam Dollar' WHERE currency_code = 'SRD';
+            UPDATE "catalog-services".country SET currency_name = 'Norwegian Krone' WHERE currency_code = 'NOK';
+            UPDATE "catalog-services".country SET currency_name = 'Lilangeni' WHERE currency_code = 'SZL';
+            UPDATE "catalog-services".country SET currency_name = 'Swedish Krona' WHERE currency_code = 'SEK';
+            UPDATE "catalog-services".country SET currency_name = 'Swiss Franc' WHERE currency_code = 'CHF';
+            UPDATE "catalog-services".country SET currency_name = 'Syrian Pound' WHERE currency_code = 'SYP';
+            UPDATE "catalog-services".country SET currency_name = 'New Taiwan Dollar' WHERE currency_code = 'TWD';
+            UPDATE "catalog-services".country SET currency_name = 'Somoni' WHERE currency_code = 'TJS';
+            UPDATE "catalog-services".country SET currency_name = 'Tanzanian Shilling' WHERE currency_code = 'TZS';
+            UPDATE "catalog-services".country SET currency_name = 'Baht' WHERE currency_code = 'THB';
+            UPDATE "catalog-services".country SET currency_name = 'CFA Franc BCEAO' WHERE currency_code = 'XOF';
+            UPDATE "catalog-services".country SET currency_name = 'New Zealand Dollar' WHERE currency_code = 'NZD';
+            UPDATE "catalog-services".country SET currency_name = 'Trinidad and Tobago Dollar' WHERE currency_code = 'TTD';
+            UPDATE "catalog-services".country SET currency_name = 'Tunisian Dinar' WHERE currency_code = 'TND';
+            UPDATE "catalog-services".country SET currency_name = 'Turkish Lira' WHERE currency_code = 'TRY';
+            UPDATE "catalog-services".country SET currency_name = 'Turkmenistan New Manat' WHERE currency_code = 'TMT';
+            UPDATE "catalog-services".country SET currency_name = 'Australian Dollar' WHERE currency_code = 'AUD';
+            UPDATE "catalog-services".country SET currency_name = 'Uganda Shilling' WHERE currency_code = 'UGX';
+            UPDATE "catalog-services".country SET currency_name = 'Hryvnia' WHERE currency_code = 'UAH';
+            UPDATE "catalog-services".country SET currency_name = 'UAE Dirham' WHERE currency_code = 'AED';
+            UPDATE "catalog-services".country SET currency_name = 'Pound Sterling' WHERE currency_code = 'GBP';
+            UPDATE "catalog-services".country SET currency_name = 'Uzbekistan Sum' WHERE currency_code = 'UZS';
+            UPDATE "catalog-services".country SET currency_name = 'Euro' WHERE currency_code = 'EUR';
+            UPDATE "catalog-services".country SET currency_name = 'US Dollar' WHERE currency_code = 'USD';
+            UPDATE "catalog-services".country SET currency_name = 'CFP Franc' WHERE currency_code = 'XPF';
+            UPDATE "catalog-services".country SET currency_name = 'Moroccan Dirham' WHERE currency_code = 'MAD';
+            UPDATE "catalog-services".country SET currency_name = 'Yemeni Rial' WHERE currency_code = 'YER';
+            UPDATE "catalog-services".country SET currency_name = 'East Caribbean Dollar' WHERE currency_code = 'XCD';
+            UPDATE "catalog-services".country SET currency_name = 'Aruba Guilder' WHERE currency_code = 'AWG';
+            UPDATE "catalog-services".country SET currency_name = 'Barbados Dollar' WHERE currency_code = 'BBD';
+            UPDATE "catalog-services".country SET currency_name = 'Belarus Ruble' WHERE currency_code = 'BYN';
+            UPDATE "catalog-services".country SET currency_name = 'Belize Dollar' WHERE currency_code = 'BZD';
+            UPDATE "catalog-services".country SET currency_name = 'Bermuda Dollar' WHERE currency_code = 'BMD';
+            UPDATE "catalog-services".country SET currency_name = 'Venezuela Bolívar' WHERE currency_code = 'VEF';
+            UPDATE "catalog-services".country SET currency_name = 'Uruguay Peso' WHERE currency_code = 'UYU';
+            UPDATE "catalog-services".country SET currency_name = 'Solomon Islands Dollar' WHERE currency_code = 'SBD';
+            UPDATE "catalog-services".country SET currency_name = 'Netherlands Antilles Guilder' WHERE currency_code = 'ANG';
+            UPDATE "catalog-services".country SET currency_name = 'Saint Helena Pound' WHERE currency_code = 'SHP';
+            UPDATE "catalog-services".country SET currency_name = 'Won' WHERE currency_code = 'KPW';
+            UPDATE "catalog-services".country SET currency_name = 'Gibraltar Pound' WHERE currency_code = 'GIP';
+            UPDATE "catalog-services".country SET currency_name = 'Falkland Islands (Malvinas) Pound' WHERE currency_code = 'FKP';
+            UPDATE "catalog-services".country SET currency_name = 'Cuba Peso' WHERE currency_code = 'CUP';
+            UPDATE "catalog-services".country SET currency_name = 'Croatia Kuna' WHERE currency_code = 'HRK';
+            UPDATE "catalog-services".country SET currency_name = 'Antarctic Dollar' WHERE currency_code = 'AAD';
+            UPDATE "catalog-services".country SET currency_name = 'Ngultrum' WHERE currency_code = 'BTN';
+            UPDATE "catalog-services".country SET currency_name = 'Convertible Mark' WHERE currency_code = 'BAM';
+            UPDATE "catalog-services".country SET currency_name = 'Kuwaiti Dinar' WHERE currency_code = 'KWD';
+            UPDATE "catalog-services".country SET currency_name = 'Ouguiya Mauritania' WHERE currency_code = 'MRO';
+            UPDATE "catalog-services".country SET currency_name = 'Tala' WHERE currency_code = 'WST';
+            UPDATE "catalog-services".country SET currency_name = 'Sao Tome Dobra' WHERE currency_code = 'STD';
+            UPDATE "catalog-services".country SET currency_name = 'Pa’anga' WHERE currency_code = 'TOP';
+            UPDATE "catalog-services".country SET currency_name = 'Vatu' WHERE currency_code = 'VUV';
+            UPDATE "catalog-services".country SET currency_name = 'Zambian Kwacha' WHERE currency_code = 'ZMW';
+            UPDATE "catalog-services".country SET currency_name = 'Zimbabwe Dollar' WHERE currency_code = 'ZWL';
+
+
+
+        </sql>
+    </changeSet>
+</databaseChangeLog>

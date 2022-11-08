@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2017 (C) Mediastep Software Inc.
+  ~
+  ~ Created on : 18/7/2017
+  ~ Author: Loi Tran <email:loi.tran@mediastep.com>
+  ~
+  -->
+
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <changeSet id="20171002023909-1" author="jhipster">
+        <delete tableName="ward">
+            <where>id in (43, 55, 342)</where>
+        </delete>
+        <update tableName="ward">
+	        <column name="out_country" type="varchar(255)" value="Tay Ho District"/>
+	        <where>id=33</where>
+        </update>
+        <loadData encoding="UTF-8"
+                  file="config/liquibase/changelog/ward3.csv"
+                  tableName="ward" separator="," />
+    </changeSet>
+</databaseChangeLog>

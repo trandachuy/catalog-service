@@ -1,0 +1,38 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "city",
+            "otherEntityName": "city",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "code",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "inCountry",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "outCountry",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "zone",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20181108104543",
+    "dto": "mapstruct",
+    "searchEngine": "elasticsearch",
+    "service": "serviceImpl",
+    "entityTableName": "district",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "catalogServices"
+}

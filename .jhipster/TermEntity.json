@@ -1,0 +1,22 @@
+{
+  "fluentMethods": true,
+  "relationships": [
+    {
+      "relationshipName": "term",
+      "otherEntityName": "term",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "entityUri",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20170109084248",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "entityTableName": "term_entity"
+}

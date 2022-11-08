@@ -1,0 +1,32 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "country",
+            "otherEntityName": "country",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "code",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "inCountry",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "outCountry",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170509090645",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "city",
+    "pagination": "no",
+    "microserviceName": "catalogServices",
+    "searchEngine": "elasticsearch"
+}

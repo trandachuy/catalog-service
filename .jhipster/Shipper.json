@@ -1,0 +1,28 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "country",
+            "otherEntityName": "country",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "inCountry",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "outCountry",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170718024653",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "shipper",
+    "pagination": "infinite-scroll",
+    "microserviceName": "catalogServices",
+    "searchEngine": "elasticsearch"
+}

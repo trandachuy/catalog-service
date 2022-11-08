@@ -1,0 +1,97 @@
+id,meta_key,meta_value,term_id,created_by
+4882,productCatalogType,PRODUCT,1654,liquibase
+4883,displayName.vi,Dụng Cụ Gia Dụng,1654,liquibase
+4884,displayName.zh-cn,Home Appliances,1654,liquibase
+4885,displayName.zh-tw,Home Appliances,1654,liquibase
+4886,displayName.my,Home Appliances,1654,liquibase
+4887,displayName.my-zawgyi,Home Appliances,1654,liquibase
+4888,productCatalogType,PRODUCT,1655,liquibase
+4889,displayName.vi,Bàn Ủi,1655,liquibase
+4890,displayName.zh-cn,Ironing Machine,1655,liquibase
+4891,displayName.zh-tw,Ironing Machine,1655,liquibase
+4892,displayName.my,Ironing Machine,1655,liquibase
+4893,displayName.my-zawgyi,Ironing Machine,1655,liquibase
+4894,ductCatalogType,PRODUCT,1656,liquibase
+4895,displayName.vi,Chăm Sóc Cá Nhân,1656,liquibase
+4896,displayName.zh-cn,Personal Care,1656,liquibase
+4897,displayName.zh-tw,Personal Care,1656,liquibase
+4898,displayName.my,Personal Care,1656,liquibase
+4899,displayName.my-zawgyi,Personal Care,1656,liquibase
+4900,productCatalogType,PRODUCT,1657,liquibase
+4901,displayName.vi,Chăm Sóc Răng Miệng,1657,liquibase
+4902,displayName.zh-cn,Tooth Care,1657,liquibase
+4903,displayName.zh-tw,Tooth Care,1657,liquibase
+4904,displayName.my,Tooth Care,1657,liquibase
+4905,displayName.my-zawgyi,Tooth Care,1657,liquibase
+4906,productCatalogType,PRODUCT,1658,liquibase
+4907,displayName.vi,Dụng Cụ Chăm Sóc Tóc,1658,liquibase
+4908,displayName.zh-cn,Haircare,1658,liquibase
+4909,displayName.zh-tw,Haircare,1658,liquibase
+4910,displayName.my,Haircare,1658,liquibase
+4911,displayName.my-zawgyi,Haircare,1658,liquibase
+4912,productCatalogType,PRODUCT,1659,liquibase
+4913,displayName.vi,Máy Uốn Tóc,1659,liquibase
+4914,displayName.zh-cn,Curling Irons,1659,liquibase
+4915,displayName.zh-tw,Curling Irons,1659,liquibase
+4916,displayName.my,Curling Irons,1659,liquibase
+4917,displayName.my-zawgyi,Curling Irons,1659,liquibase
+4918,productCatalogType,PRODUCT,1660,liquibase
+4919,displayName.vi,Máy Sấy Tóc,1660,liquibase
+4920,displayName.zh-cn,Hair Dryers,1660,liquibase
+4921,displayName.zh-tw,Hair Dryers,1660,liquibase
+4922,displayName.my,Hair Dryers,1660,liquibase
+4923,displayName.my-zawgyi,Hair Dryers,1660,liquibase
+4924,productCatalogType,PRODUCT,1661,liquibase
+4925,displayName.vi,Máy Duỗi Tóc,1661,liquibase
+4926,displayName.zh-cn,Hair Straighteners,1661,liquibase
+4927,displayName.zh-tw,Hair Straighteners,1661,liquibase
+4928,displayName.my,Hair Straighteners,1661,liquibase
+4929,displayName.my-zawgyi,Hair Straighteners,1661,liquibase
+4930,productCatalogType,PRODUCT,1662,liquibase
+4931,displayName.vi,Máy Tạo Kiểu Tóc,1662,liquibase
+4932,displayName.zh-cn,Hair Styler,1662,liquibase
+4933,displayName.zh-tw,Hair Styler,1662,liquibase
+4934,displayName.my,Hair Styler,1662,liquibase
+4935,displayName.my-zawgyi,Hair Styler,1662,liquibase
+4936,productCatalogType,PRODUCT,1663,liquibase
+4937,displayName.vi,Máy Cắt Tóc,1663,liquibase
+4938,displayName.zh-cn,Hair Shavers,1663,liquibase
+4939,displayName.zh-tw,Hair Shavers,1663,liquibase
+4940,displayName.my,Hair Shavers,1663,liquibase
+4941,displayName.my-zawgyi,Hair Shavers,1663,liquibase
+4942,productCatalogType,PRODUCT,1664,liquibase
+4943,displayName.vi,Dụng Cụ Chăm Sóc Da,1664,liquibase
+4944,displayName.zh-cn,Skincare,1664,liquibase
+4945,displayName.zh-tw,Skincare,1664,liquibase
+4946,displayName.my,Skincare,1664,liquibase
+4947,displayName.my-zawgyi,Skincare,1664,liquibase
+4948,productCatalogType,PRODUCT,1665,liquibase
+4949,displayName.vi,Dụng Cụ Tẩy Lông,1665,liquibase
+4950,displayName.zh-cn,Hair Wash,1665,liquibase
+4951,displayName.zh-tw,Hair Wash,1665,liquibase
+4952,displayName.my,Hair Wash,1665,liquibase
+4953,displayName.my-zawgyi,Hair Wash,1665,liquibase
+4954,productCatalogType,PRODUCT,1666,liquibase
+4955,displayName.vi,Dụng Cụ Cạo Râu,1666,liquibase
+4956,displayName.zh-cn,Beard Trimmers,1666,liquibase
+4957,displayName.zh-tw,Beard Trimmers,1666,liquibase
+4958,displayName.my,Beard Trimmers,1666,liquibase
+4959,displayName.my-zawgyi,Beard Trimmers,1666,liquibase
+4960,productCatalogType,PRODUCT,1667,liquibase
+4961,displayName.vi,Đồ Chơi,1667,liquibase
+4962,displayName.zh-cn,Toys,1667,liquibase
+4963,displayName.zh-tw,Toys,1667,liquibase
+4964,displayName.my,Toys,1667,liquibase
+4965,displayName.my-zawgyi,Toys,1667,liquibase
+4966,productCatalogType,DEAL,1668,liquibase
+4967,displayName.vi,Tour Trong Nước,1668,liquibase
+4968,displayName.zh-cn,Domestic travel,1668,liquibase
+4969,displayName.zh-tw,Domestic travel,1668,liquibase
+4970,displayName.my,Domestic travel,1668,liquibase
+4971,displayName.my-zawgyi,Domestic travel,1668,liquibase
+4972,productCatalogType,DEAL,1669,liquibase
+4973,displayName.vi,Tour Nước Ngoài,1669,liquibase
+4974,displayName.zh-cn,International travel,1669,liquibase
+4975,displayName.zh-tw,International travel,1669,liquibase
+4976,displayName.my,International travel,1669,liquibase
+4977,displayName.my-zawgyi,International travel,1669,liquibase

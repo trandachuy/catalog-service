@@ -1,0 +1,431 @@
+"id","code","name","in_country","out_country","flag_id","is_show","order_number"
+5,"AF","Afghanistan","افغانستان","Afghanistan",4,FALSE,NULL
+6,"AX","Aland Islands","Åland","Aland Islands",248,FALSE,NULL
+7,"AL","Albania","Shqipëria","Albania",8,FALSE,NULL
+8,"DZ","Algeria","الجزائر","Algeria",12,FALSE,NULL
+9,"AS","American Samoa","American Samoa","American Samoa",16,FALSE,NULL
+10,"AD","Andorra","Andorra","Andorra",20,FALSE,NULL
+11,"AO","Angola","Angola","Angola",24,FALSE,NULL
+12,"AI","Anguilla","Anguilla","Anguilla",660,FALSE,NULL
+13,"AQ","Antarctica","Antarctica","Antarctica",10,FALSE,NULL
+14,"AG","Antigua And Barbuda","Antigua and Barbuda","Antigua And Barbuda",28,FALSE,NULL
+15,"AR","Argentina","Argentina","Argentina",32,FALSE,NULL
+16,"AM","Armenia","Հայաստան","Armenia",51,FALSE,NULL
+17,"AW","Aruba","Aruba","Aruba",533,FALSE,NULL
+18,"AU","Australia","Australia","Australia",36,FALSE,NULL
+19,"AT","Austria","Österreich","Austria",40,FALSE,NULL
+20,"AZ","Azerbaijan","Azərbaycan","Azerbaijan",31,FALSE,NULL
+21,"BS","Bahamas The","Bahamas","Bahamas The",44,FALSE,NULL
+22,"BH","Bahrain","‏البحرين","Bahrain",48,FALSE,NULL
+23,"BD","Bangladesh","Bangladesh","Bangladesh",50,FALSE,NULL
+24,"BB","Barbados","Barbados","Barbados",52,FALSE,NULL
+25,"BY","Belarus","Белару́сь","Belarus",112,FALSE,NULL
+26,"BE","Belgium","België","Belgium",56,FALSE,NULL
+27,"BZ","Belize","Belize","Belize",84,FALSE,NULL
+28,"BJ","Benin","Bénin","Benin",204,FALSE,NULL
+29,"BM","Bermuda","Bermuda","Bermuda",60,FALSE,NULL
+30,"BT","Bhutan","ʼbrug-yul","Bhutan",64,FALSE,NULL
+31,"BO","Bolivia","Bolivia","Bolivia",68,FALSE,NULL
+32,"BQ","Bonaire, Sint Eustatius and Saba","Caribisch Nederland","Bonaire, Sint Eustatius and Saba",535,FALSE,NULL
+33,"BA","Bosnia and Herzegovina","Bosna i Hercegovina","Bosnia and Herzegovina",70,FALSE,NULL
+34,"BW","Botswana","Botswana","Botswana",72,FALSE,NULL
+35,"BV","Bouvet Island","Bouvetøya","Bouvet Island",74,FALSE,NULL
+36,"BR","Brazil","Brasil","Brazil",76,FALSE,NULL
+37,"IO","British Indian Ocean Territory","British Indian Ocean Territory","British Indian Ocean Territory",86,FALSE,NULL
+38,"BN","Brunei","Negara Brunei Darussalam","Brunei",96,FALSE,NULL
+39,"BG","Bulgaria","България","Bulgaria",100,FALSE,NULL
+40,"BF","Burkina Faso","Burkina Faso","Burkina Faso",854,FALSE,NULL
+41,"BI","Burundi","Burundi","Burundi",108,FALSE,NULL
+42,"KH","Cambodia","Kâmpŭchéa","Cambodia",116,FALSE,NULL
+43,"CM","Cameroon","Cameroon","Cameroon",120,FALSE,NULL
+44,"CA","Canada","Canada","Canada",124,FALSE,NULL
+45,"CV","Cape Verde","Cabo Verde","Cape Verde",132,FALSE,NULL
+46,"KY","Cayman Islands","Cayman Islands","Cayman Islands",136,FALSE,NULL
+47,"CF","Central African Republic","Ködörösêse tî Bêafrîka","Central African Republic",140,FALSE,NULL
+48,"TD","Chad","Tchad","Chad",148,FALSE,NULL
+49,"CL","Chile","Chile","Chile",152,FALSE,NULL
+50,"CX","Christmas Island","Christmas Island","Christmas Island",162,FALSE,NULL
+51,"CC","Cocos (Keeling) Islands","Cocos (Keeling) Islands","Cocos (Keeling) Islands",166,FALSE,NULL
+52,"CO","Colombia","Colombia","Colombia",170,FALSE,NULL
+53,"KM","Comoros","Komori","Comoros",174,FALSE,NULL
+54,"CG","Congo","République du Congo","Congo",178,FALSE,NULL
+55,"CK","Cook Islands","Cook Islands","Cook Islands",184,FALSE,NULL
+56,"CR","Costa Rica","Costa Rica","Costa Rica",188,FALSE,NULL
+57,"CI","Cote D'Ivoire (Ivory Coast)",,"Cote D'Ivoire (Ivory Coast)",384,FALSE,NULL
+58,"HR","Croatia","Hrvatska","Croatia",191,FALSE,NULL
+59,"CU","Cuba","Cuba","Cuba",192,FALSE,NULL
+60,"CW","Curaçao","Curaçao","Curaçao",531,FALSE,NULL
+61,"CY","Cyprus","Κύπρος","Cyprus",196,FALSE,NULL
+62,"CZ","Czech Republic","Česká republika","Czech Republic",203,FALSE,NULL
+63,"CD","Democratic Republic of the Congo","République démocratique du Congo","Democratic Republic of the Congo",180,FALSE,NULL
+64,"DK","Denmark","Danmark","Denmark",208,FALSE,NULL
+65,"DJ","Djibouti","Djibouti","Djibouti",262,FALSE,NULL
+66,"DM","Dominica","Dominica","Dominica",212,FALSE,NULL
+67,"DO","Dominican Republic","República Dominicana","Dominican Republic",214,FALSE,NULL
+68,"TL","East Timor","Timor-Leste","East Timor",626,FALSE,NULL
+69,"EC","Ecuador","Ecuador","Ecuador",218,FALSE,NULL
+70,"EG","Egypt","مصر‎","Egypt",818,FALSE,NULL
+71,"SV","El Salvador","El Salvador","El Salvador",222,FALSE,NULL
+72,"GQ","Equatorial Guinea","Guinea Ecuatorial","Equatorial Guinea",226,FALSE,NULL
+73,"ER","Eritrea","ኤርትራ","Eritrea",232,FALSE,NULL
+74,"EE","Estonia","Eesti","Estonia",233,FALSE,NULL
+75,"ET","Ethiopia","ኢትዮጵያ","Ethiopia",231,FALSE,NULL
+76,"FK","Falkland Islands","Falkland Islands","Falkland Islands",238,FALSE,NULL
+77,"FO","Faroe Islands","Føroyar","Faroe Islands",234,FALSE,NULL
+78,"FJ","Fiji Islands","Fiji","Fiji Islands",242,FALSE,NULL
+79,"FI","Finland","Suomi","Finland",246,FALSE,NULL
+80,"FR","France","France","France",250,FALSE,NULL
+81,"GF","French Guiana","Guyane française","French Guiana",254,FALSE,NULL
+82,"PF","French Polynesia","Polynésie française","French Polynesia",258,FALSE,NULL
+83,"TF","French Southern Territories","Territoire des Terres australes et antarctiques fr","French Southern Territories",260,FALSE,NULL
+84,"GA","Gabon","Gabon","Gabon",266,FALSE,NULL
+85,"GM","Gambia The","Gambia","Gambia The",270,FALSE,NULL
+86,"GE","Georgia","საქართველო","Georgia",268,FALSE,NULL
+87,"DE","Germany","Deutschland","Germany",276,FALSE,NULL
+88,"GH","Ghana","Ghana","Ghana",288,FALSE,NULL
+89,"GI","Gibraltar","Gibraltar","Gibraltar",292,FALSE,NULL
+90,"GR","Greece","Ελλάδα","Greece",300,FALSE,NULL
+91,"GL","Greenland","Kalaallit Nunaat","Greenland",304,FALSE,NULL
+92,"GD","Grenada","Grenada","Grenada",308,FALSE,NULL
+93,"GP","Guadeloupe","Guadeloupe","Guadeloupe",312,FALSE,NULL
+94,"GU","Guam","Guam","Guam",316,FALSE,NULL
+95,"GT","Guatemala","Guatemala","Guatemala",320,FALSE,NULL
+96,"GG","Guernsey and Alderney","Guernsey","Guernsey and Alderney",831,FALSE,NULL
+97,"GN","Guinea","Guinée","Guinea",324,FALSE,NULL
+98,"GW","Guinea-Bissau","Guiné-Bissau","Guinea-Bissau",624,FALSE,NULL
+99,"GY","Guyana","Guyana","Guyana",328,FALSE,NULL
+100,"HT","Haiti","Haïti","Haiti",332,FALSE,NULL
+101,"HM","Heard Island and McDonald Islands","Heard Island and McDonald Islands","Heard Island and McDonald Islands",334,FALSE,NULL
+102,"HN","Honduras","Honduras","Honduras",340,FALSE,NULL
+103,"HK","Hong Kong S.A.R.","香港","Hong Kong S.A.R.",344,FALSE,NULL
+104,"HU","Hungary","Magyarország","Hungary",348,FALSE,NULL
+105,"IS","Iceland","Ísland","Iceland",352,FALSE,NULL
+106,"IN","India","भारत","India",356,FALSE,NULL
+107,"ID","Indonesia","Indonesia","Indonesia",360,FALSE,NULL
+108,"IR","Iran","ایران","Iran",364,FALSE,NULL
+109,"IQ","Iraq","العراق","Iraq",368,FALSE,NULL
+110,"IE","Ireland","Éire","Ireland",372,FALSE,NULL
+111,"IL","Israel","יִשְׂרָאֵל","Israel",376,FALSE,NULL
+112,"IT","Italy","Italia","Italy",380,FALSE,NULL
+113,"JM","Jamaica","Jamaica","Jamaica",388,FALSE,NULL
+114,"JP","Japan","日本","Japan",392,FALSE,NULL
+115,"JE","Jersey","Jersey","Jersey",832,FALSE,NULL
+116,"JO","Jordan","الأردن","Jordan",400,FALSE,NULL
+117,"KZ","Kazakhstan","Қазақстан","Kazakhstan",398,FALSE,NULL
+118,"KE","Kenya","Kenya","Kenya",404,FALSE,NULL
+119,"KI","Kiribati","Kiribati","Kiribati",296,FALSE,NULL
+120,"XK","Kosovo","Republika e Kosovës","Kosovo",926,FALSE,NULL
+121,"KW","Kuwait","الكويت","Kuwait",414,FALSE,NULL
+122,"KG","Kyrgyzstan","Кыргызстан","Kyrgyzstan",417,FALSE,NULL
+123,"LA","Laos","ສປປລາວ","Laos",418,FALSE,NULL
+124,"LV","Latvia","Latvija","Latvia",428,FALSE,NULL
+125,"LB","Lebanon","لبنان","Lebanon",422,FALSE,NULL
+126,"LS","Lesotho","Lesotho","Lesotho",426,FALSE,NULL
+127,"LR","Liberia","Liberia","Liberia",430,FALSE,NULL
+128,"LY","Libya","‏ليبيا","Libya",434,FALSE,NULL
+129,"LI","Liechtenstein","Liechtenstein","Liechtenstein",438,FALSE,NULL
+130,"LT","Lithuania","Lietuva","Lithuania",440,FALSE,NULL
+131,"LU","Luxembourg","Luxembourg","Luxembourg",442,FALSE,NULL
+132,"MO","Macau S.A.R.","澳門","Macau S.A.R.",446,FALSE,NULL
+133,"MK","Macedonia","Северна Македонија","Macedonia",807,FALSE,NULL
+134,"MG","Madagascar","Madagasikara","Madagascar",450,FALSE,NULL
+135,"MW","Malawi","Malawi","Malawi",454,FALSE,NULL
+136,"MY","Malaysia","Malaysia","Malaysia",458,FALSE,NULL
+137,"MV","Maldives","Maldives","Maldives",462,FALSE,NULL
+138,"ML","Mali","Mali","Mali",466,FALSE,NULL
+139,"MT","Malta","Malta","Malta",470,FALSE,NULL
+140,"IM","Man (Isle of)","Isle of Man","Man (Isle of)",833,FALSE,NULL
+141,"MH","Marshall Islands","M̧ajeļ","Marshall Islands",584,FALSE,NULL
+142,"MQ","Martinique","Martinique","Martinique",474,FALSE,NULL
+143,"MR","Mauritania","موريتانيا","Mauritania",478,FALSE,NULL
+144,"MU","Mauritius","Maurice","Mauritius",480,FALSE,NULL
+145,"YT","Mayotte","Mayotte","Mayotte",175,FALSE,NULL
+146,"MX","Mexico","México","Mexico",484,FALSE,NULL
+147,"FM","Micronesia","Micronesia","Micronesia",583,FALSE,NULL
+148,"MD","Moldova","Moldova","Moldova",498,FALSE,NULL
+149,"MC","Monaco","Monaco","Monaco",492,FALSE,NULL
+150,"MN","Mongolia","Монгол улс","Mongolia",496,FALSE,NULL
+151,"ME","Montenegro","Црна Гора","Montenegro",499,FALSE,NULL
+152,"MS","Montserrat","Montserrat","Montserrat",500,FALSE,NULL
+153,"MA","Morocco","المغرب","Morocco",504,FALSE,NULL
+154,"MZ","Mozambique","Moçambique","Mozambique",508,FALSE,NULL
+155,"NA","Namibia","Namibia","Namibia",516,FALSE,NULL
+156,"NR","Nauru","Nauru","Nauru",520,FALSE,NULL
+157,"NP","Nepal","नपल","Nepal",524,FALSE,NULL
+158,"NL","Netherlands","Nederland","Netherlands",528,FALSE,NULL
+159,"NC","New Caledonia","Nouvelle-Calédonie","New Caledonia",540,FALSE,NULL
+160,"NZ","New Zealand","New Zealand","New Zealand",554,FALSE,NULL
+161,"NI","Nicaragua","Nicaragua","Nicaragua",558,FALSE,NULL
+162,"NE","Niger","Niger","Niger",562,FALSE,NULL
+163,"NG","Nigeria","Nigeria","Nigeria",566,FALSE,NULL
+164,"NU","Niue","Niuē","Niue",570,FALSE,NULL
+165,"NF","Norfolk Island","Norfolk Island","Norfolk Island",574,FALSE,NULL
+166,"KP","North Korea","북한","North Korea",408,FALSE,NULL
+167,"MP","Northern Mariana Islands","Northern Mariana Islands","Northern Mariana Islands",580,FALSE,NULL
+168,"NO","Norway","Norge","Norway",578,FALSE,NULL
+169,"OM","Oman","عمان","Oman",512,FALSE,NULL
+170,"PK","Pakistan","Pakistan","Pakistan",586,FALSE,NULL
+171,"PW","Palau","Palau","Palau",585,FALSE,NULL
+172,"PS","Palestinian Territory Occupied","فلسطين","Palestinian Territory Occupied",275,FALSE,NULL
+173,"PA","Panama","Panamá","Panama",591,FALSE,NULL
+174,"PG","Papua new Guinea","Papua Niugini","Papua new Guinea",598,FALSE,NULL
+175,"PY","Paraguay","Paraguay","Paraguay",600,FALSE,NULL
+176,"PE","Peru","Perú","Peru",604,FALSE,NULL
+177,"PH","Philippines","Pilipinas","Philippines",608,FALSE,NULL
+178,"PN","Pitcairn Island","Pitcairn Islands","Pitcairn Island",612,FALSE,NULL
+179,"PL","Poland","Polska","Poland",616,FALSE,NULL
+180,"PT","Portugal","Portugal","Portugal",620,FALSE,NULL
+181,"PR","Puerto Rico","Puerto Rico","Puerto Rico",630,FALSE,NULL
+182,"QA","Qatar","قطر","Qatar",634,FALSE,NULL
+183,"RE","Reunion","La Réunion","Reunion",638,FALSE,NULL
+184,"RO","Romania","România","Romania",642,FALSE,NULL
+185,"RU","Russia","Россия","Russia",643,FALSE,NULL
+186,"RW","Rwanda","Rwanda","Rwanda",646,FALSE,NULL
+187,"SH","Saint Helena","Saint Helena","Saint Helena",654,FALSE,NULL
+188,"KN","Saint Kitts And Nevis","Saint Kitts and Nevis","Saint Kitts And Nevis",659,FALSE,NULL
+189,"LC","Saint Lucia","Saint Lucia","Saint Lucia",662,FALSE,NULL
+190,"PM","Saint Pierre and Miquelon","Saint-Pierre-et-Miquelon","Saint Pierre and Miquelon",666,FALSE,NULL
+191,"VC","Saint Vincent And The Grenadines","Saint Vincent and the Grenadines","Saint Vincent And The Grenadines",670,FALSE,NULL
+192,"BL","Saint-Barthelemy","Saint-Barthélemy","Saint-Barthelemy",652,FALSE,NULL
+193,"MF","Saint-Martin (French part)","Saint-Martin","Saint-Martin (French part)",663,FALSE,NULL
+194,"WS","Samoa","Samoa","Samoa",882,FALSE,NULL
+195,"SM","San Marino","San Marino","San Marino",674,FALSE,NULL
+196,"ST","Sao Tome and Principe","São Tomé e Príncipe","Sao Tome and Principe",678,FALSE,NULL
+197,"SA","Saudi Arabia","المملكة العربية السعودية","Saudi Arabia",682,FALSE,NULL
+198,"SN","Senegal","Sénégal","Senegal",686,FALSE,NULL
+199,"RS","Serbia","Србија","Serbia",688,FALSE,NULL
+200,"SC","Seychelles","Seychelles","Seychelles",690,FALSE,NULL
+201,"SL","Sierra Leone","Sierra Leone","Sierra Leone",694,FALSE,NULL
+202,"SG","Singapore","Singapore","Singapore",702,FALSE,NULL
+203,"SX","Sint Maarten (Dutch part)","Sint Maarten","Sint Maarten (Dutch part)",534,FALSE,NULL
+204,"SK","Slovakia","Slovensko","Slovakia",703,FALSE,NULL
+205,"SI","Slovenia","Slovenija","Slovenia",705,FALSE,NULL
+206,"SB","Solomon Islands","Solomon Islands","Solomon Islands",90,FALSE,NULL
+207,"SO","Somalia","Soomaaliya","Somalia",706,FALSE,NULL
+208,"ZA","South Africa","South Africa","South Africa",710,FALSE,NULL
+209,"GS","South Georgia","South Georgia","South Georgia",239,FALSE,NULL
+210,"KR","South Korea","대한민국","South Korea",410,FALSE,NULL
+211,"SS","South Sudan","South Sudan","South Sudan",728,FALSE,NULL
+212,"ES","Spain","España","Spain",724,FALSE,NULL
+213,"LK","Sri Lanka","śrī laṃkāva","Sri Lanka",144,FALSE,NULL
+214,"SD","Sudan","السودان","Sudan",729,FALSE,NULL
+215,"SR","Suriname","Suriname","Suriname",740,FALSE,NULL
+216,"SJ","Svalbard And Jan Mayen Islands","Svalbard og Jan Mayen","Svalbard And Jan Mayen Islands",744,FALSE,NULL
+217,"SZ","Swaziland","Swaziland","Swaziland",748,FALSE,NULL
+218,"SE","Sweden","Sverige","Sweden",752,FALSE,NULL
+219,"CH","Switzerland","Schweiz","Switzerland",756,FALSE,NULL
+220,"SY","Syria","سوريا","Syria",760,FALSE,NULL
+221,"TJ","Tajikistan","Тоҷикистон","Tajikistan",762,FALSE,NULL
+222,"TZ","Tanzania","Tanzania","Tanzania",834,FALSE,NULL
+223,"TH","Thailand","ประเทศไทย","Thailand",764,FALSE,NULL
+224,"TG","Togo","Togo","Togo",768,FALSE,NULL
+225,"TK","Tokelau","Tokelau","Tokelau",772,FALSE,NULL
+226,"TO","Tonga","Tonga","Tonga",776,FALSE,NULL
+227,"TT","Trinidad And Tobago","Trinidad and Tobago","Trinidad And Tobago",780,FALSE,NULL
+228,"TN","Tunisia","تونس","Tunisia",788,FALSE,NULL
+229,"TR","Turkey","Türkiye","Turkey",792,FALSE,NULL
+230,"TM","Turkmenistan","Türkmenistan","Turkmenistan",795,FALSE,NULL
+231,"TC","Turks And Caicos Islands","Turks and Caicos Islands","Turks And Caicos Islands",796,FALSE,NULL
+232,"TV","Tuvalu","Tuvalu","Tuvalu",798,FALSE,NULL
+233,"UG","Uganda","Uganda","Uganda",800,FALSE,NULL
+234,"UA","Ukraine","Україна","Ukraine",804,FALSE,NULL
+235,"AE","United Arab Emirates","دولة الإمارات العربية المتحدة","United Arab Emirates",784,FALSE,NULL
+236,"GB","United Kingdom","United Kingdom","United Kingdom",826,FALSE,NULL
+237,"US","United States","United States","United States",840,FALSE,NULL
+238,"UM","United States Minor Outlying Islands","United States Minor Outlying Islands","United States Minor Outlying Islands",581,FALSE,NULL
+239,"UY","Uruguay","Uruguay","Uruguay",858,FALSE,NULL
+240,"UZ","Uzbekistan","O‘zbekiston","Uzbekistan",860,FALSE,NULL
+241,"VU","Vanuatu","Vanuatu","Vanuatu",548,FALSE,NULL
+242,"VA","Vatican City State (Holy See)","Vaticano","Vatican City State (Holy See)",336,FALSE,NULL
+243,"VE","Venezuela","Venezuela","Venezuela",862,FALSE,NULL
+244,"VG","Virgin Islands (British)","British Virgin Islands","Virgin Islands (British)",92,FALSE,NULL
+245,"VI","Virgin Islands (US)","United States Virgin Islands","Virgin Islands (US)",850,FALSE,NULL
+246,"WF","Wallis And Futuna Islands","Wallis et Futuna","Wallis And Futuna Islands",876,FALSE,NULL
+247,"EH","Western Sahara","الصحراء الغربية","Western Sahara",732,FALSE,NULL
+248,"YE","Yemen","اليَمَن","Yemen",887,FALSE,NULL
+249,"ZM","Zambia","Zambia","Zambia",894,FALSE,NULL
+250,"ZW","Zimbabwe","Zimbabwe","Zimbabwe",716,FALSE,NULL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

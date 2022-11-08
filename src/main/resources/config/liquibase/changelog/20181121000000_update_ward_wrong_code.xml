@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2017 (C) Mediastep Software Inc.
+  ~
+  ~ Created on : 10/11/2018
+  ~ Author: Dai Mai <email: dai.mai@mediastep.com>
+  -->
+
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+    <changeSet id="20181121000000-1" author="Paul Mai">
+        <loadUpdateData primaryKey="id" tableName="ward" file="classpath:config/liquibase/changelog/20181121000000_update_ward_wrong_code.csv"/>
+    </changeSet>
+</databaseChangeLog>

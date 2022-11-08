@@ -1,0 +1,61 @@
+id,meta_key,meta_value,term_id,created_by
+4978,productCatalogType,PRODUCT,1670,liquibase
+4979,displayName.vi,Quạt,1670,liquibase
+4980,displayName.zh-cn,Fan,1670,liquibase
+4981,displayName.zh-tw,Fan,1670,liquibase
+4982,displayName.my,Fan,1670,liquibase
+4983,displayName.my-zawgyi,Fan,1670,liquibase
+4984,productCatalogType,PRODUCT,1671,liquibase
+4985,displayName.vi,Điều hòa,1671,liquibase
+4986,displayName.zh-cn,Air Conditioner,1671,liquibase
+4987,displayName.zh-tw,Air Conditioner,1671,liquibase
+4988,displayName.my,Air Conditioner,1671,liquibase
+4989,displayName.my-zawgyi,Air Conditioner,1671,liquibase
+4990,productCatalogType,PRODUCT,1672,liquibase
+4991,displayName.vi,Máy hút bụi,1672,liquibase
+4992,displayName.zh-cn,Vacuum Cleaner,1672,liquibase
+4993,displayName.zh-tw,Vacuum Cleaner,1672,liquibase
+4994,displayName.my,Vacuum Cleaner,1672,liquibase
+4995,displayName.my-zawgyi,Vacuum Cleaner,1672,liquibase
+4996,productCatalogType,PRODUCT,1673,liquibase
+4997,displayName.vi,Tủ lạnh,1673,liquibase
+4998,displayName.zh-cn,Refrigerator,1673,liquibase
+4999,displayName.zh-tw,Refrigerator,1673,liquibase
+5000,displayName.my,Refrigerator,1673,liquibase
+5001,displayName.my-zawgyi,Refrigerator,1673,liquibase
+5002,productCatalogType,PRODUCT,1674,liquibase
+5003,displayName.vi,Máy giặt,1674,liquibase
+5004,displayName.zh-cn,Washing Machine,1674,liquibase
+5005,displayName.zh-tw,Washing Machine,1674,liquibase
+5006,displayName.my,Washing Machine,1674,liquibase
+5007,displayName.my-zawgyi,Washing Machine,1674,liquibase
+5008,productCatalogType,PRODUCT,1675,liquibase
+5009,displayName.vi,Bình lọc nước,1675,liquibase
+5010,displayName.zh-cn,Water Dispener,1675,liquibase
+5011,displayName.zh-tw,Water Dispener,1675,liquibase
+5012,displayName.my,Water Dispener,1675,liquibase
+5013,displayName.my-zawgyi,Water Dispener,1675,liquibase
+5014,productCatalogType,PRODUCT,1676,liquibase
+5015,displayName.vi,Bếp điện,1676,liquibase
+5016,displayName.zh-cn,Electric Cook,1676,liquibase
+5017,displayName.zh-tw,Electric Cook,1676,liquibase
+5018,displayName.my,Electric Cook,1676,liquibase
+5019,displayName.my-zawgyi,Electric Cook,1676,liquibase
+5020,productCatalogType,PRODUCT,1677,liquibase
+5021,displayName.vi,Máy hút,1677,liquibase
+5022,displayName.zh-cn,Exhaust Hood,1677,liquibase
+5023,displayName.zh-tw,Exhaust Hood,1677,liquibase
+5024,displayName.my,Exhaust Hood,1677,liquibase
+5025,displayName.my-zawgyi,Exhaust Hood,1677,liquibase
+5026,productCatalogType,PRODUCT,1678,liquibase
+5027,displayName.vi,Máy rửa chén,1678,liquibase
+5028,displayName.zh-cn,Dishwasher Machine,1678,liquibase
+5029,displayName.zh-tw,Dishwasher Machine,1678,liquibase
+5030,displayName.my,Dishwasher Machine,1678,liquibase
+5031,displayName.my-zawgyi,Dishwasher Machine,1678,liquibase
+5032,productCatalogType,PRODUCT,1679,liquibase
+5033,displayName.vi,Máy nước nóng lạnh,1679,liquibase
+5034,displayName.zh-cn,Water Heaters,1679,liquibase
+5035,displayName.zh-tw,Water Heaters,1679,liquibase
+5036,displayName.my,Water Heaters,1679,liquibase
+5037,displayName.my-zawgyi,Water Heaters,1679,liquibase

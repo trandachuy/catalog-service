@@ -1,0 +1,439 @@
+id,code,in_country,out_country,district_id
+11311,90768,Phường An Khánh,An Khanh,150076
+11312,90767,Phường Bình Trưng Tây,Binh Trung Tay,150076
+11313,90766,Phường Bình Trưng Đông,Binh Trung Dong,150076
+11314,90765,Phường An Phú,An Phu,150076
+11315,90764,Phường Thảo Điền,Thao Dien,150076
+11316,90763,Phường Phú Hữu,Phu Huu,150076
+11317,90762,Phường Phước Bình,Phuoc Binh,150076
+11318,90761,Phường Long Trường,Long Truong,150076
+11319,90760,Phường Long Phước,Long Phuoc,150076
+11320,90759,Phường Trường Thạnh,Truong Thanh,150076
+11321,90758,Phường Phước Long B,Phuoc Long B,150076
+11322,90757,Phường Phước Long A,Phuoc Long A,150076
+11323,90756,Phường Tăng Nhơn Phú B,Tang Nhon Phu B,150076
+11324,90755,Phường Tăng Nhơn Phú A,Tang Nhon Phu A,150076
+11325,90754,Phường Hiệp Phú,Hiep Phu,150076
+11326,90753,Phường Tân Phú,Tan Phu,150076
+11327,90752,Phường Long Thạnh Mỹ,Long Thanh My,150076
+11328,90751,Phường Long Bình,Long Binh,150076
+11329,90750,Phường Thủ Thiêm,Thu Thiem,150076
+11330,90749,Phường An Lợi Đông,An Loi Dong,150076
+11331,90748,Phường Thạnh Mỹ Lợi,Thanh My Loi,150076
+11332,90747,Phường Cát Lái,Cat Lai,150076
+11333,90746,Phường Trường Thọ,Truong Tho,150076
+11334,90745,Phường Bình Thọ,Binh Tho,150076
+11335,90744,Phường Linh Đông,Linh Dong,150076
+11336,90743,Phường Linh Tây,Linh Tay,150076
+11337,90742,Phường Linh Chiểu,Linh Chieu,150076
+11338,90741,Phường Hiệp Bình Chánh,Hiep Binh Chanh,150076
+11339,90740,Phường Hiệp Bình Phước,Hiep Binh Phuoc,150076
+11340,90739,Phường Tam Phú,Tam Phu,150076
+11341,90738,Phường Tam Bình,Tam Binh,150076
+11342,90737,Phường Linh Trung,Linh Trung,150076
+11343,90736,Phường Bình Chiểu,Binh Chieu,150076
+11344,90735,Phường Linh Xuân,Linh Xuan,150076
+11345,800156,Phường Hưng Trí,Hung Tri,308
+11346,301313,Xã Kỳ Anh,Ky Anh,308
+11347,800026,Xã Thọ Điền,Tho Dien,298
+11348,800025,Xã Quang Thọ,Quang Tho,298
+11349,800082,Xã Điềm He,Diem He,404
+11350,800081,Xã Liên Hội,Lien Hoi,404
+11351,800080,Xã An Sơn,An Son,404
+11352,800079,Xã Bắc Việt,Bac Viet,405
+11353,800078,Xã Bắc Hùng,Bac Hung,405
+11354,800083,Thị Trấn Ninh Cường,Ninh Cuong,444
+11355,800299,Xã Trà Tây,Tra Tay,541
+11356,800297,Xã Hương Trà,Huong Tra,541
+11357,800296,Xã Trà Phong,Tra Phong,541
+11358,800295,Xã Sơn Trà,Son Tra,541
+11359,800294,Xã Trà Thanh,Tra Thanh,541
+11360,800151,Thị Trấn Thiệu Hóa,Thieu Hoa,639
+11361,800126,Xã Tân Châu,Tan Chau,639
+11362,800125,Xã Minh Tâm,Minh Tam,639
+11363,800066,Xã Hồng Phong,Hong Phong,318
+11364,800065,Xã Thanh Quang,Thanh Quang,319
+11365,800064,Xã An Phượng,An Phuong,319
+11366,800093,Xã Đại Đồng,Dai Dong,463
+11367,800104,Xã Quảng Yên,Quang Yen,491
+11368,90779,Thị trấn Thạch Giám,TT Thạch Giám,461
+11369,800068,Xã Đại Sơn,Dai Son,317
+11370,800067,Xã Chí Minh,Chi Minh,317
+11371,800109,Xã An Hòa Hải,An Hoa Hai,504
+11372,90780,Thị trấn Tây Hòa,TT Tây Hòa,497
+11373,800103,Xã Vạn Xuân,Van Xuan,492
+11374,800102,Xã Lam Sơn,Lam Son,492
+11375,800101,Xã Dân Quyền,Dan Quyen,492
+11376,800100,Xã Bắc Sơn,Bac Son,492
+11377,800140,Xã Tân Thanh,Tan Thanh,675
+11378,800139,Xã Trường Sinh,Truong Sinh,675
+11379,800118,Xã Sốp Cộp,Sop Cop,586
+11380,800285,Xã Liên Trường,Lien Truong,512
+11381,800214,Xã Nam Tiến,Nam Tien,42
+11382,800235,Xã Vũ Minh,Vu Minh,204
+11383,800282,Xã Phúc Thắng,Phuc Thang,445
+11384,800236,Xã Hiệp Lực,Hiep Luc,121
+11385,800123,Xã Nga Phượng,Nga Phuong,638
+11386,800136,Xã Hương Xuân,Huong Xuan,650
+11387,800091,Xã Trung Phúc Cường,Trung Phuc Cuong,466
+11388,800090,Xã Thượng Tân Lộc,Thuong Tan Loc,466
+11389,800246,Xã Trần Phú,Tran Phu,118
+11390,800245,Xã Sơn Thành,Son Thanh,118
+11391,800244,Xã Văn Lang,Van Lang,118
+11392,800243,Xã Văn Vũ,Van Vu,118
+11393,800018,Thị Trấn Lộc Hà,Loc Ha,299
+11394,800017,Xã Bình An,Binh An,299
+11395,800283,Xã Xuân Chính,Xuan Chinh,471
+11396,800015,Xã Tân Mỹ Hà,Tan My Ha,307
+11397,800014,Xã Quang Diệm,Quang Diem,307
+11398,800013,Xã Kim Hoa,Kim Hoa,307
+11399,800012,Xã An Hòa Thịnh,An Hoa Thinh,307
+11400,800234,Xã Thống Nhất,Thong Nhat,205
+11401,800034,Xã Tùng Châu,Tung Chau,305
+11402,800033,Xã Tân Dân,Tan Dan,305
+11403,800032,Xã Thanh Bình Thịnh,Thanh Binh Thinh,305
+11404,800031,Xã Quang Vĩnh,Quang Vinh,305
+11405,800030,Xã Lâm Trung Thủy,Lam Trung Thuy,305
+11406,800029,Xã Hòa Lạc,Hoa Lac,305
+11407,800028,Xã Bùi La Nhân,Bui La Nhan,305
+11408,800027,Xã An Dũng,An Dung,305
+11409,800147,Thị Trấn Phong Sơn,Phong Son,642
+11410,800008,Xã Kim Song Trường,Kim Song Truong,306
+11411,800007,Xã Khánh Vĩnh Yên,Khanh Vinh Yen,306
+11412,800073,Xã Bắc Quỳnh,Bac Quynh,407
+11413,800249,Xã Quan Hồ Thẩn,Quan Ho Than,417
+11414,800248,Xã Lùng Thẩn,Lung Than,417
+11415,800132,Thị Trấn Nưa,Nua,632
+11416,800105,Xã Đồng Trung,Dong Trung,485
+11417,360911,Xã Văn Xuôi,Van Xuoi,150069
+11418,360910,Xã Tu Mơ Rông,Tu Mo Rong,150069
+11419,360909,Xã Tê Xăng,Te Xang,150069
+11420,360908,Xã Ngok Yêu,Ngok Yeu,150069
+11421,360907,Xã Ngọk Lây,Ngok Lay,150069
+11422,360906,Xã Măng Ri,Mang Ri,150069
+11423,360905,Xã Đắk Tơ Kan,Dak To Kan,150069
+11424,360904,Xã Đắk Sao,Dak Sao,150069
+11425,360903,Xã Đắk Rơ Ông,Dak Ro Ong,150069
+11426,360902,Xã Đắk Na,Dak Na,150069
+11427,360901,Xã Đắk Hà,Dak Ha,150069
+11428,610707,Xã Viên An Đông,Vien An Dong,150070
+11429,610706,Xã Viên An,Vien An,150070
+11430,610705,Xã Tân Ân Tây,Tan An Tay,150070
+11431,610704,Xã Tân Ân,Tan An,150070
+11432,610703,Xã Tam Giang Tây,Tam Giang Tay,150070
+11433,610702,Xã Đất Mũi,Dat Mui,150070
+11434,610701,Thị trấn Rạch Gốc,Rach Goc,150070
+11435,800291,Xã Ninh Phước,Ninh Phuoc,521
+11436,621015,Xã Vàng Đán,Vang Dan,150068
+11437,621014,Xã Si Pa Phìn,Si Pa Phin,150068
+11438,621013,Xã Phìn Hồ,Phin Ho,150068
+11439,621012,Xã Pa Tần,Pa Tan,150068
+11440,621011,Xã Nậm Tin,Nam Tin,150068
+11441,621010,Xã Nậm Nhừ,Nam Nhu,150068
+11442,621009,Xã Nậm Khăn,Nam Khan,150068
+11443,621008,Xã Nậm Chua,Nam Chua,150068
+11444,621007,Xã Nà Khoa,Na Khoa,150068
+11445,621006,Xã Nà Hỳ,Na Hy,150068
+11446,621005,Xã Na Cô Sa,Na Co Sa,150068
+11447,621004,Xã Nà Bủng,Xa Na Bung,150068
+11448,621003,Xã Chà Tở,Cha To,150068
+11449,621002,Xã Chà Nưa,Cha Nua,150068
+11450,621001,Xã Chà Cang,Cha Cang,150068
+11451,90777,Xã Thanh Sơn,xã thanh sơn,334
+11452,800052,Xã Đồng Tân,Dong Tan,334
+11453,800051,Xã Tân Thành,Tan Thanh,334
+11454,800050,Xã Thành Sơn,Thanh Son,334
+11455,800049,Xã Sơn Thủy,Son Thuy,334
+11456,800048,Xã Thống Nhất,Thong Nhat,333
+11457,800047,Xã Phú Nghĩa,Phu Nghia,333
+11458,800046,Thị Trấn Ba Hàng Đồi,Ba Hang Doi,333
+11459,800045,Xã Vũ Bình,Vu Binh,332
+11460,800044,Xã Quyết Thắng,Quyet Thang,332
+11461,800040,Xã Xuân Thủy,Xuan Thuy,331
+11462,800039,Xã Kim Lập,Kim Lap,331
+11463,800038,Xã Hợp Tiến,Hop Tien,331
+11464,800037,Xã Hùng Sơn,Hung Son,331
+11465,800290,Thị Trấn Tân Bình,Tan Binh,518
+11466,800146,Xã Hải Phong,Hai Phong,563
+11467,800145,Xã Hải Hưng,Hai Hung,563
+11468,800144,Thị Trấn Diên Sanh,Dien Sanh,563
+11469,800114,Xã Hải Định,Hai Dinh,563
+11470,410803,Xã Song Tử Tây,Song Tu Tay,150074
+11471,410802,Xã Sinh Tồn,Sinh Ton,150074
+11472,410801,Thị trấn Trường Sa,Truong Sa,150074
+11473,350203,Xã An Vĩnh,An Vinh,150071
+11474,350202,Xã An Hải,An Hai,150071
+11475,350201,Xã An Bình,An Binh,150071
+11476,541304,Xã Nam Du,Nam Du,150073
+11477,541303,Xã Lại Sơn,Lai Son,150073
+11478,541302,Xã Hòn Tre,Hon Tre,150073
+11479,541301,Xã An Sơn,An Son,150073
+11480,541306,Hoàng Sa,Đảo Hoàng Sa,150075
+11481,541305,Côn Đảo,Con Dao,103
+11482,31312,Xã Xuân Đám,Xuan Dam,150072
+11483,31311,Xã Việt Hải,Viet Hai,150072
+11484,31310,Xã Văn Phong,Van Phong,150072
+11485,31309,Xã Trân Châu,Tran Chau,150072
+11486,31308,Xã Phù Long,Phu Long,150072
+11487,31307,Xã Nghĩa Lộ,Nghia Lo,150072
+11488,31306,Xã Hoàng Châu,Hoang Chau,150072
+11489,31305,Xã Hiền Hào,Hien Hao,150072
+11490,31304,Xã Gia Luận,Gia Luan,150072
+11491,31303,Xã Đồng Bài,Dong Bai,150072
+11492,31302,Thị trấn Cát Hải,Cat Hai,150072
+11493,31301,Thị trấn Cát Bà,Cat Ba,150072
+11494,800036,Xã Thạch Yên,Thach Yen,340
+11495,800035,Xã Hợp Phong,Hop Phong,340
+11496,50707,Xã Minh Sơn,Minh Son,290
+11497,800259,Xã Thạch Lương,Thach Luong,704
+11498,800258,Xã Phúc Sơn,Phuc Son,704
+11499,800257,Xã Hạnh Sơn,Hanh Son,704
+11500,800256,Xã Thanh Lương,Thanh Luong,704
+11501,800255,Xã Phù Nham,Phu Nham,704
+11502,800254,Xã Sơn A,Son A,704
+11503,800253,Xã Nghĩa Lộ,Nghia Lo,704
+11504,90773,Thị trấn Hùng Quốc,TT Hùng Quốc,207
+11505,800233,Xã Đoài Dương,Doai Duong,207
+11506,800232,Xã Cao Chương,Cao Chuong,207
+11507,800231,Xã Quang Vinh,Quang Vinh,207
+11508,800230,Xã Quang Trung,Quang Trung,207
+11509,800229,Xã Xuân Nội,Xuan Noi,207
+11510,800228,Xã Quang Hán,Quang Han,207
+11511,800227,Xã Tri Phương,Tri Phuong,207
+11512,800226,Thị Trấn Trà Lĩnh,Tra Linh,207
+11513,800303,Xã Phước Bình,Phuoc Binh,598
+11514,800120,Xã Tông Lạnh,Tong Lanh,588
+11515,800119,Xã Phổng Lăng,Phong Lang,588
+11516,800070,Xã Tân Long,Tan Long,436
+11517,800142,Thị Trấn Tân Thanh,Tan Thanh,296
+11518,800058,Xã Minh Phượng,Minh Phuong,348
+11519,800071,Xã Tân Bình,Tan Binh,435
+11520,90778,Thị Trấn Mãn Đức,tt mãn đức,339
+11521,800055,Xã Vân Sơn,Van Son,339
+11522,800054,Xã Suối Hoa,Suoi Hoa,339
+11523,800053,Xã Nhân Mỹ,Nhan My,339
+11524,800168,Phường Ô Quý Hồ,O Quy Ho,419
+11525,800167,Xã Thanh Bình,Thanh Binh,419
+11526,800166,Phường Phan Si Păng,Phan Si Pang,419
+11527,800165,Xã Ngũ Chỉ Sơn,Ngu Chi Son,419
+11528,800164,Xã Mường Hoa,Muong Hoa,419
+11529,800163,Xã Mường Bo,Muong Bo,419
+11530,800162,Xã Liên Minh,Lien Minh,419
+11531,800161,Phường Hàm Rồng,Ham Rong,419
+11532,800160,Xã Hoàng Liên,Hoang Lien,419
+11533,800159,Phường Cầu Mây,Cau May,419
+11534,800289,Xã Quế Mỹ,Que My,529
+11535,90790,Thị trấn Sơn Lư,TT Sơn Lư,637
+11536,800099,Xã Bình Phú,Binh Phu,490
+11537,800252,Xã Sì Lở Lầu,Si Lo Lau,385
+11538,90734,Dế Xu Phình,De Xu Phinh,700
+11539,90792,Thị Trấn Nông Trường,nongtruong,583
+11540,800305,Xã Bình Khánh,Binh Khanh,144
+11541,800006,Xã Trần Hưng Đạo,Tran Hung Dao,295
+11542,800043,Xã Thanh Sơn,Thanh Son,338
+11543,800042,Xã Thanh Cao,Thanh Cao,338
+11544,800041,Xã Cao Sơn,Cao Son,338
+11545,800077,Xã Thống Nhất,Thong Nhat,409
+11546,800076,Xã Minh Hiệp,Minh Hiep,409
+11547,800075,Xã Khánh Xuân,Khanh Xuan,409
+11548,800098,Xã Phùng Nguyên,Phung Nguyen,489
+11549,800063,Xã Đồng Cẩm,Dong Cam,316
+11550,800062,Xã Tuấn Việt,Tuan Viet,316
+11551,800061,Xã Kim Liên,Kim Lien,316
+11552,800281,Xã Minh Quang,Minh Quang,606
+11553,800280,Xã Tây Sơn,Tay Son,606
+11554,800279,Thị Trấn Kiến Xương,Kien Xuong,606
+11555,800074,Xã Thiện Tân,Thien Tan,408
+11556,800089,Xã Xuân Lam,Xuan Lam,467
+11557,800088,Xã Long Xá,Long Xa,467
+11558,800087,Xã Hưng Thành,Hung Thanh,467
+11559,800086,Xã Hưng Nghĩa,Hung Nghia,467
+11560,800085,Xã Châu Nhân,Chau Nhan,467
+11561,800225,Xã Ngọc Đào,Ngoc Dao,197
+11562,800224,Xã Hồng Sỹ,Hong Sy,197
+11563,800223,Xã Thanh Long,Thanh Long,197
+11564,800222,Xã Lương Can,Luong Can,197
+11565,800221,Xã Yên Sơn,Yen Son,197
+11566,800220,Xã Ngọc Động,Ngoc Dong,197
+11567,800219,Xã Đa Thông,Da Thong,197
+11568,800218,Xã Lương Thông,Luong Thong,197
+11569,800217,Xã Cần Nông,Can Nong,197
+11570,800216,Xã Cần Yên,Can Yen,197
+11571,800215,Thị Trấn Thông Nông,Thong Nong,197
+11572,800097,Xã Tứ Hiệp,Tu Hiep,488
+11573,800112,Xã Phong Bình,Phong Binh,564
+11574,800111,Xã Linh Trường,Linh Truong,564
+11575,800300,Phường Nguyễn Nghiêm,Nguyen Nghiem,539
+11576,800108,Xã Phú Lâm,Phu Lam,487
+11577,800107,Xã Hợp Nhất,Hop Nhat,487
+11578,800106,Xã Hùng Xuyên,Hung Xuyen,487
+11579,800057,Xã Tú Lý,Tu Ly,336
+11580,800056,Xã Nánh Nghê,Nanh Nghe,336
+11581,800242,Xã Thanh Thịnh,Thanh Thinh,120
+11582,800241,Thị Trấn Đồng Tâm,Dong Tam,120
+11583,800240,Xã Yên Phong,Yen Phong,119
+11584,800239,Xã Đồng Thắng,Dong Thang,119
+11585,800096,Xã Minh Tân,Minh Tan,484
+11586,800095,Xã Hùng Việt,Hung Viet,484
+11587,800094,Thị Trấn Cẩm Khê,Cam Khe,484
+11588,800110,Xã Thanh An,Thanh An,562
+11589,800293,Xã Bình Tân Phú,Binh Tan Phu,534
+11590,800292,Xã Bình Thanh,Binh Thanh,534
+11591,800250,Xã Phúc Khánh,Phuc Khanh,414
+11592,800238,Xã Quân Hà,Quan Ha,116
+11593,800237,Xã Tân Tú,Tan Tu,116
+11594,800306,Xã Phước Ngãi,Phuoc Ngai,139
+11595,800153,Xã Lâm Đớt,Lam Dot,646
+11596,800135,Xã Trung Sơn,Trung Son,646
+11597,800134,Xã Quảng Nhâm,Quang Nham,646
+11598,800005,Xã Nguyễn Việt Khái,Nguyen Viet Khai,188
+11599,800137,Xã Giang Hải,Giang Hai,645
+11600,800152,Xã Minh Tân,Minh Tan,629
+11601,800133,Xã Ninh Khang,Ninh Khang,629
+11602,90789,Thị trấn Hồi Xuân,TT Hồi Xuân,627
+11603,800149,Xã Yến Sơn,Yen Son,625
+11604,800148,Xã Yên Dương,Yen Duong,625
+11605,800122,Xã Lĩnh Toại,Linh Toai,625
+11606,800121,Xã Hoạt Giang,Hoat Giang,625
+11607,800131,Xã Xuân Sinh,Xuan Sinh,621
+11608,800130,Xã Xuân Hồng,Xuan Hong,621
+11609,800129,Xã Trường Xuân,Truong Xuan,621
+11610,800128,Xã Thuận Minh,Thuan Minh,621
+11611,800127,Xã Phú Xuân,Phu Xuan,621
+11612,800278,Xã Thuần Thành,Thuan Thanh,604
+11613,800277,Xã Tân Học,Tan Hoc,604
+11614,800276,Xã Sơn Hà,Son Ha,604
+11615,800275,Xã Hòa An,Hoa An,604
+11616,800274,Xã Dương Hồng Thủy,Duong Hong Thuy,604
+11617,800273,Xã Dương Phúc,Duong Phuc,604
+11618,800272,Xã An Tân,An Tan,604
+11619,800271,Xã Hồng Dũng,Hong Dung,604
+11620,800265,Xã Châu Sơn,Chau Son,603
+11621,800117,Xã Trung Nam,Trung Nam,561
+11622,800116,Xã Kim Thạch,Kim Thach,561
+11623,800115,Xã Hiền Thành,Hien Thanh,561
+11624,800113,Xã Lìa,Lia,560
+11625,800287,Thị Trấn Phong Nha,Phong Nha,507
+11626,800286,Xã Hải Phú,Hai Phu,507
+11627,800288,Xã Ngư Thủy,Ngu Thuy,506
+11628,800143,Xã Khánh Hợp,Khanh Hop,460
+11629,800092,Xã Nghĩa Thành,Nghia Thanh,457
+11630,800084,Xã Minh Châu,Minh Chau,453
+11631,800069,Thị Trấn Măng Đen,Mang Den,373
+11632,3079,Xã Mỹ Đức,My Duc,81
+11633,3078,Xã Chiến Thắng,Chien Thang,81
+11634,3077,Xã Bát Trang,Bat Trang,81
+11635,3076,Xã An Tiến,An Tien,81
+11636,3075,Xã An Thọ,An Tho,81
+11637,3074,Xã An Thắng,An Thang,81
+11638,3073,Xã An Thái,An Thai,81
+11639,3072,Thị trấn Trường Sơn,Truong Son,81
+11640,30717,Xã Trường Thọ,Truong Tho,81
+11641,30716,Xã Trường Thành,Truong Thanh,81
+11642,30715,Xã Thái Sơn,Thai Son,81
+11643,30714,Xã Tân Viên,Tan Vien,81
+11644,30713,Xã Tân Dân,Tan Dan,81
+11645,30712,Xã Quốc Tuấn,Quoc Tuan,81
+11646,30711,Xã Quang Trung,Quang Trung,81
+11647,30710,Xã Quang Hưng,Quang Hung,81
+11648,3071,Thị trấn An Lão,An Lao,81
+11649,800169,Xã Quang Thành,Quang Thanh,314
+11650,800158,Phường Phạm Thái,Pham Thai,314
+11651,800157,Phường An Lưu,An Luu,314
+11652,800060,Xã Định Sơn,Dinh Son,313
+11653,800059,Xã Vĩnh Hưng,Vinh Hung,312
+11654,800010,Xã Yên Hòa,Yen Hoa,304
+11655,800009,Xã Nam Phúc Thăng,Nam Phuc Thang,304
+11656,90774,Thị Trấn Tiên Điền,tt tiên điền,302
+11657,800019,Xã Đan Trường,Dan Truong,302
+11658,800011,Xã Điền Mỹ,Dien My,301
+11659,800016,Xã Lâm Hợp,Lam Hop,300
+11660,800213,Xã Sen Phương,Sen Phuong,48
+11661,800212,Xã Xuân Đình,Xuan Dinh,48
+11662,800155,Xã Tiên Sơn,Tien Son,293
+11663,800004,Thị Trấn Nham Biền,Nham Bien,110
+11664,800003,Xã Đại Sơn,Dai Son,107
+11665,800002,Xã Vĩnh An,Vinh An,107
+11666,800001,Thị Trấn Tây Yên Tử,Tay Yen Tu,107
+11667,800000,Xã Phúc Sơn,Phuc Son,107
+11668,90770,Xã Thanh Thịnh,xã thanh thịnh,94
+11669,90769,Thị trấn Đồng Tâm,thị trấn đồng tâm,94
+11670,800138,Xã Phú Gia,Phu Gia,644
+11671,800141,Thị Trấn Bút Sơn,But Son,634
+11672,800150,Thị Trấn Tân Phong,Tan Phong,633
+11673,800124,Xã Tiên Trang,Tien Trang,633
+11674,800301,Xã Bình Lộc,Binh Loc,353
+11675,90786,Xã Sơn Hòa,Son Hoa,532
+11676,90785,Xã Sơn Hội,Son Hoi,532
+11677,90784,Xã Sơn Hải,Son Hai,532
+11678,90783,Xã Sơn Mỹ,Son My,532
+11679,90782,Xã Sơn Quang,Son Quang,532
+11680,90781,Xã Sơn Thành,Son Thanh,532
+11681,800263,Xã Tân Phú,Tan Phu,689
+11682,90793,Xã Cao Ngạn,Cao Ngan,607
+11683,90794,Phường Vân Dương,Van Duong,130
+11684,800302,Phường Long Hoa,Long Hoa,591
+11685,90791,Xã Thạnh Phú,Thanh Phu,87
+11686,90788,Xã Thuận Hòa,Thuan Hoa,87
+11687,90787,Xã An Hiệp,An Hiep,87
+11688,90776,Thị trấn Mái Dầm,Mai Dam,87
+11689,90775,Xã Đông Thạnh,Dong Thanh,87
+11690,90771,Xã Giao Long,Giao Long,87
+11691,800270,Xã Minh Phú,Minh Phu,599
+11692,800269,Xã Đông Quan,Dong Quan,599
+11693,800268,Xã Hồng Bạch,Hong Bach,599
+11694,800267,Xã Liên Hoa,Lien Hoa,599
+11695,800266,Xã Hà Giang,Ha Giang,599
+11696,800264,Phường Hải Sơn,Hai Son,77
+11697,800154,Thị Trấn Dầu Giây,Dau Giay,245
+11698,800170,Xã Bình Tiến,Binh Tien,648
+11699,800209,Phường Châu Sơn,Chau Son,610
+11700,800247,Xã Cốc San,Coc San,418
+11701,90796,Phường Quỳnh Lâm,Quynh Lam,330
+11702,800261,Xã Thịnh Minh,Thinh Minh,330
+11703,800260,Phường Kỳ Sơn,Ky Son,330
+11704,800178,Xã Độc Lập,Doc Lap,330
+11705,800177,Xã Quang Tiến,Quang Tien,330
+11706,800176,Xã Phú Minh,Phu Minh,330
+11707,800175,Xã Mông Hóa,Mong Hoa,330
+11708,800174,Xã Hợp Thịnh,Hop Thinh,330
+11709,800173,Xã Hợp Thành,Hop Thanh,330
+11710,800205,Xã Pá Khoang,Pa Khoang,231
+11711,800204,Xã Nà Tấu,Na Tau,231
+11712,800203,Xã Nà Nhạn,Na Nhan,231
+11713,800202,Xã Mường Phăng,Muong Phang,231
+11714,800251,Xã Sùng Phài,Sung Phai,382
+11715,800211,Xã Sơn Cẩm,Son Cam,609
+11716,800210,Phường Chùa Hang,Chua Hang,609
+11717,800199,Xã Đồng Liên,Dong Lien,609
+11718,800198,Xã Linh Sơn,Linh Son,609
+11719,800197,Xã Huống Thượng,Huong Thuong,609
+11720,800284,Phường Đồng Hải,Dong Hai,505
+11721,800172,Xã Đồng Môn,Dong Mon,297
+11722,800206,Phường An Hưng,An Hung,616
+11723,800196,Xã Long Anh,Long Anh,616
+11724,800171,Phường Lam Hạ,Lam Ha,291
+11725,800262,Phường Hoành Bồ,Hoanh Bo,547
+11726,800208,Thị Trấn Trới,Troi,547
+11727,800207,Xã Dân Chủ,Dan Chu,547
+11728,800195,Xã Đồng Sơn,Dong Son,547
+11729,800194,Xã Đồng Lâm,Dong Lam,547
+11730,800193,Xã Vũ Oai,Vu Oai,547
+11731,800192,Xã Tân Dân,Tan Dan,547
+11732,800191,Xã Thống Nhất,Thong Nhat,547
+11733,800190,Xã Sơn Dương,Son Duong,547
+11734,800189,Xã Quảng La,Quang La,547
+11735,800188,Xã Lê Lợi,Le Loi,547
+11736,800187,Xã Kỳ Thượng,Ky Thuong,547
+11737,800186,Xã Hòa Bình,Hoa Binh,547
+11738,800185,Xã Bằng Cả,Bang Ca,547
+11739,800201,Phường Mỹ Lâm,My Lam,673
+11740,800200,Xã Kim Phú,Kim Phu,673
+11741,800184,Xã Tiền Tiến,Tien Tien,311
+11742,800183,Xã Quyết Thắng,Quyet Thang,311
+11743,800182,Xã Ngọc Sơn,Ngoc Son,311
+11744,800181,Xã Liên Hồng,Lien Hong,311
+11745,800180,Xã Gia Xuyên,Gia Xuyen,311
+11746,800179,Xã An Thượng,An Thuong,311
+11747,800304,Phường An Hội,An Hoi,137
+11748,90795,Võ Thị Sáu,Vo Thi Sau,3

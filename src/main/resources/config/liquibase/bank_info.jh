@@ -1,0 +1,8 @@
+entity BankInfo {
+    id Long,
+    bankName String,
+}
+
+dto * with mapstruct
+service * with serviceClass
+service * with serviceImpl

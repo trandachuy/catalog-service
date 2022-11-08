@@ -1,0 +1,19 @@
+id,name,display_name,term_level,term_order,taxonomy_id,parent_id,created_by
+1634,part-time/seasonal,Part-time/Seasonal,0,999,1002,null,liquibase
+1635,newspaper/editor,Newspaper/Editor,0,999,1002,null,liquibase
+1636,interpreter/translator,Interpreter/Translator,0,999,1002,null,liquibase
+1637,customer-service,Customer Service,0,999,1002,null,liquibase
+1638,textiles/garments,Textiles/Garments,0,999,1002,null,liquibase
+1639,entertainment,Entertainment,0,999,1002,null,liquibase
+1640,administrative/clerical/back-office,Administrative/Clerical/Back office,0,999,1002,null,liquibase
+1641,warehouse/merchandising,Warehouse/Merchandising,0,999,1002,null,liquibase
+1642,labour/housekeeping ,Labour/Housekeeping ,0,999,1002,null,liquibase
+1643,sales,Sales,0,999,1002,null,liquibase
+1644,reception,Reception,0,999,1002,null,liquibase
+1645,marketing-development,Marketing Development,0,999,1002,null,liquibase
+1646,executive-management,Executive Management,0,999,1002,null,liquibase
+1647,entry-level/intern,Entry level/Intern,0,999,1002,null,liquibase
+1648,driving,Driving,0,999,1002,null,liquibase
+1649,qa/qc,QA/QC,0,999,1002,null,liquibase
+1650,graphic-design/web-design,Graphic Design/Web Design,0,999,1002,null,liquibase
+1651,insurance-consulting,Insurance Consulting,0,999,1002,null,liquibase

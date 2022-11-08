@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!--
+        Added the entity City.
+    -->
+    <changeSet id="20170509090645-2" author="jhipster">
+        <loadData encoding="UTF-8"
+                  file="config/liquibase/changelog/city.csv"
+                  tableName="city" separator="," />
+    </changeSet>  
+    
+    <changeSet id="20211029000000-6" author="jhipster">
+        <loadData encoding="UTF-8"
+                  file="config/liquibase/changelog/city-extended.csv"
+                  tableName="city" separator="," />
+    </changeSet>    
+    
+    <changeSet id="20211029000000-7" author="jhipster">
+        <loadData encoding="UTF-8"
+                  file="config/liquibase/changelog/city-extended-2.csv"
+                  tableName="city" separator="," />
+    </changeSet>
+
+
+    <changeSet id="20211029000000-8" author="jhipster">
+        <loadData encoding="UTF-16"
+                  file="config/liquibase/changelog/district-extended.csv"
+                  tableName="district" separator="," />
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+			http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+	<!-- Added the data for entity job post price. -->
+	<changeSet id="20171012144600-1" author="anh.le">
+		<loadData encoding="UTF-8"
+			file="config/liquibase/changelog/20171012144600_job_post_price.csv"
+			tableName="job_post_price" separator="," />
+	</changeSet>
+</databaseChangeLog>

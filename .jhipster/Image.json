@@ -1,0 +1,21 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "imageId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "urlPrefix",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170703092656",
+    "dto": "mapstruct",
+    "service": "serviceClass",
+    "entityTableName": "image",
+    "pagination": "no",
+    "microserviceName": "catalogServices",
+    "searchEngine": "elasticsearch"
+}

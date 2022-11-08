@@ -1,0 +1,30 @@
+{
+  "name": "PackageCurrency",
+  "fields": [
+    {
+      "fieldName": "currencyCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "symbol",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "exchangeRateVN",
+      "fieldType": "Float"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20220524031030",
+  "entityTableName": "package_currency",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "catalogServices",
+  "applications": "*",
+  "microserviceName": "catalogServices"
+}

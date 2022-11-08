@@ -1,0 +1,1 @@
+jhipster-uml src/main/resources/config/data-structure/catalog.uml --dto mapstruct --service serviceClass --paginate pagination

@@ -1,0 +1,5 @@
+"id","code","in_country","out_country",flag_id,is_show,order_number
+"1","VN","Việt Nam","Vietnam",4,true,2
+"2","MM","မြန်မာ","Myanmar",2,false,1
+"3","TW","台灣","Taiwan",3,false,3
+"4","CN","中国","China",1,false,4

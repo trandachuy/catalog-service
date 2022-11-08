@@ -1,0 +1,28 @@
+id,meta_key,meta_value,term_id,created_by
+4855,productCatalogType,DEAL,1652,liquibase
+4856,displayName.vi,Deal Sản Phẩm,1652,liquibase
+4857,displayName.zh-cn,Deal Products,1652,liquibase
+4858,displayName.zh-tw,Deal Products,1652,liquibase
+4859,displayName.my,Deal Products,1652,liquibase
+4860,displayName.my-zawgyi,Deal Products,1652,liquibase
+4861,categoryImageUrl,https://dm4fv4ltmsvz0.cloudfront.net/1523851934423.jpg,1652,liquibase
+4862,icon,https://dm4fv4ltmsvz0.cloudfront.net/1523851934423.jpg,1652,liquibase
+4863,icon.web,https://dm4fv4ltmsvz0.cloudfront.net/1523851934423.jpg,1652,liquibase
+4864,displayName.web.en,Deal Products,1652,liquibase
+4865,displayName.web.vi,Deal Sản Phẩm,1652,liquibase
+4866,displayName.web.my,Deal Products,1652,liquibase
+4867,displayName.web.my-zawgyi,Deal Products,1652,liquibase
+4868,displayName.web.zh-cn,Deal Products,1652,liquibase
+4869,displayName.web.zh-tw,Deal Products,1652,liquibase
+4870,displayName.web.slogan.en,Deal Products,1652,liquibase
+4871,displayName.web.slogan.vi,Deal Sản Phẩm,1652,liquibase
+4872,displayName.web.slogan.my,Deal Products,1652,liquibase
+4873,displayName.web.slogan.my-zawgyi,Deal Products,1652,liquibase
+4874,displayName.web.slogan.zh-cn,Deal Products,1652,liquibase
+4875,displayName.web.slogan.zh-tw,Deal Products,1652,liquibase
+4876,displayName.vi,Cửa hàng giảm giá,1653,liquibase
+4877,displayName.zh-cn,Discount Shops,1653,liquibase
+4878,displayName.zh-tw,Discount Shops,1653,liquibase
+4879,displayName.my,Discount Shops,1653,liquibase
+4880,displayName.my-zawgyi,Discount Shops,1653,liquibase
+4881,productCatalogType,DEAL,1653,liquibase

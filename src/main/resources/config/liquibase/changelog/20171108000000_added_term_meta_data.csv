@@ -1,0 +1,91 @@
+id,meta_key,meta_value,term_id,created_by
+4669,displayName.vi,Bán thời gian/Thời vụ,1634,liquibase
+4670,displayName.vi,Báo chí/Biên tập viên,1635,liquibase
+4671,displayName.vi,Biên dịch/Phiên dịch,1636,liquibase
+4672,displayName.vi,Chăm sóc khách hàng,1637,liquibase
+4673,displayName.vi,Dệt may/Da giày,1638,liquibase
+4674,displayName.vi,Giải trí ,1639,liquibase
+4675,displayName.vi,Hành chính/Thư ký/Văn phòng,1640,liquibase
+4676,displayName.vi,Kho vận/Thu mua,1641,liquibase
+4677,displayName.vi,Lao động phổ thông/Tạp vụ/Giúp việc,1642,liquibase
+4678,displayName.vi,Nhân viên kinh doanh,1643,liquibase
+4679,displayName.vi,PG/PD/Lễ tân,1644,liquibase
+4680,displayName.vi,Phát triển thị trường ,1645,liquibase
+4681,displayName.vi,Quản lý điều hành,1646,liquibase
+4682,displayName.vi,Sinh viên mới tốt nghiệp/Thực tập sinh,1647,liquibase
+4683,displayName.vi,Tài xế/Lái xe,1648,liquibase
+4684,displayName.vi,Thẩm định/Giám định/Quản lý chất lượng,1649,liquibase
+4685,displayName.vi,Thiết kế đồ họa/web,1650,liquibase
+4686,displayName.vi,Tư vấn bảo hiểm,1651,liquibase
+4687,displayName.zh-cn,Part-time/Seasonal,1634,liquibase
+4688,displayName.zh-cn,Newspaper/Editor,1635,liquibase
+4689,displayName.zh-cn,Interpreter/Translator,1636,liquibase
+4690,displayName.zh-cn,Customer Service,1637,liquibase
+4691,displayName.zh-cn,Textiles/Garments,1638,liquibase
+4692,displayName.zh-cn,Entertainment,1639,liquibase
+4693,displayName.zh-cn,Administrative/Clerical/Back office,1640,liquibase
+4694,displayName.zh-cn,Warehouse/Merchandising,1641,liquibase
+4695,displayName.zh-cn,Labour/Housekeeping ,1642,liquibase
+4696,displayName.zh-cn,Sales,1643,liquibase
+4697,displayName.zh-cn,Reception,1644,liquibase
+4698,displayName.zh-cn,Marketing Development,1645,liquibase
+4699,displayName.zh-cn,Executive Management,1646,liquibase
+4700,displayName.zh-cn,Entry level/Intern,1647,liquibase
+4701,displayName.zh-cn,Driving,1648,liquibase
+4702,displayName.zh-cn,QA/QC,1649,liquibase
+4703,displayName.zh-cn,Graphic Design/Web Design,1650,liquibase
+4704,displayName.zh-cn,Insurance Consulting,1651,liquibase
+4705,displayName.zh-tw,Part-time/Seasonal,1634,liquibase
+4706,displayName.zh-tw,Newspaper/Editor,1635,liquibase
+4707,displayName.zh-tw,Interpreter/Translator,1636,liquibase
+4708,displayName.zh-tw,Customer Service,1637,liquibase
+4709,displayName.zh-tw,Textiles/Garments,1638,liquibase
+4710,displayName.zh-tw,Entertainment,1639,liquibase
+4711,displayName.zh-tw,Administrative/Clerical/Back office,1640,liquibase
+4712,displayName.zh-tw,Warehouse/Merchandising,1641,liquibase
+4713,displayName.zh-tw,Labour/Housekeeping ,1642,liquibase
+4714,displayName.zh-tw,Sales,1643,liquibase
+4715,displayName.zh-tw,Reception,1644,liquibase
+4716,displayName.zh-tw,Marketing Development,1645,liquibase
+4717,displayName.zh-tw,Executive Management,1646,liquibase
+4718,displayName.zh-tw,Entry level/Intern,1647,liquibase
+4719,displayName.zh-tw,Driving,1648,liquibase
+4720,displayName.zh-tw,QA/QC,1649,liquibase
+4721,displayName.zh-tw,Graphic Design/Web Design,1650,liquibase
+4722,displayName.zh-tw,Insurance Consulting,1651,liquibase
+4723,displayName.my,Part-time/Seasonal,1634,liquibase
+4724,displayName.my,Newspaper/Editor,1635,liquibase
+4725,displayName.my,Interpreter/Translator,1636,liquibase
+4726,displayName.my,Customer Service,1637,liquibase
+4727,displayName.my,Textiles/Garments,1638,liquibase
+4728,displayName.my,Entertainment,1639,liquibase
+4729,displayName.my,Administrative/Clerical/Back office,1640,liquibase
+4730,displayName.my,Warehouse/Merchandising,1641,liquibase
+4731,displayName.my,Labour/Housekeeping ,1642,liquibase
+4732,displayName.my,Sales,1643,liquibase
+4733,displayName.my,Reception,1644,liquibase
+4734,displayName.my,Marketing Development,1645,liquibase
+4735,displayName.my,Executive Management,1646,liquibase
+4736,displayName.my,Entry level/Intern,1647,liquibase
+4737,displayName.my,Driving,1648,liquibase
+4738,displayName.my,QA/QC,1649,liquibase
+4739,displayName.my,Graphic Design/Web Design,1650,liquibase
+4740,displayName.my,Insurance Consulting,1651,liquibase
+4741,displayName.my-zawgyi,Part-time/Seasonal,1634,liquibase
+4742,displayName.my-zawgyi,Newspaper/Editor,1635,liquibase
+4743,displayName.my-zawgyi,Interpreter/Translator,1636,liquibase
+4744,displayName.my-zawgyi,Customer Service,1637,liquibase
+4745,displayName.my-zawgyi,Textiles/Garments,1638,liquibase
+4746,displayName.my-zawgyi,Entertainment,1639,liquibase
+4747,displayName.my-zawgyi,Administrative/Clerical/Back office,1640,liquibase
+4748,displayName.my-zawgyi,Warehouse/Merchandising,1641,liquibase
+4749,displayName.my-zawgyi,Labour/Housekeeping ,1642,liquibase
+4750,displayName.my-zawgyi,Sales,1643,liquibase
+4751,displayName.my-zawgyi,Reception,1644,liquibase
+4752,displayName.my-zawgyi,Marketing Development,1645,liquibase
+4753,displayName.my-zawgyi,Executive Management,1646,liquibase
+4754,displayName.my-zawgyi,Entry level/Intern,1647,liquibase
+4755,displayName.my-zawgyi,Driving,1648,liquibase
+4756,displayName.my-zawgyi,QA/QC,1649,liquibase
+4757,displayName.my-zawgyi,Graphic Design/Web Design,1650,liquibase
+4758,displayName.my-zawgyi,Insurance Consulting,1651,liquibase

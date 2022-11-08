@@ -1,0 +1,33 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "fromPost",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "toPost",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "countryCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "currencyCode",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170901065253",
+    "dto": "mapstruct",
+    "service": "serviceClass",
+    "entityTableName": "job_post_price",
+    "pagination": "no",
+    "microserviceName": "catalogServices",
+    "searchEngine": "elasticsearch"
+}

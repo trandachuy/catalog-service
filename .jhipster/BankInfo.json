@@ -1,0 +1,22 @@
+{
+  "name": "BankInfo",
+  "fields": [
+    {
+      "fieldName": "bankName",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210901032734",
+  "entityTableName": "bank_info",
+  "dto": "mapstruct",
+  "pagination": "no",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "catalogServices",
+  "applications": "*",
+  "microserviceName": "catalogServices"
+}

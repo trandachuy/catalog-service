@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+			http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+	<!-- Added the data for entity Term. -->
+	<changeSet id="20170113124900-1" author="huyen.lam">
+		<loadData encoding="UTF-8"
+			file="config/liquibase/changelog/20170113124900_data_term.csv"
+			tableName="term" separator="," />
+	</changeSet>
+</databaseChangeLog>

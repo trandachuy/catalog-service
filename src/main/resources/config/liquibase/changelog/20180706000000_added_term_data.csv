@@ -1,0 +1,11 @@
+id,name,display_name,term_level,term_order,taxonomy_id,parent_id,created_by
+1670,fan,Fan,2,999,1001,1654,liquibase
+1671,air-conditioner,Air Conditioner,2,999,1001,1654,liquibase
+1672,vacuum-cleaner,Vacuum Cleaner,2,999,1001,1654,liquibase
+1673,refrigerator,Refrigerator,2,999,1001,1654,liquibase
+1674,washing Machine,Washing Machine,2,999,1001,1654,liquibase
+1675,water-dispener,Water Dispener,2,999,1001,1654,liquibase
+1676,electric-cook,Electric Cook,2,999,1001,1235,liquibase
+1677,exhaust-hood,Exhaust Hood,2,999,1001,1235,liquibase
+1678,dishwasher-machine,Dishwasher Machine,2,999,1001,1235,liquibase
+1679,water-heaters,Water Heaters,2,999,1001,1251,liquibase

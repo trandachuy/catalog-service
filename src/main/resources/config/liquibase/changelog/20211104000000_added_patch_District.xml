@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <changeSet id="20211103000000-1" author="quy.luong">
+        <sql>
+            update "catalog-services".district set code = concat(city_id, '-', code) where zone is null and code in (
+                SELECT ds.code FROM
+                "catalog-services".district ds
+                GROUP BY
+                ds.code
+                HAVING
+                COUNT(*) > 1
+                )
+        </sql>
+    </changeSet>
+
+    <changeSet id="20220909000000-1" author="Dai Mai">
+        <addUniqueConstraint tableName="district" columnNames="code"/>
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+			http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+	<!-- Added the data for entity TermMetadata. -->
+	<changeSet id="20180514125000-1" author="huyen.lam">
+		<sql dbms="mysql,postgresql,oracle,mssql">
+			SELECT SETVAL('job_post_price_id_seq', COALESCE((SELECT MAX(id) + 1 FROM job_post_price), 1001), false);
+		</sql>
+	</changeSet>
+</databaseChangeLog>

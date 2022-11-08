@@ -1,0 +1,66 @@
+id,meta_key,meta_value,term_id,created_by
+1035,displayName.vi,Quảng cáo & Truyền thông/Tiếp thị,1016,liquibase
+1038,displayName.vi,Kiến trúc/Nội thất,1019,liquibase
+1040,displayName.vi,Ngân hàng/Chứng khoán/Đầu tư,1021,liquibase
+1041,displayName.vi,Thẩm mỹ/Spa/Làm đẹp,1022,liquibase
+1050,displayName.vi,Thiết kế/Mỹ thuật,1031,liquibase
+1051,displayName.vi,Giao thông/Vận tải/Hàng không,1032,liquibase
+1052,displayName.vi,Giáo dục/Đào tạo ,1033,liquibase
+1054,displayName.vi,Kỹ thuật/Cơ khí/Điện lạnh,1035,liquibase
+1063,displayName.vi,Luật/Pháp lý,1044,liquibase
+1064,displayName.vi,Sản xuất/Vận hành sản xuất,1045,liquibase
+1067,displayName.vi,Nghệ thuật/Điện ảnh,1048,liquibase
+1074,displayName.vi,An ninh/Giám sát/Vệ sĩ/Bảo vệ,1055,liquibase
+1078,displayName.vi,Du lịch/Khách sạn,1059,liquibase
+1630,displayName.zh-cn,Advertising & Public Relations/Marketing,1016,liquibase
+1633,displayName.zh-cn,Architecture/Interior Design,1019,liquibase
+1635,displayName.zh-cn,Banking/Securities/Investment,1021,liquibase
+1636,displayName.zh-cn,Beauty/Spa/Cosmetics,1022,liquibase
+1645,displayName.zh-cn,Design/Fine Arts,1031,liquibase
+1646,displayName.zh-cn,Distribution/Logistics/Airlines,1032,liquibase
+1647,displayName.zh-cn,Education/Training ,1033,liquibase
+1649,displayName.zh-cn,Engineering/Mechanical/HVAC,1035,liquibase
+1658,displayName.zh-cn,Legal Services/Contracts,1044,liquibase
+1659,displayName.zh-cn,Manufacturing/Manufacturing Execution,1045,liquibase
+1662,displayName.zh-cn,Arts/Film,1048,liquibase
+1669,displayName.zh-cn,Security/Surveillance/Guard,1055,liquibase
+1673,displayName.zh-cn,Tourism/Hotel,1059,liquibase
+2224,displayName.zh-tw,Advertising & Public Relations/Marketing,1016,liquibase
+2227,displayName.zh-tw,Architecture/Interior Design,1019,liquibase
+2229,displayName.zh-tw,Banking/Securities/Investment,1021,liquibase
+2230,displayName.zh-tw,Beauty/Spa/Cosmetics,1022,liquibase
+2239,displayName.zh-tw,Design/Fine Arts,1031,liquibase
+2240,displayName.zh-tw,Distribution/Logistics/Airlines,1032,liquibase
+2241,displayName.zh-tw,Education/Training ,1033,liquibase
+2243,displayName.zh-tw,Engineering/Mechanical/HVAC,1035,liquibase
+2252,displayName.zh-tw,Legal Services/Contracts,1044,liquibase
+2253,displayName.zh-tw,Manufacturing/Manufacturing Execution,1045,liquibase
+2256,displayName.zh-tw,Arts/Film,1048,liquibase
+2263,displayName.zh-tw,Security/Surveillance/Guard,1055,liquibase
+2267,displayName.zh-tw,Tourism/Hotel,1059,liquibase
+2818,displayName.my,Advertising & Public Relations/Marketing,1016,liquibase
+2821,displayName.my,Architecture/Interior Design,1019,liquibase
+2823,displayName.my,Banking/Securities/Investment,1021,liquibase
+2824,displayName.my,Beauty/Spa/Cosmetics,1022,liquibase
+2833,displayName.my,Design/Fine Arts,1031,liquibase
+2834,displayName.my,Distribution/Logistics/Airlines,1032,liquibase
+2835,displayName.my,Education/Training ,1033,liquibase
+2837,displayName.my,Engineering/Mechanical/HVAC,1035,liquibase
+2846,displayName.my,Legal Services/Contracts,1044,liquibase
+2847,displayName.my,Manufacturing/Manufacturing Execution,1045,liquibase
+2850,displayName.my,Arts/Film,1048,liquibase
+2857,displayName.my,Security/Surveillance/Guard,1055,liquibase
+2861,displayName.my,Tourism/Hotel,1059,liquibase
+3412,displayName.my-zawgyi,Advertising & Public Relations/Marketing,1016,liquibase
+3415,displayName.my-zawgyi,Architecture/Interior Design,1019,liquibase
+3417,displayName.my-zawgyi,Banking/Securities/Investment,1021,liquibase
+3418,displayName.my-zawgyi,Beauty/Spa/Cosmetics,1022,liquibase
+3427,displayName.my-zawgyi,Design/Fine Arts,1031,liquibase
+3428,displayName.my-zawgyi,Distribution/Logistics/Airlines,1032,liquibase
+3429,displayName.my-zawgyi,Education/Training ,1033,liquibase
+3431,displayName.my-zawgyi,Engineering/Mechanical/HVAC,1035,liquibase
+3440,displayName.my-zawgyi,Legal Services/Contracts,1044,liquibase
+3441,displayName.my-zawgyi,Manufacturing/Manufacturing Execution,1045,liquibase
+3444,displayName.my-zawgyi,Arts/Film,1048,liquibase
+3451,displayName.my-zawgyi,Security/Surveillance/Guard,1055,liquibase
+3455,displayName.my-zawgyi,Tourism/Hotel,1059,liquibase

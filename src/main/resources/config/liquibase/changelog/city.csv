@@ -1,0 +1,133 @@
+id,code,in_country,out_country,country_id,is_show,order_number
+"1","VN-01","Lai Châu","Lai Chau","1",f,999
+"2","VN-02","Lào Cai","Lao Cai","1",f,999
+"3","VN-03","Hậu Giang","Ha Giang","1",f,999
+"4","VN-04","Cao Bằng","Cao Bang","1",f,999
+"5","VN-05","Sơn La","Son La","1",f,999
+"6","VN-06","Yên Bái","Yen Bai","1",f,999
+"7","VN-07","Tuyên Quang","Tuyen Quang","1",f,999
+"8","VN-09","Lạng Sơn","Lang Son","1",f,999
+"9","VN-13","Quảng Ninh","Quang Ninh","1",f,999
+"10","VN-14","Hòa Bình","Hoa Binh","1",f,999
+"11","VN-18","Ninh Bình","Ninh Binh","1",f,999
+"12","VN-20","Thái Bình","Thai Binh","1",f,999
+"13","VN-21","Thanh Hóa","Thanh Hoa","1",f,999
+"14","VN-22","Nghệ An","Nghe An","1",f,999
+"15","VN-23","Hà Tĩnh","Ha Tinh","1",f,999
+"16","VN-24","Quảng Bình","Quang Binh","1",f,999
+"17","VN-25","Quảng Trị","Quang Tri","1",f,999
+"18","VN-26","Thừa Thiên Huế","Thua Thien Hue","1",f,999
+"19","VN-27","Quảng Nam","Quang Nam","1",f,999
+"20","VN-28","Kon Tum","Kon Tum","1",f,999
+"21","VN-29","Quảng Ngãi","Quang Ngai","1",f,999
+"22","VN-30","Gia Lai","Gia Lai","1",f,999
+"23","VN-31","Bình Định","Binh Dinh","1",f,999
+"24","VN-32","Phú Yên","Phu Yen","1",f,999
+"25","VN-33","Đắc Lăk","Dak Lak","1",f,999
+"26","VN-34","Khánh Hòa","Khanh Hoa","1",f,999
+"27","VN-35","Lâm Đồng","Lam Dong","1",f,999
+"28","VN-36","Ninh Thuận","Ninh Thuan","1",f,999
+"29","VN-37","Tây Ninh","Tay Ninh","1",f,999
+"30","VN-39","Đồng Nai","Dong Nai","1",f,999
+"31","VN-40","Bình Thuận","Binh Thuan","1",f,999
+"32","VN-41","Long An","Long An","1",f,999
+"33","VN-43","Bà Rịa–Vũng Tàu","Ba Ria–Vung Tau","1",f,999
+"34","VN-44","An Giang","An Giang","1",f,999
+"35","VN-45","Đồng Tháp","Dong Thap","1",f,999
+"36","VN-46","Tiền Giang","Tien Giang","1",f,999
+"37","VN-47","Kiên Giang","Kien Giang","1",f,999
+"38","VN-49","Vĩnh Long","Vinh Long","1",f,999
+"39","VN-50","Bến Tre","Ben Tre","1",f,999
+"40","VN-51","Trà Vinh","Tra Vinh","1",f,999
+"41","VN-52","Sóc Trăng","Soc Trang","1",f,999
+"42","VN-53","Bắc Cạn","Bac Can","1",f,999
+"43","VN-54","Bắc Giang","Bac Giang","1",f,999
+"44","VN-55","Bạc Liêu","Bac Lieu","1",f,999
+"45","VN-56","Bắc Ninh","Bac Ninh","1",f,999
+"46","VN-57","Bình Dương","Binh Duong","1",f,999
+"47","VN-58","Bình Phước","Binh Phuoc","1",f,999
+"48","VN-59","Cà Mau","Ca Mau","1",f,999
+"49","VN-61","Hải Dương","Hai Duong","1",f,999
+"50","VN-63","Hà Nam","Ha Nam","1",f,999
+"51","VN-66","Hưng Yên","Hung Yen","1",f,999
+"52","VN-67","Nam Định","Nam Dinh","1",f,999
+"53","VN-68","Phú Thọ","Phu Tho","1",f,999
+"54","VN-69","Thái Nguyên","Thai Nguyen","1",f,999
+"55","VN-70","Vĩnh Phúc","Vinh Phuc","1",f,999
+"56","VN-71","Điện Biên","Dien Bien","1",f,999
+"57","VN-72","Đắk Nông","Dak Nong","1",f,999
+"58","VN-73","Hậu Giang","Hau Giang","1",f,999
+"59","VN-CT","Cần Thơ","Can Tho","1",t,4
+"60","VN-DN","Đà Nẵng","Da Nang","1",t,3
+"61","VN-HN","Hà Nội","Ha Noi","1",t,2
+"62","VN-HP","Hải Phòng","Hai Phong","1",t,5
+"63","VN-SG","Hồ Chí Minh","Ho Chi Minh","1",t,1
+"64","MM-01","စစ်ကိုင်းတိုင်းဒေသကြီး","Sagaing","2",f,999
+"65","MM-02","ပဲခူးတိုင်းဒေသကြီး","Bago","2",t,5
+"68","MM-03","မကွေးတိုင်းဒေသကြီး","Magway","2",t,4
+"69","MM-04","မန္တလေးတိုင်းဒေသကြီး","Mandalay","2",t,2
+"70","MM-05","တနင်္သာရီတိုင်းဒေသကြီး","Taninthayi","2",f,999
+"71","MM-06","ရန်ကုန်တိုင်းဒေသကြီး","Yangon","2",t,1
+"72","MM-07","ဧရာဝတီတိုင်းဒေသကြီး","Ayeyawady","2",f,999
+"73","MM-11","ကချင်ပြည်နယ်","Kachin","2",f,999
+"74","MM-12","ကယားပြည်နယ်","Kayah","2",f,999
+"75","MM-13","ကရင်ပြည်နယ်","Kayin","2",f,999
+"77","MM-14","ချင်းပြည်နယ်","Chin","2",f,999
+"78","MM-15","မွန်ပြည်နယ်","Mon","2",f,999
+"79","MM-16","ရခိုင်ပြည်နယ်","Rakhine","2",f,999
+"80","MM-17","ရှမ်းပြည်နယ်","Shan","2",f,999
+"81","MM-18","နေပြည်တော်","Nay Pyi Taw","2",t,3
+"82","TW-CHA","彰化縣","Changhua","3",f,999
+"83","TW-CYQ","嘉義縣","Chiayi","3",f,999
+"84","TW-HSQ","新竹縣","Hsinchu","3",f,999
+"85","TW-HUA","花蓮縣","Hualien","3",f,999
+"86","TW-KHH","高雄市","Kaohsiung","3",f,999
+"87","TW-KEE","基隆市","Keelung","3",f,999
+"88","TW-KIN","金門縣","Kinmen","3",f,999
+"89","TW-LIE","連江縣","Lienchiang","3",f,999
+"90","TW-MIA","苗栗縣","Miaoli","3",f,999
+"91","TW-NAN","南投縣","Nantou","3",f,999
+"92","TW-PEN","南投縣","Penghu","3",f,999
+"93","TW-PIF","南投縣","Pingtung","3",f,999
+"94","TW-TXG","臺東縣","Taichung","3",f,999
+"95","TW-TNN","臺南市","Tainan","3",f,999
+"96","TW-TPE","臺北市","Taipei","3",f,999
+"97","TW-TTT","臺東縣","Taitung","3",f,999
+"98","TW-TAO","桃園市","Taoyuan","3",f,999
+"99","TW-ILA","宜蘭縣","Yilan","3",f,999
+"100","TW-YUN","雲林縣","Yunlin","3",f,999
+"101","CN-11","北京","Beijing","4",f,999
+"102","CN-12","天津","Tianjin","4",f,999
+"103","CN-13","河北","Hebei","4",f,999
+"104","CN-14","山西","Shanxi","4",f,999
+"105","CN-15","内蒙古","Nei Mongol","4",f,999
+"106","CN-21","辽宁","Liaoning","4",f,999
+"107","CN-22","吉林","Jilin","4",f,999
+"108","CN-23","黑龙江","Heilongjiang","4",f,999
+"109","CN-31","上海","Shanghai","4",f,999
+"110","CN-32","江苏","Jiangsu","4",f,999
+"111","CN-33","浙江","Zhejiang","4",f,999
+"112","CN-34","安徽","Anhui","4",f,999
+"113","CN-35","福建","Fujian","4",f,999
+"114","CN-36","江西","Jiangxi","4",f,999
+"115","CN-37","山东","Shandong","4",f,999
+"116","CN-41","河南","Henan","4",f,999
+"117","CN-42","湖北","Hubei","4",f,999
+"118","CN-43","湖南","Hunan","4",f,999
+"119","CN-44","广东","Guangdong","4",f,999
+"120","CN-45","广西","Guangxi","4",f,999
+"121","CN-46","海南","Hainan","4",f,999
+"122","CN-50","重庆","Chongqing","4",f,999
+"123","CN-51","四川","Sichuan","4",f,999
+"124","CN-52","贵州","Guizhou","4",f,999
+"125","CN-53","云南","Yunnan","4",f,999
+"126","CN-54","西藏","Xizang","4",f,999
+"127","CN-61","陕西","Shaanxi","4",f,999
+"128","CN-62","甘肃","Gansu","4",f,999
+"129","CN-63","青海","Qinghai","4",f,999
+"130","CN-64","宁夏","Ningxia","4",f,999
+"131","CN-65","新疆","Xinjiang","4",f,999
+"132","CN-91","香港","Hong Kong","4",f,999
+"133","CN-92","澳门","Macao","4",f,999
+"134","VN-OTHER","Khác","Others","1",t,9999
+"135","MM-OTHER","အခြားသူများကို","Others","2",t,9999

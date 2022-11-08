@@ -1,0 +1,14 @@
+id,name,display_name,term_level,term_order,taxonomy_id,parent_id,created_by
+1016,advertising/public-relations/marketing,Advertising & Public Relations/Marketing,0,999,1002,null,liquibase
+1019,architecture/interior-design,Architecture/Interior Design,0,999,1002,null,liquibase
+1021,banking/securities/investment,Banking/Securities/Investment,0,999,1002,null,liquibase
+1022,beauty/spa/cosmetics,Beauty/Spa/Cosmetics,0,999,1002,null,liquibase
+1031,design/fine-arts,Design/Fine Arts,0,999,1002,null,liquibase
+1032,distribution/logistics/airlines,Distribution/Logistics/Airlines,0,999,1002,null,liquibase
+1033,education/training ,Education/Training ,0,999,1002,null,liquibase
+1035,engineering/mechanical/hvac,Engineering/Mechanical/HVAC,0,999,1002,null,liquibase
+1044,legal-services/contracts,Legal Services/Contracts,0,999,1002,null,liquibase
+1045,manufacturing/manufacturing-execution,Manufacturing/Manufacturing Execution,0,999,1002,null,liquibase
+1048,arts/film,Arts/Film,0,999,1002,null,liquibase
+1055,security/surveillance/guard,Security/Surveillance/Guard,0,999,1002,null,liquibase
+1059,tourism/hotel,Tourism/Hotel,0,999,1002,null,liquibase

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+			http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+	<!-- Added the data for entity TermMetadata. -->
+	<changeSet id="20170704144600-1" author="quang.huynh">
+		<loadData encoding="UTF-8"
+			file="config/liquibase/changelog/image.csv"
+			tableName="image" separator="," />
+	</changeSet>
+	
+	<changeSet id="20211030000000-2" author="quy.luong">
+		<update tableName="country">
+				<column name="flag_id">999</column>
+			<where>id=5</where>
+		</update>
+	</changeSet>
+
+<!--	<changeSet id="20211030000000-5" author="quy.luong">-->
+<!--		<loadData encoding="UTF-8"-->
+<!--				  file="config/liquibase/changelog/image-extended.csv"-->
+<!--				  tableName="image" separator="," />-->
+<!--	</changeSet>-->
+	
+	<changeSet id="20211030000000-3" author="quy.luong">
+		<update tableName="image">
+			<column name="emoji">🇻🇳</column>
+			<where>id=1</where>
+		</update>
+		<update tableName="image">
+			<column name="emoji">🇲🇲</column>
+			<where>id=2</where>
+		</update>
+		<update tableName="image">
+			<column name="emoji">🇹🇼</column>
+			<where>id=3</where>
+		</update>
+		<update tableName="image">
+			<column name="emoji">🇨🇳</column>
+			<where>id=4</where>
+		</update>
+	</changeSet>
+
+
+	<changeSet id="20211030000000-10" author="quy.luong">
+		<update tableName="image">
+			<column name="emoji">🇻🇳</column>
+			<where>id=4</where>
+		</update>
+		<update tableName="image">
+			<column name="emoji">🇨🇳</column>
+			<where>id=1</where>
+		</update>
+	</changeSet>
+</databaseChangeLog>

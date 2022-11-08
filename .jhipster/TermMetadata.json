@@ -1,0 +1,26 @@
+{
+  "fluentMethods": true,
+  "relationships": [
+    {
+      "relationshipName": "term",
+      "otherEntityName": "term",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "metaKey",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "metaValue",
+      "fieldType": "String"
+    }
+  ],
+  "changelogDate": "20170109084247",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "entityTableName": "term_metadata"
+}

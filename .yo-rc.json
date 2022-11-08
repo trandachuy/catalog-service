@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "6.10.5",
+    "baseName": "catalogServices",
+    "packageName": "com.mediastep.beecow.catalog",
+    "packageFolder": "com/mediastep/beecow/catalog",
+    "serverPort": "9000",
+    "authenticationType": "jwt",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "e0f9032d376999c12d9bfce21cec21ef9e9e2852",
+    "enableTranslation": true,
+    "applicationType": "microservice",
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "skipClient": true,
+    "skipUserManagement": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "zh-cn", "zh-tw", "vi"],
+    "cacheProvider": "redis",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1634704654744,
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "clientPackageManager": "npm",
+    "blueprints": []
+  },
+  "generator-jhipster-entity-audit": {
+    "auditFramework": "custom"
+  }
+}

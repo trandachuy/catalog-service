@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd
+                        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+
+    <!--
+        Added the entity PaypalCarrier.
+    -->
+    <property name="autoIncrement" value="true"
+              dbms="mysql,h2,postgresql,oracle,mssql" />
+    <changeSet id="20220802031407-1" author="jhipster">
+        <createTable tableName="paypal_carrier">
+            <column name="id" type="bigint" autoIncrement="${autoIncrement}">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="carrier_name" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="carrier_code" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <column name="region_code" type="varchar(255)">
+                <constraints nullable="true" />
+            </column>
+            <!-- jhipster-needle-liquibase-add-column - JHipster will add columns here -->
+        </createTable>
+    </changeSet>
+
+    <changeSet id="20220802113400" author="Minh Dang">
+        <sql>
+            INSERT INTO "catalog-services".paypal_carrier (carrier_name, carrier_code, region_code)
+            VALUES ('Aramex','ARAMEX','GLOBAL'),
+                   ('B2C Europe','B_TWO_C_EUROPE','GLOBAL'),
+                   ('CJ Logistics','CJ_LOGISTICS','GLOBAL'),
+                   ('Correos Express','CORREOS_EXPRESS','GLOBAL'),
+                   ('DHL Active Tracing','DHL_ACTIVE_TRACING','GLOBAL'),
+                   ('DHL Benelux','DHL_BENELUX','GLOBAL'),
+                   ('DHL ecCommerce US','DHL_GLOBAL_MAIL','GLOBAL'),
+                   ('DHL eCommerce Asia','DHL_GLOBAL_MAIL_ASIA','GLOBAL'),
+                   ('DHL Express','DHL','GLOBAL'),
+                   ('DHL Global eCommerce','DHL_GLOBAL_ECOMMERCE','GLOBAL'),
+                   ('DHL Packet','DHL_PACKET','GLOBAL'),
+                   ('DPD Global','DPD','GLOBAL'),
+                   ('DPD Local','DPD_LOCAL','GLOBAL'),
+                   ('DPD Local Reference','DPD_LOCAL_REF','GLOBAL'),
+                   ('DPE Express','DPE_EXPRESS','GLOBAL'),
+                   ('DPEX Hong Kong','DPEX','GLOBAL'),
+                   ('DTDC Express Global','DTDC_EXPRESS','GLOBAL'),
+                   ('EShopWorld','ESHOPWORLD','GLOBAL'),
+                   ('FedEx','FEDEX','GLOBAL'),
+                   ('FLYT Express','FLYT_EXPRESS','GLOBAL'),
+                   ('GLS','GLS','GLOBAL'),
+                   ('IMX France','IMX','GLOBAL'),
+                   ('International SEUR','INT_SUER','GLOBAL'),
+                   ('Landmark Global','LANDMARK_GLOBAL','GLOBAL'),
+                   ('Matkahuoloto','MATKAHUOLTO','GLOBAL'),
+                   ('Omni Parcel','OMNIPARCEL','GLOBAL'),
+                   ('One World','ONE_WORLD','GLOBAL'),
+                   ('Other','OTHER','GLOBAL'),
+                   ('Posti','POSTI','GLOBAL'),
+                   ('Raben Group','RABEN_GROUP','GLOBAL'),
+                   ('SF EXPRESS','SF_EXPRESS','GLOBAL'),
+                   ('SkyNet Worldwide Express','SKYNET_Worldwide','GLOBAL'),
+                   ('Spreadel','SPREADEL','GLOBAL'),
+                   ('TNT Global','TNT','GLOBAL'),
+                   ('UPS','UPS','GLOBAL'),
+                   ('UPS Mail Innovations','UPS_MI','GLOBAL'),
+                   ('WebInterpret','WEBINTERPRET','GLOBAL'),
+                   ('Correos Antigua and Barbuda','CORREOS_AG','AG'),
+                   ('Emirates Post','EMIRATES_POST','AR'),
+                   ('OCA Argentina','OCA_AR','AR'),
+                   ('Adsone','ADSONE','AU'),
+                   ('Australia Post','AUSTRALIA_POST','AU'),
+                   ('Australia Toll','TOLL_AU','AU'),
+                   ('Bonds Couriers','BONDS_COURIERS','AU'),
+                   ('Couriers Please','COURIERS_PLEASE','AU'),
+                   ('DHL Australia','DHL_AU','AU'),
+                   ('DTDC Australia','DTDC_AU','AU'),
+                   ('Fastway Australia','FASTWAY_AU','AU'),
+                   ('Hunter Express','HUNTER_EXPRESS','AU'),
+                   ('Sendle','SENDLE','AU'),
+                   ('Star Track','STARTRACK','AU'),
+                   ('Star Track Express','STARTRACK_EXPRESS','AU'),
+                   ('TNT Australia','TNT_AU','AU'),
+                   ('Toll','TOLL','AU'),
+                   ('UBI Logistics','UBI_LOGISTICS','AU'),
+                   ('Austrian Post Express','AUSTRIAN_POST_EXPRESS','AT'),
+                   ('Austrian Post Registered','AUSTRIAN_POST','AT'),
+                   ('DHL Austria','DHL_AT','AT'),
+                   ('bpost','BPOST','BE'),
+                   ('bpost International','BPOST_INT','BE'),
+                   ('Mondial Belgium','MONDIAL_BE','BE'),
+                   ('TaxiPost','TAXIPOST','BE'),
+                   ('Correos Brazil','CORREOS_BR','BR'),
+                   ('Directlog','DIRECTLOG_BR','BR'),
+                   ('Bulgarian Post','BULGARIAN_POST','BG'),
+                   ('Canada Post','CANADA_POST','CA'),
+                   ('Canpar','CANPAR','CA'),
+                   ('Greyhound','GREYHOUND','CA'),
+                   ('Loomis','LOOMIS','CA'),
+                   ('Purolator','PUROLATOR','CA'),
+                   ('Correos Chile','CORREOS_CL','CL'),
+                   ('4PX Express','FOUR_PX_EXPRESS','CN'),
+                   ('AUPOST CHINA','AUPOST_CN','CN'),
+                   ('BQC Express','BQC_EXPRESS','CN'),
+                   ('Buylogic','BUYLOGIC','CN'),
+                   ('China Post','CHINA_POST','CN'),
+                   ('CN Exps','CNEXPS','CN'),
+                   ('EC China','EC_CN','CN'),
+                   ('EFS','EFS','CN'),
+                   ('EMPS China','EMPS_CN','CN'),
+                   ('EMS China','EMS_CN','CN'),
+                   ('Huahan Express','HUAHAN_EXPRESS','CN'),
+                   ('SFC Express','SFC_EXPRESS','CN'),
+                   ('TNT China','TNT_CN','CN'),
+                   ('WinIt','WINIT','CN'),
+                   ('Yanwen','YANWEN_CN','CN'),
+                   ('Correos De Costa Rica','CORREOS_CR','CR'),
+                   ('Hrvatska','HRVATSKA_HR','HR'),
+                   ('Cyprus Post','CYPRUS_POST_CYP','CY'),
+                   ('Ceska','CESKA_CZ','CZ'),
+                   ('GLS Czech Republic','GLS_CZ','CZ'),
+                   ('BERT TRANSPORT','BERT','FR'),
+                   ('Chronopost France','CHRONOPOST_FR','FR'),
+                   ('Coliposte','COLIPOSTE','FR'),
+                   ('Colis France','COLIS','FR'),
+                   ('DHL France','DHL_FR','FR'),
+                   ('DPD France','DPD_FR','FR'),
+                   ('GEODIS - Distribution and Express','GEODIS','FR'),
+                   ('GLS France','GLS_FR','FR'),
+                   ('LA Poste','LAPOSTE','FR'),
+                   ('Mondial Relay','MONDIAL','FR'),
+                   ('Relais Colis','RELAIS_COLIS_FR','FR'),
+                   ('Teliway','TELIWAY','FR'),
+                   ('TNT France','TNT_FR','FR'),
+                   ('Asendia Germany','ASENDIA_DE','DE'),
+                   ('Deltec Germany','DELTEC_DE','DE'),
+                   ('Deutsche','DEUTSCHE_DE','DE'),
+                   ('DHL Deutsche Post','DHL_DEUTSCHE_POST','DE'),
+                   ('DPD Germany','DPD_DE','DE'),
+                   ('GLS Germany','GLS_DE','DE'),
+                   ('Hermes Germany','HERMES_DE','DE'),
+                   ('TNT Germany','TNT_DE','DE'),
+                   ('ELTA Greece','ELTA_GR','GR'),
+                   ('Geniki Greece','GENIKI_GR','GR'),
+                   ('GRC Greece','ACS_GR','GR'),
+                   ('Asendia Hong Kong','ASENDIA_HK','HK'),
+                   ('DHL Hong Kong','DHL_HK','HK'),
+                   ('DPD Hong Kong','DPD_HK','HK'),
+                   ('Hong Kong Post','HK_POST','HK'),
+                   ('Kerry Express Hong Kong','KERRY_EXPRESS_HK','HK'),
+                   ('Logistics Worldwide Hong Kong','LOGISTICSWORLDWIDE_HK','HK'),
+                   ('Quantium','QUANTIUM','HK'),
+                   ('Seko Logistics','SEKOLOGISTICS','HK'),
+                   ('TA-Q-BIN Parcel Hong Kong','TAQBIN_HK','HK'),
+                   ('Magyar','MAGYAR_HU','HU'),
+                   ('Postur','POSTUR_IS','IS'),
+                   ('Bluedart','BLUEDART','IN'),
+                   ('Delhivery','DELHIVERY_IN','IN'),
+                   ('DotZot','DOTZOT','IN'),
+                   ('DTDC India','DTDC_IN','IN'),
+                   ('Ekart','EKART','IN'),
+                   ('India Post','INDIA_POST','IN'),
+                   ('Professional Couriers','PROFESSIONAL_COURIERS','IN'),
+                   ('Red Express','REDEXPRESS','IN'),
+                   ('Swift Air','SWIFTAIR','IN'),
+                   ('Xpress Bees','XPRESSBEES','IN'),
+                   ('First Logistics','FIRST_LOGISITCS','ID'),
+                   ('JNE Indonesia','JNE_IDN','ID'),
+                   ('Lion Parcel','LION_PARCEL','ID'),
+                   ('Ninjavan Indonesia','NINJAVAN_ID','ID'),
+                   ('Pandu Logistics','PANDU','ID'),
+                   ('Pos Indonesia Domestic','POS_ID','ID'),
+                   ('Pos Indonesia International','POS_INT','ID'),
+                   ('RPX Indonesia','RPX_ID','ID'),
+                   ('RPX International','RPX','ID'),
+                   ('Tiki','TIKI_ID','ID'),
+                   ('Wahana','WAHANA_ID','ID'),
+                   ('AN POST Ireland','AN_POST','IE'),
+                   ('DPD Ireland','DPD_IR','IE'),
+                   ('Masterlink','MASTERLINK','IE'),
+                   ('TPG','TPG','IE'),
+                   ('Wiseloads','WISELOADS','IE'),
+                   ('Israel Post','ISRAEL_POST','IL'),
+                   ('BRT Bartolini','BRT_IT','IT'),
+                   ('DHL Italy','DHL_IT','IT'),
+                   ('DMM Network','DMM_NETWORK','IT'),
+                   ('FERCAM Logistics and Transport','FERCAM_IT','IT'),
+                   ('GLS Italy','GLS_IT','IT'),
+                   ('Hermes Italy','HERMES_IT','IT'),
+                   ('Poste Italiane','POSTE_ITALIANE','IT'),
+                   ('Register Mail IT','REGISTER_MAIL_IT','IT'),
+                   ('SDA Italy','SDA_IT','IT'),
+                   ('SGT Corriere Espresso','SGT_IT','IT'),
+                   ('TNT Click Italy','TNT_CLICK_IT','IT'),
+                   ('TNT Italy','TNT_IT','IT'),
+                   ('DHL Japan','DHL_JP','JP'),
+                   ('Japan Post','JP_POST','JP'),
+                   ('Japan Post','JAPAN_POST','JP'),
+                   ('Pocztex','POCZTEX','JP'),
+                   ('Sagawa','SAGAWA','JP'),
+                   ('Sagawa','SAGAWA_JP','JP'),
+                   ('TNT Japan','TNT_JP','JP'),
+                   ('Yamato Japan','YAMATO','JP'),
+                   ('Ecargo','ECARGO','KR'),
+                   ('eParcel Korea','EPARCEL_KR','KR'),
+                   ('Korea Post','KOREA_POST','KR'),
+                   ('Korea Post','KOR_KOREA_POST','KR'),
+                   ('Korea Thai CJ','CJ_KR','KR'),
+                   ('Logistics Worldwide Korea','LOGISTICSWORLDWIDE_KR','KR'),
+                   ('Pantos','PANTOS','KR'),
+                   ('Rincos','RINCOS','KR'),
+                   ('Rocket Parcel International','ROCKET_PARCEL','KR'),
+                   ('SRE Korea','SRE_KOREA','KR'),
+                   ('Lietuvos Pastas','LIETUVOS_LT','LT'),
+                   ('Airpak','AIRPAK_MY','MY'),
+                   ('CityLink Malaysia','CITYLINK_MY','MY'),
+                   ('CJ Malaysia','CJ_MY','MY'),
+                   ('CJ Malaysia International','CJ_INT_MY','MY'),
+                   ('Cuckoo Express','CUCKOOEXPRESS','MY'),
+                   ('Jet Ship Malaysia','JETSHIP_MY','MY'),
+                   ('Kangaroo Express','KANGAROO_MY','MY'),
+                   ('Logistics Worldwide Malaysia','LOGISTICSWORLDWIDE_MY','MY'),
+                   ('Malaysia Post EMS / Pos Laju','MALAYSIA_POST','MY'),
+                   ('Nationwide','NATIONWIDE','MY'),
+                   ('Ninjavan Malaysia','NINJAVAN_MY','MY'),
+                   ('Skynet Malaysia','SKYNET_MY','MY'),
+                   ('TA-Q-BIN Parcel Malaysia','TAQBIN_MY','MY'),
+                   ('Correos De Mexico','CORREOS_MX','MX'),
+                   ('Estafeta','ESTAFETA','MX'),
+                   ('Mexico Aeroflash','AEROFLASH','MX'),
+                   ('Mexico Redpack','REDPACK','MX'),
+                   ('Mexico Senda Express','SENDA_MX','MX'),
+                   ('DHL Netherlands','DHL_NL','NL'),
+                   ('DHL Netherlands','DHL_NL','NL'),
+                   ('DHL Parcel Netherlands','DHL_PARCEL_NL','NL'),
+                   ('GLS Netherlands','GLS_NL','NL'),
+                   ('Kiala','KIALA','NL'),
+                   ('PostNL','POSTNL','NL'),
+                   ('PostNl International','POSTNL_INT','NL'),
+                   ('PostNL International 3S','POSTNL_INT_3_S','NL'),
+                   ('TNT Netherlands','TNT_NL','NL'),
+                   ('Transmission Netherlands','TRANSMISSION','NL'),
+                   ('Courier Post','COURIER_POST','NZ'),
+                   ('Fastway New Zealand','FASTWAY_NZ','NZ'),
+                   ('New Zealand Post','NZ_POST','NZ'),
+                   ('Toll IPEC','TOLL_IPEC','NZ'),
+                   ('Courier Plus','COURIERPLUS','NG'),
+                   ('NiPost','NIPOST_NG','NG'),
+                   ('Posten Norge','POSTEN_NORGE','NO'),
+                   ('2GO','TWO_GO','PH'),
+                   ('Air 21','AIR_21','PH'),
+                   ('Airspeed','AIRSPEED','PH'),
+                   ('Jam Express','JAMEXPRESS_PH','PH'),
+                   ('LBC Express','LBC_PH','PH'),
+                   ('Ninjavan Philippines','NINJAVAN_PH','PH'),
+                   ('RAF Philippines','RAF_PH','PH'),
+                   ('Xend Express','XEND_EXPRESS_PH','PH'),
+                   ('DHL Poland','DHL_PL','PL'),
+                   ('DPD Poland','DPD_PL','PL'),
+                   ('InPost Paczkomaty','INPOST_PACZKOMATY','PL'),
+                   ('Poczta Polska','POCZTA_POLSKA','PL'),
+                   ('Siodemka','SIODEMKA','PL'),
+                   ('TNT Poland','TNT_PL','PL'),
+                   ('Adicional Logistics','ADICIONAL_PT','PT'),
+                   ('Chronopost Portugal','CHRONOPOST_PT','PT'),
+                   ('Portugal PTT','CTT_PT','PT'),
+                   ('Portugal Seur','SEUR_PT','PT'),
+                   ('DPD Romania','DPD_RO','RO'),
+                   ('Postaromana','POSTA_RO','RO'),
+                   ('DPD Russia','DPD_RU','RU'),
+                   ('Russian Post','RUSSIAN_POST','RU'),
+                   ('Dawn Wing','DAWN_WING','SA'),
+                   ('Ram','RAM','SA'),
+                   ('The Courier Guy','THE_COURIER_GUY','SA'),
+                   ('Serbia Post','POST_SERBIA_CS','CS'),
+                   ('DHL Singapore','DHL_SG','SG'),
+                   ('JetShip Singapore','JETSHIP_SG','SG'),
+                   ('Ninjavan Singapore','NINJAVAN_SG','SG'),
+                   ('Parcel Post','PARCELPOST_SG','SG'),
+                   ('Singapore Post','SINGPOST','SG'),
+                   ('TA-Q-BIN Parcel Singapore','TAQBIN_SG','SG'),
+                   ('Fastway South Africa','FASTWAY_ZA','ZA'),
+                   ('ASM','ASM_ES','ES'),
+                   ('CBL Logistics','CBL_LOGISTICA','ES'),
+                   ('Correos De Spain','CORREOS_ES','ES'),
+                   ('DHL Spain','DHL_ES','ES'),
+                   ('DHL Parcel Spain','DHL_PARCEL_ES','ES'),
+                   ('GLS Spain','GLS_ES','ES'),
+                   ('International Suer','INT_SEUR','ES'),
+                   ('ITIS','ITIS','ES'),
+                   ('Nacex Spain','NACEX_ES','ES'),
+                   ('Redur Spain','REDUR_ES','ES'),
+                   ('Spanish Seur','SEUR_ES','ES'),
+                   ('TNT Spain','TNT_ES','ES'),
+                   ('DB Schenker Sweden','DBSCHENKER_SE','SE'),
+                   ('DirectLink Sweden','DIRECTLINK_SE','SE'),
+                   ('PostNord Logistics','POSTNORD_LOGISTICS_GLOBAL','SE'),
+                   ('PostNord Logistics Denmark','POSTNORD_LOGISTICS_DK','SE'),
+                   ('PostNord Logistics Sweden','POSTNORD_LOGISTICS_SE','SE'),
+                   ('Swiss Post','SWISS_POST','CH'),
+                   ('Chunghwa Post','CHUNGHWA_POST','TW'),
+                   ('Taiwan Post','TAIWAN_POST_TW','TW'),
+                   ('Acommerce','ACOMMMERCE','TH'),
+                   ('Alphafast','ALPHAFAST','TH'),
+                   ('CJ Thailand','CJ_TH','TH'),
+                   ('FastTrack Thailand','FASTRACK','TH'),
+                   ('Kerry Express Thailand','KERRY_EXPRESS_TH','TH'),
+                   ('NIM Express','NIM_EXPRESS','TH'),
+                   ('Ninjavan Thailand','NINJAVAN_THAI','TH'),
+                   ('SendIt','SENDIT','TH'),
+                   ('Thailand Post','THAILAND_POST','TH'),
+                   ('PTT Posta','PTT_POST','TR'),
+                   ('Nova Poshta','NOVA_POSHTA','UA'),
+                   ('Nova Poshta International','NOVA_POSHTA_INT','UA'),
+                   ('AXL Express and Logistics','AXL','AE'),
+                   ('Continental','CONTINENTAL','AE'),
+                   ('Skynet Worldwide Express UAE','SKYNET_UAE','AE'),
+                   ('Airborne Express UK','AIRBORNE_EXPRESS_UK','UK'),
+                   ('Airsure','AIRSURE','UK'),
+                   ('APC Overnight','APC_OVERNIGHT','UK'),
+                   ('Asendia UK','ASENDIA_UK','UK'),
+                   ('CollectPlus','COLLECTPLUS','UK'),
+                   ('Deltec UK','DELTEC_UK','UK'),
+                   ('DHL UK','DHL_UK','UK'),
+                   ('DPD Delistrack','DPD_DELISTRACK','UK'),
+                   ('DPD UK','DPD_UK','UK'),
+                   ('Fastway UK','FASTWAY_UK','UK'),
+                   ('HermesWorld','HERMESWORLD_UK','UK'),
+                   ('Interlink Express','INTERLINK','UK'),
+                   ('MyHermes UK','MYHERMES','UK'),
+                   ('Nightline UK','NIGHTLINE_UK','UK'),
+                   ('Parcel Force','PARCELFORCE','UK'),
+                   ('Royal Mail','ROYAL_MAIL','UK'),
+                   ('RPD2man Deliveries','RPD_2_MAN','UK'),
+                   ('Skynet Worldwide Express UK','SKYNET_UK','UK'),
+                   ('TNT UK','TNT_UK','UK'),
+                   ('UK Mail','UK_MAIL','UK'),
+                   ('Yodel','YODEL','UK'),
+                   ('ABC Package Express','ABC_PACKAGE','US'),
+                   ('Airborne Express','AIRBORNE_EXPRESS','US'),
+                   ('Asendia USA','ASENDIA_US','US'),
+                   ('Cpacket','CPACKET','US'),
+                   ('Ensenda USA','ENSENDA','US'),
+                   ('Estes','ESTES','US'),
+                   ('Fastway USA','FASTWAY_US','US'),
+                   ('Globegistics USA','GLOBEGISTICS','US'),
+                   ('International Bridge','INTERNATIONAL_BRIDGE','US'),
+                   ('OnTrac','ONTRAC','US'),
+                   ('RL Carriers','RL_US','US'),
+                   ('RR Donnelley','RRDONNELLEY','US'),
+                   ('USPS','USPS','US'),
+                   ('Kerry Express Vietnam','KERRY_EXPRESS_VN','VN'),
+                   ('Vietnam Post','VIETNAM_POST','VN'),
+                   ('Vietnam Post EMS','VNPOST_EMS','VN'),
+                   ('Other','OTHER','GLOBAL')
+        </sql>
+    </changeSet>
+    <!-- jhipster-needle-liquibase-add-changeset - JHipster will add changesets here -->
+
+    <changeSet id="20220804152800" author="Minh Dang">
+        <addColumn tableName="paypal_carrier">
+            <column name="country_name" type="varchar(255)"/>
+        </addColumn>
+        <sql>
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'ARAMEX';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'B_TWO_C_EUROPE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'CJ_LOGISTICS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'CORREOS_EXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'DHL_ACTIVE_TRACING';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'DHL_BENELUX';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'DHL_GLOBAL_MAIL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'DHL_GLOBAL_MAIL_ASIA';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'DHL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'DHL_GLOBAL_ECOMMERCE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'DHL_PACKET';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'DPD';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'DPD_LOCAL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'DPD_LOCAL_REF';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'DPE_EXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'DPEX';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'DTDC_EXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'ESHOPWORLD';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'FEDEX';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'FLYT_EXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'GLS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'IMX';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'INT_SUER';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'LANDMARK_GLOBAL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'MATKAHUOLTO';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'OMNIPARCEL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'ONE_WORLD';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'OTHER';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'POSTI';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'RABEN_GROUP';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'SF_EXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'SKYNET_Worldwide';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'SPREADEL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'TNT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'UPS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'UPS_MI';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Global' WHERE carrier_code = 'WEBINTERPRET';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Antigua and Barbuda' WHERE carrier_code = 'CORREOS_AG';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Argentina' WHERE carrier_code = 'EMIRATES_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Argentina' WHERE carrier_code = 'OCA_AR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Australia' WHERE carrier_code = 'ADSONE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Australia' WHERE carrier_code = 'AUSTRALIA_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Australia' WHERE carrier_code = 'TOLL_AU';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Australia' WHERE carrier_code = 'BONDS_COURIERS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Australia' WHERE carrier_code = 'COURIERS_PLEASE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Australia' WHERE carrier_code = 'DHL_AU';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Australia' WHERE carrier_code = 'DTDC_AU';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Australia' WHERE carrier_code = 'FASTWAY_AU';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Australia' WHERE carrier_code = 'HUNTER_EXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Australia' WHERE carrier_code = 'SENDLE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Australia' WHERE carrier_code = 'STARTRACK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Australia' WHERE carrier_code = 'STARTRACK_EXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Australia' WHERE carrier_code = 'TNT_AU';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Australia' WHERE carrier_code = 'TOLL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Australia' WHERE carrier_code = 'UBI_LOGISTICS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Austria' WHERE carrier_code = 'AUSTRIAN_POST_EXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Austria' WHERE carrier_code = 'AUSTRIAN_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Austria' WHERE carrier_code = 'DHL_AT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Belgium' WHERE carrier_code = 'BPOST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Belgium' WHERE carrier_code = 'BPOST_INT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Belgium' WHERE carrier_code = 'MONDIAL_BE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Belgium' WHERE carrier_code = 'TAXIPOST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Brazil' WHERE carrier_code = 'CORREOS_BR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Brazil' WHERE carrier_code = 'DIRECTLOG_BR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Bulgaria' WHERE carrier_code = 'BULGARIAN_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Canada' WHERE carrier_code = 'CANADA_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Canada' WHERE carrier_code = 'CANPAR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Canada' WHERE carrier_code = 'GREYHOUND';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Canada' WHERE carrier_code = 'LOOMIS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Canada' WHERE carrier_code = 'PUROLATOR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Chile' WHERE carrier_code = 'CORREOS_CL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'China' WHERE carrier_code = 'FOUR_PX_EXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'China' WHERE carrier_code = 'AUPOST_CN';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'China' WHERE carrier_code = 'BQC_EXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'China' WHERE carrier_code = 'BUYLOGIC';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'China' WHERE carrier_code = 'CHINA_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'China' WHERE carrier_code = 'CNEXPS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'China' WHERE carrier_code = 'EC_CN';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'China' WHERE carrier_code = 'EFS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'China' WHERE carrier_code = 'EMPS_CN';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'China' WHERE carrier_code = 'EMS_CN';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'China' WHERE carrier_code = 'HUAHAN_EXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'China' WHERE carrier_code = 'SFC_EXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'China' WHERE carrier_code = 'TNT_CN';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'China' WHERE carrier_code = 'WINIT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'China' WHERE carrier_code = 'YANWEN_CN';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Costa Rica' WHERE carrier_code = 'CORREOS_CR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Croatia' WHERE carrier_code = 'HRVATSKA_HR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Cyprus' WHERE carrier_code = 'CYPRUS_POST_CYP';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Czech Republic' WHERE carrier_code = 'CESKA_CZ';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'France' WHERE carrier_code = 'GLS_CZ';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'France' WHERE carrier_code = 'BERT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'France' WHERE carrier_code = 'CHRONOPOST_FR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'France' WHERE carrier_code = 'COLIPOSTE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'France' WHERE carrier_code = 'COLIS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'France' WHERE carrier_code = 'DHL_FR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'France' WHERE carrier_code = 'DPD_FR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'France' WHERE carrier_code = 'GEODIS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'France' WHERE carrier_code = 'GLS_FR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'France' WHERE carrier_code = 'LAPOSTE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'France' WHERE carrier_code = 'MONDIAL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'France' WHERE carrier_code = 'RELAIS_COLIS_FR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'France' WHERE carrier_code = 'TELIWAY';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'France' WHERE carrier_code = 'TNT_FR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Germany' WHERE carrier_code = 'ASENDIA_DE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Germany' WHERE carrier_code = 'DELTEC_DE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Germany' WHERE carrier_code = 'DEUTSCHE_DE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Germany' WHERE carrier_code = 'DHL_DEUTSCHE_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Germany' WHERE carrier_code = 'DPD_DE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Germany' WHERE carrier_code = 'GLS_DE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Germany' WHERE carrier_code = 'HERMES_DE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Germany' WHERE carrier_code = 'TNT_DE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Greece' WHERE carrier_code = 'ELTA_GR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Greece' WHERE carrier_code = 'GENIKI_GR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Greece' WHERE carrier_code = 'ACS_GR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Hong Kong' WHERE carrier_code = 'ASENDIA_HK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Hong Kong' WHERE carrier_code = 'DHL_HK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Hong Kong' WHERE carrier_code = 'DPD_HK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Hong Kong' WHERE carrier_code = 'HK_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Hong Kong' WHERE carrier_code = 'KERRY_EXPRESS_HK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Hong Kong' WHERE carrier_code = 'LOGISTICSWORLDWIDE_HK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Hong Kong' WHERE carrier_code = 'QUANTIUM';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Hong Kong' WHERE carrier_code = 'SEKOLOGISTICS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Hong Kong' WHERE carrier_code = 'TAQBIN_HK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Hungary' WHERE carrier_code = 'MAGYAR_HU';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Iceland' WHERE carrier_code = 'POSTUR_IS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'India' WHERE carrier_code = 'BLUEDART';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'India' WHERE carrier_code = 'DELHIVERY_IN';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'India' WHERE carrier_code = 'DOTZOT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'India' WHERE carrier_code = 'DTDC_IN';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'India' WHERE carrier_code = 'EKART';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'India' WHERE carrier_code = 'INDIA_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'India' WHERE carrier_code = 'PROFESSIONAL_COURIERS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'India' WHERE carrier_code = 'REDEXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'India' WHERE carrier_code = 'SWIFTAIR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'India' WHERE carrier_code = 'XPRESSBEES';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Indonesia' WHERE carrier_code = 'FIRST_LOGISITCS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Indonesia' WHERE carrier_code = 'JNE_IDN';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Indonesia' WHERE carrier_code = 'LION_PARCEL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Indonesia' WHERE carrier_code = 'NINJAVAN_ID';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Indonesia' WHERE carrier_code = 'PANDU';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Indonesia' WHERE carrier_code = 'POS_ID';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Indonesia' WHERE carrier_code = 'POS_INT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Indonesia' WHERE carrier_code = 'RPX_ID';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Indonesia' WHERE carrier_code = 'RPX';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Indonesia' WHERE carrier_code = 'TIKI_ID';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Indonesia' WHERE carrier_code = 'WAHANA_ID';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Ireland' WHERE carrier_code = 'AN_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Ireland' WHERE carrier_code = 'DPD_IR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Ireland' WHERE carrier_code = 'MASTERLINK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Ireland' WHERE carrier_code = 'TPG';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Ireland' WHERE carrier_code = 'WISELOADS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Israel' WHERE carrier_code = 'ISRAEL_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Italy' WHERE carrier_code = 'BRT_IT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Italy' WHERE carrier_code = 'DHL_IT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Italy' WHERE carrier_code = 'DMM_NETWORK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Italy' WHERE carrier_code = 'FERCAM_IT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Italy' WHERE carrier_code = 'GLS_IT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Italy' WHERE carrier_code = 'HERMES_IT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Italy' WHERE carrier_code = 'POSTE_ITALIANE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Italy' WHERE carrier_code = 'REGISTER_MAIL_IT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Italy' WHERE carrier_code = 'SDA_IT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Italy' WHERE carrier_code = 'SGT_IT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Italy' WHERE carrier_code = 'TNT_CLICK_IT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Italy' WHERE carrier_code = 'TNT_IT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Japan' WHERE carrier_code = 'DHL_JP';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Japan' WHERE carrier_code = 'JP_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Japan' WHERE carrier_code = 'JAPAN_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Japan' WHERE carrier_code = 'POCZTEX';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Japan' WHERE carrier_code = 'SAGAWA';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Japan' WHERE carrier_code = 'SAGAWA_JP';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Japan' WHERE carrier_code = 'TNT_JP';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Japan' WHERE carrier_code = 'YAMATO';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Korea' WHERE carrier_code = 'ECARGO';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Korea' WHERE carrier_code = 'EPARCEL_KR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Korea' WHERE carrier_code = 'KOREA_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Korea' WHERE carrier_code = 'KOR_KOREA_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Korea' WHERE carrier_code = 'CJ_KR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Korea' WHERE carrier_code = 'LOGISTICSWORLDWIDE_KR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Korea' WHERE carrier_code = 'PANTOS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Korea' WHERE carrier_code = 'RINCOS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Korea' WHERE carrier_code = 'ROCKET_PARCEL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Korea' WHERE carrier_code = 'SRE_KOREA';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Lithuania' WHERE carrier_code = 'LIETUVOS_LT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Malaysia' WHERE carrier_code = 'AIRPAK_MY';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Malaysia' WHERE carrier_code = 'CITYLINK_MY';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Malaysia' WHERE carrier_code = 'CJ_MY';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Malaysia' WHERE carrier_code = 'CJ_INT_MY';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Malaysia' WHERE carrier_code = 'CUCKOOEXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Malaysia' WHERE carrier_code = 'JETSHIP_MY';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Malaysia' WHERE carrier_code = 'KANGAROO_MY';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Malaysia' WHERE carrier_code = 'LOGISTICSWORLDWIDE_MY';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Malaysia' WHERE carrier_code = 'MALAYSIA_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Malaysia' WHERE carrier_code = 'NATIONWIDE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Malaysia' WHERE carrier_code = 'NINJAVAN_MY';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Malaysia' WHERE carrier_code = 'SKYNET_MY';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Malaysia' WHERE carrier_code = 'TAQBIN_MY';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Mexico' WHERE carrier_code = 'CORREOS_MX';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Mexico' WHERE carrier_code = 'ESTAFETA';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Mexico' WHERE carrier_code = 'AEROFLASH';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Mexico' WHERE carrier_code = 'REDPACK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Mexico' WHERE carrier_code = 'SENDA_MX';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Netherlands' WHERE carrier_code = 'DHL_NL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Netherlands' WHERE carrier_code = 'DHL_NL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Netherlands' WHERE carrier_code = 'DHL_PARCEL_NL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Netherlands' WHERE carrier_code = 'GLS_NL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Netherlands' WHERE carrier_code = 'KIALA';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Netherlands' WHERE carrier_code = 'POSTNL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Netherlands' WHERE carrier_code = 'POSTNL_INT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Netherlands' WHERE carrier_code = 'POSTNL_INT_3_S';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Netherlands' WHERE carrier_code = 'TNT_NL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Netherlands' WHERE carrier_code = 'TRANSMISSION';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'New Zealand' WHERE carrier_code = 'COURIER_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'New Zealand' WHERE carrier_code = 'FASTWAY_NZ';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'New Zealand' WHERE carrier_code = 'NZ_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'New Zealand' WHERE carrier_code = 'TOLL_IPEC';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Nigeria' WHERE carrier_code = 'COURIERPLUS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Nigeria' WHERE carrier_code = 'NIPOST_NG';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Norway' WHERE carrier_code = 'POSTEN_NORGE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Philippines' WHERE carrier_code = 'TWO_GO';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Philippines' WHERE carrier_code = 'AIR_21';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Philippines' WHERE carrier_code = 'AIRSPEED';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Philippines' WHERE carrier_code = 'JAMEXPRESS_PH';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Philippines' WHERE carrier_code = 'LBC_PH';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Philippines' WHERE carrier_code = 'NINJAVAN_PH';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Philippines' WHERE carrier_code = 'RAF_PH';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Philippines' WHERE carrier_code = 'XEND_EXPRESS_PH';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Poland' WHERE carrier_code = 'DHL_PL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Poland' WHERE carrier_code = 'DPD_PL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Poland' WHERE carrier_code = 'INPOST_PACZKOMATY';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Poland' WHERE carrier_code = 'POCZTA_POLSKA';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Poland' WHERE carrier_code = 'SIODEMKA';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Poland' WHERE carrier_code = 'TNT_PL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Portugal' WHERE carrier_code = 'ADICIONAL_PT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Portugal' WHERE carrier_code = 'CHRONOPOST_PT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Portugal' WHERE carrier_code = 'CTT_PT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Portugal' WHERE carrier_code = 'SEUR_PT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Romania' WHERE carrier_code = 'DPD_RO';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Romania' WHERE carrier_code = 'POSTA_RO';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Russia' WHERE carrier_code = 'DPD_RU';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Russia' WHERE carrier_code = 'RUSSIAN_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Saudi Arabia' WHERE carrier_code = 'DAWN_WING';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Saudi Arabia' WHERE carrier_code = 'RAM';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Saudi Arabia' WHERE carrier_code = 'THE_COURIER_GUY';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Serbia' WHERE carrier_code = 'POST_SERBIA_CS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Singapore' WHERE carrier_code = 'DHL_SG';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Singapore' WHERE carrier_code = 'JETSHIP_SG';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Singapore' WHERE carrier_code = 'NINJAVAN_SG';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Singapore' WHERE carrier_code = 'PARCELPOST_SG';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Singapore' WHERE carrier_code = 'SINGPOST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Singapore' WHERE carrier_code = 'TAQBIN_SG';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'South Africa' WHERE carrier_code = 'FASTWAY_ZA';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Spain' WHERE carrier_code = 'ASM_ES';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Spain' WHERE carrier_code = 'CBL_LOGISTICA';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Spain' WHERE carrier_code = 'CORREOS_ES';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Spain' WHERE carrier_code = 'DHL_ES';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Spain' WHERE carrier_code = 'DHL_PARCEL_ES';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Spain' WHERE carrier_code = 'GLS_ES';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Spain' WHERE carrier_code = 'INT_SEUR';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Spain' WHERE carrier_code = 'ITIS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Spain' WHERE carrier_code = 'NACEX_ES';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Spain' WHERE carrier_code = 'REDUR_ES';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Spain' WHERE carrier_code = 'SEUR_ES';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Spain' WHERE carrier_code = 'TNT_ES';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Sweden' WHERE carrier_code = 'DBSCHENKER_SE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Sweden' WHERE carrier_code = 'DIRECTLINK_SE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Sweden' WHERE carrier_code = 'POSTNORD_LOGISTICS_GLOBAL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Sweden' WHERE carrier_code = 'POSTNORD_LOGISTICS_DK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Sweden' WHERE carrier_code = 'POSTNORD_LOGISTICS_SE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Switzerland' WHERE carrier_code = 'SWISS_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Taiwan' WHERE carrier_code = 'CHUNGHWA_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Taiwan' WHERE carrier_code = 'TAIWAN_POST_TW';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Thailand' WHERE carrier_code = 'ACOMMMERCE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Thailand' WHERE carrier_code = 'ALPHAFAST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Thailand' WHERE carrier_code = 'CJ_TH';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Thailand' WHERE carrier_code = 'FASTRACK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Thailand' WHERE carrier_code = 'KERRY_EXPRESS_TH';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Thailand' WHERE carrier_code = 'NIM_EXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Thailand' WHERE carrier_code = 'NINJAVAN_THAI';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Thailand' WHERE carrier_code = 'SENDIT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Thailand' WHERE carrier_code = 'THAILAND_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Turkey' WHERE carrier_code = 'PTT_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Ukraine' WHERE carrier_code = 'NOVA_POSHTA';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Ukraine' WHERE carrier_code = 'NOVA_POSHTA_INT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Arab Emirates' WHERE carrier_code = 'AXL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Arab Emirates' WHERE carrier_code = 'CONTINENTAL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Arab Emirates' WHERE carrier_code = 'SKYNET_UAE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'AIRBORNE_EXPRESS_UK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'AIRSURE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'APC_OVERNIGHT';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'ASENDIA_UK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'COLLECTPLUS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'DELTEC_UK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'DHL_UK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'DPD_DELISTRACK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'DPD_UK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'FASTWAY_UK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'HERMESWORLD_UK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'INTERLINK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'MYHERMES';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'NIGHTLINE_UK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'PARCELFORCE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'ROYAL_MAIL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'RPD_2_MAN';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'SKYNET_UK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'TNT_UK';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'UK_MAIL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United Kingdom' WHERE carrier_code = 'YODEL';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United States' WHERE carrier_code = 'ABC_PACKAGE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United States' WHERE carrier_code = 'AIRBORNE_EXPRESS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United States' WHERE carrier_code = 'ASENDIA_US';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United States' WHERE carrier_code = 'CPACKET';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United States' WHERE carrier_code = 'ENSENDA';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United States' WHERE carrier_code = 'ESTES';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United States' WHERE carrier_code = 'FASTWAY_US';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United States' WHERE carrier_code = 'GLOBEGISTICS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United States' WHERE carrier_code = 'INTERNATIONAL_BRIDGE';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United States' WHERE carrier_code = 'ONTRAC';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United States' WHERE carrier_code = 'RL_US';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United States' WHERE carrier_code = 'RRDONNELLEY';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'United States' WHERE carrier_code = 'USPS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Vietnam' WHERE carrier_code = 'KERRY_EXPRESS_VN';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Vietnam' WHERE carrier_code = 'VIETNAM_POST';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Vietnam' WHERE carrier_code = 'VNPOST_EMS';
+            UPDATE "catalog-services".paypal_carrier SET country_name = 'Other' WHERE carrier_code = 'OTHER';
+
+        </sql>
+    </changeSet>
+    <changeSet id="RamThang7AmLich2022" author="Minh Dang">
+        <sql>
+            DELETE FROM "catalog-services".paypal_carrier where carrier_code = 'OTHER' and country_name = 'Global'
+        </sql>
+    </changeSet>
+</databaseChangeLog>

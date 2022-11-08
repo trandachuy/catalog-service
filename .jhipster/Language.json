@@ -1,0 +1,18 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "displayValue",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170524090609",
+    "dto": "mapstruct",
+    "service": "serviceClass",
+    "entityTableName": "language",
+    "pagination": "no",
+    "microserviceName": "catalogServices",
+    "searchEngine": "elasticsearch",
+    "enableEntityAudit": true
+}

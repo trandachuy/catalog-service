@@ -1,0 +1,621 @@
+"id","code","in_country","out_country","zone","city_id"
+"85","5101","Thành phố Long Xuyên","Long Xuyen City","Nội thành",34
+"86","5111","Huyện Thoại Sơn","Thoai Son District","Ngoại thành 2",34
+"87","5110","Huyện Châu Thành","Chau Thanh District","Ngoại thành 1",34
+"88","5107","Huyện Tri Tôn","Tri Ton District","Ngoại thành 2",34
+"89","5106","Huyện Tịnh Biên","Tinh Bien District","Ngoại thành 2",34
+"90","5102","Thành phố Châu Đốc","Chau Doc City","Ngoại thành 2",34
+"91","5103","Huyện An Phú","An Phu District","Ngoại thành 2",34
+"92","5104","Huyện Tân Châu","Tan Chau District","Ngoại thành 2",34
+"93","5105","Huyện Phú Tân","Phu Tan District","Ngoại thành 2",34
+"94","5109","Huyện Chợ Mới","Cho Moi District","Ngoại thành 2",34
+"95","5108","Huyện Châu Phú","Chau Phu District","Ngoại thành 2",34
+"96","5201","Thành phố Vũng Tàu","Vung Tau City","Nội thành",33
+"97","5206","Huyện Tân Thành","Tan Thanh District","Ngoại thành 1",33
+"98","5207","Huyện Châu Đức","Chau Duc District","Ngoại thành 1",33
+"99","5208","Huyện Đất Đỏ","Dat Do District","Ngoại thành 1",33
+"100","5202","Thành phố Bà Rịa","Ba Ria City","Nội thành",33
+"101","5203","Huyện Xuyên Mộc","Xuyen Moc District","Ngoại thành 2",33
+"102","5204","Huyện Long Điền","Long Dien District","Ngoại thành 1",33
+"103","5205","Huyện đảo Côn Đảo","dao Con Dao District","Ngoại thành 2",33
+"104","1801","Thành phố Bắc Giang","Bac Giang City","Nội thành",43
+"105","1807","Huyện Hiệp Hòa","Hiep Hoa District","Ngoại thành 2",43
+"106","1808","Huyện Lạng Giang","Lang Giang District","Ngoại thành 2",43
+"107","1804","Huyện Sơn Động","Son Dong District","Ngoại thành 2",43
+"108","1806","Huyện Tân Yên","Tan Yen District","Ngoại thành 2",43
+"109","1809","Huyện Việt Yên","Viet Yen District","Ngoại thành 1",43
+"110","1810","Huyện Yên Dũng","Yen Dung District","Ngoại thành 1",43
+"111","1802","Huyện Yên Thế","Yen The District","Ngoại thành 2",43
+"112","1805","Huyện Lục Nam","Luc Nam District","Ngoại thành 1",43
+"113","1803","Huyện Lục Ngạn","Luc Ngan District","Ngoại thành 2",43
+"114","1101","Thành phố Bắc Kạn","Bac Kan City","Nội thành",42
+"115","1106","Huyện Ba Bể","Ba Be District","Ngoại thành 2",42
+"116","1103","Huyện Bạch Thông","Bach Thong District","Ngoại thành 2",42
+"117","1108","Huyện Pác Nặm","Pac Nam District","Ngoại thành 2",42
+"118","1104","Huyện Na Rì","Na Ri District","Ngoại thành 2",42
+"119","1102","Huyện Chợ Đồn","Cho Don District","Ngoại thành 2",42
+"120","1107","Huyện Chợ Mới","Cho Moi District","Ngoại thành 2",42
+"121","1105","Huyện Ngân Sơn","Ngan Son District","Ngoại thành 2",42
+"122","6007","Huyện Hòa Bình","Hoa Binh District","Ngoại thành 1",44
+"123","6001","Thành phố Bạc Liêu","Bac Lieu City","Nội thành",44
+"124","6006","Huyện Đông Hải","Dong Hai District","Ngoại thành 2",44
+"125","6004","Huyện Giá Rai","Gia Rai District","Ngoại thành 2",44
+"126","6003","Huyện Hồng Dân","Hong Dan District","Ngoại thành 2",44
+"127","6005","Huyện Phước Long","Phuoc Long District","Ngoại thành 2",44
+"128","6002","Huyện Vĩnh Lợi","Vinh Loi District","Ngoại thành 1",44
+"129","1901","Thành phố Bắc Ninh","Bac Ninh City","Nội thành",45
+"130","1903","Huyện Quế Võ","Que Vo District","Ngoại thành 1",45
+"131","1904","Huyện Tiên Du","Tien Du District","Ngoại thành 1",45
+"132","1905","Thị xã Từ Sơn","Tu Son Ward","Ngoại thành 1",45
+"133","1907","Huyện Gia Bình","Gia Binh District","Ngoại thành 2",45
+"134","1906","Huyện Thuận Thành","Thuan Thanh District","Ngoại thành 1",45
+"135","1902","Huyện Yên Phong","Yen Phong District","Ngoại thành 1",45
+"136","1908","Huyện Lương Tài","Luong Tai District","Ngoại thành 2",45
+"137","5601","Thành phố Bến Tre","Ben Tre City","Nội thành",39
+"138","5602","Huyện Châu Thành","Chau Thanh District","Ngoại thành 1",39
+"139","5607","Huyện Ba Tri","Ba Tri District","Ngoại thành 2",39
+"140","5606","Huyện Bình Đại","Binh Dai District","Ngoại thành 2",39
+"141","5603","Huyện Chợ Lách","Cho Lach District","Ngoại thành 2",39
+"142","5605","Huyện Giồng Trôm","Giong Trom District","Ngoại thành 1",39
+"143","5604","Huyện Mỏ Cày Bắc","Mo Cay Bac District","Ngoại thành 1",39
+"144","5609","Huyện Mỏ Cày Nam","Mo Cay Nam District","Ngoại thành 1",39
+"145","5608","Huyện Thạnh Phú","Thanh Phu District","Ngoại thành 2",39
+"146","3702","Huyện An Lão","An Lao District","Ngoại thành 2",23
+"147","3709","Huyện Vân Canh","Van Canh District","Ngoại thành 2",23
+"148","3708","Huyện Tây Sơn","Tay Son District","Ngoại thành 2",23
+"149","3703","Huyện Hoài Ân","Hoai An District","Ngoại thành 2",23
+"150","3705","Huyện Phù Mỹ","Phu My District","Ngoại thành 2",23
+"151","3707","Huyện Vĩnh Thạnh","Vinh Thanh District","Ngoại thành 2",23
+"152","3701","Thành phố Quy Nhơn","Quy Nhon City","Nội thành",23
+"153","3710","Thị xã An Nhơn","An Nhon Ward","Ngoại thành 2",23
+"154","3706","Huyện Phù Cát","Phu Cat District","Ngoại thành 2",23
+"155","3704","Huyện Hoài Nhơn","Hoai Nhon District","Ngoại thành 2",23
+"156","3711","Huyện Tuy Phước","Tuy Phuoc District","Ngoại thành 1",23
+"157","4401","Thành phố Thủ Dầu Một","Thu Dau Mot City","Nội thành",46
+"158","4405","Thị xã Dĩ An","Di An Ward","Nội thành",46
+"159","4404","Thị xã Thuận An","Thuan An Ward","Ngoại thành 1",46
+"160","4403","Thị xã Tân Uyên","Tan Uyen Ward","Ngoại thành 1",46
+"161","4407","Huyện Dầu Tiếng","Dau Tieng District","Ngoại thành 2",46
+"162","4408","Huyện Bàu Bàng","Bau Bang District","Ngoại thành 2",46
+"163","4402","Thị xã Bến Cát","Ben Cat Ward","Ngoại thành 2",46
+"164","4406","Huyện Phú Giáo","Phu Giao District","Ngoại thành 2",46
+"165","4409","Huyện Bắc Tân Uyên","Bac Tan Uyen District","Ngoại thành 2",46
+"166","4302","Huyện Đồng Phú","Dong Phu District","Ngoại thành 1",47
+"167","4308","Huyện Bù Đăng","Bu Dang District","Ngoại thành 2",47
+"168","4310","Huyện Bù Gia Mập","Bu Gia Map District","Ngoại thành 2",47
+"169","4301","Thị xã Đồng Xoài","Dong Xoai Ward","Nội thành",47
+"170","4303","Huyện Chơn Thành","Chon Thanh District","Ngoại thành 2",47
+"171","4309","Huyện Hớn Quản","Hon Quan District","Ngoại thành 2",47
+"172","4304","Thị xã Bình Long","Binh Long Ward","Ngoại thành 2",47
+"173","4307","Thị xã Phước Long","Phuoc Long Ward","Ngoại thành 2",47
+"174","4305","Huyện Lộc Ninh","Loc Ninh District","Ngoại thành 2",47
+"175","4306","Huyện Bù Đốp","Bu Dop District","Ngoại thành 2",47
+"176","4311","Huyện Phú Riềng","Phu Rieng District","Ngoại thành 2",47
+"177","4701","Thành phố Phan Thiết","Phan Thiet City","Nội thành",31
+"178","4705","Huyện Hàm Thuận Nam","Ham Thuan Nam District","Ngoại thành 2",31
+"179","4704","Huyện Hàm Thuận Bắc","Ham Thuan Bac District","Ngoại thành 1",31
+"180","4710","Thị xã La Gi","La Gi Ward","Ngoại thành 2",31
+"181","4707","Huyện Đức Linh","Duc Linh District","Ngoại thành 2",31
+"182","4703","Huyện Bắc Bình","Bac Binh District","Ngoại thành 2",31
+"183","4702","Huyện Tuy Phong","Tuy Phong District","Ngoại thành 2",31
+"184","4706","Huyện Hàm Tân","Ham Tan District","Ngoại thành 2",31
+"185","4708","Huyện Tánh Linh","Tanh Linh District","Ngoại thành 2",31
+"186","4709","Huyện đảo Phú Quý","dao Phu Quy District","Ngoại thành 2",31
+"187","6101","Thành phố Cà Mau","Ca Mau City","Nội thành",48
+"188","6109","Huyện Phú Tân","Phu Tan District","Ngoại thành 2",48
+"189","6105","Huyện Cái Nước","Cai Nuoc District","Ngoại thành 2",48
+"190","6102","Huyện Thới Bình","Thoi Binh District","Ngoại thành 2",48
+"191","6108","Huyện Năm Căn","Nam Can District","Ngoại thành 2",48
+"192","6106","Huyện Đầm Dơi","Dam Doi District","Ngoại thành 2",48
+"193","6104","Huyện Trần Văn Thời","Tran Van Thoi District","Ngoại thành 2",48
+"194","6103","Huyện U Minh","U Minh District","Ngoại thành 2",48
+"195","0601","Thành phố Cao Bằng","Cao Bang City","Nội thành",4
+"196","0612","Huyện Bảo Lâm","Bao Lam District","Ngoại thành 2",4
+"197","0604","Huyện Hà Quảng","Ha Quang District","Ngoại thành 2",4
+"198","0608","Huyện Hòa An","Hoa An District","Ngoại thành 2",4
+"199","0613","Huyện Phục Hòa","Phuc Hoa District","Ngoại thành 2",4
+"200","0605","Huyện Trà Lĩnh","Tra Linh District","Ngoại thành 2",4
+"201","0603","Huyện Thông Nông","Thong Nong District","Ngoại thành 2",4
+"202","0610","Huyện Thạch An","Thach An District","Ngoại thành 2",4
+"203","0609","Huyện Quảng Uyên","Quang Uyen District","Ngoại thành 2",4
+"204","0607","Huyện Nguyên Bình","Nguyen Binh District","Ngoại thành 2",4
+"205","0611","Huyện Hạ Lang","Ha Lang District","Ngoại thành 2",4
+"206","0602","Huyện Bảo Lạc","Bao Lac District","Ngoại thành 2",4
+"207","0606","Huyện Trùng Khánh","Trung Khanh District","Ngoại thành 2",4
+"208","4001","Thành phố Buôn Ma Thuột","Buon Ma Thuot City","Nội thành",25
+"209","4010","Huyện Krông Ana","Krong Ana District","Ngoại thành 2",25
+"210","4005","Huyện Ea Súp","Ea Sup District","Ngoại thành 2",25
+"211","4012","Huyện Lắk","Lak District","Ngoại thành 2",25
+"212","4003","Huyện Krông Búk","Krong Buk District","Ngoại thành 2",25
+"213","4009","Huyện M đrắk","M drak District","Ngoại thành 2",25
+"214","4013","Huyện Buôn Ðôn","Buon Ðon District","Ngoại thành 2",25
+"215","4006","Huyện Cư M gar","Cu M gar District","Ngoại thành 1",25
+"216","4002","Huyện Ea H leo","Ea H leo District","Ngoại thành 2",25
+"217","4004","Huyện Krông Năng","Krong Nang District","Ngoại thành 2",25
+"218","4015","Thị xã Buôn Hồ","Buon Ho Ward","Ngoại thành 2",25
+"219","4011","Huyện Krông Bông","Krong Bong District","Ngoại thành 2",25
+"220","4008","Huyện Ea Kar","Ea Kar District","Ngoại thành 2",25
+"221","4007","Huyện Krông Pắc","Krong Pac District","Ngoại thành 2",25
+"222","4014","Huyện Cư Kuin","Cu Kuin District","Ngoại thành 1",25
+"223","6306","Huyện Krông Nô","Krong No District","Ngoại thành 2",57
+"224","6304","Huyện Cư Jút","Cu Jut District","Ngoại thành 2",57
+"225","6308","Huyện Tuy Đức","Tuy Duc District","Ngoại thành 2",57
+"226","6301","Thị xã Gia Nghĩa","Gia Nghia Ward","Nội thành",57
+"227","6302","Huyện Đắk R lấp","Dak R lap District","Ngoại thành 2",57
+"228","6307","Huyện Đắk Glong","Dak Glong District","Ngoại thành 2",57
+"229","6303","Huyện Đắk Mil","Dak Mil District","Ngoại thành 2",57
+"230","6305","Huyện Đắk Song","Dak Song District","Ngoại thành 2",57
+"231","6201","Thành phố Điện Biên Phủ","Dien Bien Phu City","Nội thành",56
+"232","6207","Huyện Điện Biên Đông","Dien Bien Dong District","Ngoại thành 2",56
+"233","6209","Huyện Mường Ảng","Muong Ang District","Ngoại thành 2",56
+"234","6203","Huyện Điện Biên","Dien Bien District","Ngoại thành 2",56
+"235","6205","Huyện Mường Chà","Muong Cha District","Ngoại thành 2",56
+"236","6208","Huyện Mường Nhé","Muong Nhe District","Ngoại thành 2",56
+"237","6206","Huyện Tủa Chùa","Tua Chua District","Ngoại thành 2",56
+"238","6204","Huyện Tuần Giáo","Tuan Giao District","Ngoại thành 2",56
+"239","6202","Thị xã Mường Lay","Muong Lay Ward","Ngoại thành 2",56
+"240","4801","Thành phố Biên Hòa","Bien Hoa City","Nội thành",30
+"241","4810","Huyện Trảng Bom","Trang Bom District","Ngoại thành 2",30
+"242","4803","Huyện Tân Phú","Tan Phu District","Ngoại thành 2",30
+"243","4811","Huyện Cẩm Mỹ","Cam My District","Ngoại thành 2",30
+"244","4807","Huyện Xuân Lộc","Xuan Loc District","Ngoại thành 2",30
+"245","4805","Huyện Thống Nhất","Thong Nhat District","Ngoại thành 2",30
+"246","4809","Huyện Nhơn Trạch","Nhon Trach District","Ngoại thành 2",30
+"247","4808","Huyện Long Thành","Long Thanh District","Ngoại thành 2",30
+"248","4804","Huyện Định Quán","Dinh Quan District","Ngoại thành 2",30
+"249","4806","Thị xã Long Khánh","Long Khanh Ward","Ngoại thành 2",30
+"250","4802","Huyện Vĩnh Cửu","Vinh Cuu District","Ngoại thành 2",30
+"251","5001","Thành phố Cao Lãnh","Cao Lanh City","Nội thành",35
+"252","5007","Huyện Cao Lãnh","Cao Lanh District","Ngoại thành 1",35
+"253","5010","Huyện Lai Vung","Lai Vung District","Ngoại thành 1",35
+"254","5011","Huyện Châu Thành","Chau Thanh District","Ngoại thành 2",35
+"255","5004","Huyện Hồng Ngự","Hong Ngu District","Ngoại thành 2",35
+"256","5002","Thành phố Sa Đéc","Sa Dec City","Nội thành",35
+"257","5008","Huyện Lấp Vò","Lap Vo District","Ngoại thành 2",35
+"258","5005","Huyện Tam Nông","Tam Nong District","Ngoại thành 2",35
+"259","5003","Huyện Tân Hồng","Tan Hong District","Ngoại thành 2",35
+"260","5006","Huyện Thanh Bình","Thanh Binh District","Ngoại thành 2",35
+"261","5009","Huyện Tháp Mười","Thap Muoi District","Ngoại thành 2",35
+"262","5012","Thị xã Hồng Ngự","Hong Ngu Ward","Ngoại thành 2",35
+"263","3801","Thành phố Pleiku","Pleiku City","Nội thành",22
+"264","3804","Huyện Kbang","Kbang District","Ngoại thành 2",22
+"265","3806","Huyện Kông Chro","Kong Chro District","Ngoại thành 2",22
+"266","3811","Huyện Krông Pa","Krong Pa District","Ngoại thành 2",22
+"267","3803","Huyện Mang Yang","Mang Yang District","Ngoại thành 2",22
+"268","3812","Huyện Ia Grai","Ia Grai District","Ngoại thành 1",22
+"269","3807","Huyện Đức Cơ","Duc Co District","Ngoại thành 2",22
+"270","3808","Huyện Chư Prông","Chu Prong District","Ngoại thành 2",22
+"271","3809","Huyện Chư Sê","Chu Se District","Ngoại thành 2",22
+"272","3816","Huyện Phú Thiện","Phu Thien District","Ngoại thành 2",22
+"273","3810","Thị xã Ayun Pa","Ayun Pa Ward","Ngoại thành 2",22
+"274","3814","Huyện Ia Pa","Ia Pa District","Ngoại thành 2",22
+"275","3805","Thị xã An Khê","An Khe Ward","Ngoại thành 2",22
+"276","3802","Huyện Chư Păh","Chu Pah District","Ngoại thành 1",22
+"277","3817","Huyện Chư Pưh","Chu Puh District","Ngoại thành 2",22
+"278","3813","Huyện Đắk Đoa","Dak Doa District","Ngoại thành 2",22
+"279","3815","Huyện Đắk Pơ","Dak Po District","Ngoại thành 2",22
+"280","0501","Thành phố Hà Giang","Ha Giang City","Nội thành",64
+"281","0510","Huyện Bắc Quang","Bac Quang District","Ngoại thành 2",64
+"282","0506","Huyện Vị Xuyên","Vi Xuyen District","Ngoại thành 2",64
+"283","0502","Huyện Đồng Văn","Dong Van District","Ngoại thành 2",64
+"284","0508","Huyện Hoàng Su Phì","Hoang Su Phi District","Ngoại thành 2",64
+"285","0503","Huyện Mèo Vạc","Meo Vac District","Ngoại thành 2",64
+"286","0505","Huyện Quản Bạ","Quan Ba District","Ngoại thành 2",64
+"287","0511","Huyện Quang Bình","Quang Binh District","Ngoại thành 2",64
+"288","0509","Huyện Xín Mần","Xin Man District","Ngoại thành 2",64
+"289","0504","Huyện Yên Minh","Yen Minh District","Ngoại thành 2",64
+"290","0507","Huyện Bắc Mê","Bac Me District","Ngoại thành 2",64
+"291","2401","Thành phố Phủ Lý","Phu Ly City","Nội thành",50
+"292","2406","Huyện Bình Lục","Binh Luc District","Ngoại thành 1",50
+"293","2402","Huyện Duy Tiên","Duy Tien District","Ngoại thành 1",50
+"294","2403","Huyện Kim Bảng","Kim Bang District","Ngoại thành 1",50
+"295","2404","Huyện Lý Nhân","Ly Nhan District","Ngoại thành 1",50
+"296","2405","Huyện Thanh Liêm","Thanh Liem District","Ngoại thành 1",50
+"297","3001","Thành phố Hà Tĩnh","Ha Tinh City","Nội thành",15
+"298","3011","Huyện Vũ Quang","Vu Quang District","Ngoại thành 2",15
+"299","3012","Huyện Lộc Hà","Loc Ha District","Ngoại thành 1",15
+"300","3010","Huyện Kỳ Anh","Ky Anh District","Ngoại thành 2",15
+"301","3007","Huyện Hương Khê","Huong Khe District","Ngoại thành 2",15
+"302","3005","Huyện Nghi Xuân","Nghi Xuan District","Ngoại thành 2",15
+"303","3002","Thị xã Hồng Lĩnh","Hong Linh Ward","Ngoại thành 2",15
+"304","3009","Huyện Cẩm Xuyên","Cam Xuyen District","Ngoại thành 1",15
+"305","3004","Huyện Đức Thọ","Duc Tho District","Ngoại thành 2",15
+"306","3006","Huyện Can Lộc","Can Loc District","Ngoại thành 1",15
+"307","3003","Huyện Hương Sơn","Huong Son District","Ngoại thành 2",15
+"308","3013","Thị xã Kỳ Anh","Ky Anh Ward","Ngoại thành 2",15
+"309","3008","Huyện Thạch Hà","Thach Ha District","Ngoại thành 1",15
+"310","2103","Huyện Nam Sách","Nam Sach District","Ngoại thành 1",49
+"311","2101","Thành phố Hải Dương","Hai Duong City","Nội thành",49
+"312","2112","Huyện Bình Giang","Binh Giang District","Ngoại thành 1",49
+"313","2109","Huyện Cẩm Giàng","Cam Giang District","Ngoại thành 1",49
+"314","2104","Huyện Kinh Môn","Kinh Mon District","Ngoại thành 2",49
+"315","2105","Huyện Gia Lộc","Gia Loc District","Ngoại thành 1",49
+"316","2111","Huyện Kim Thành","Kim Thanh District","Ngoại thành 2",49
+"317","2106","Huyện Tứ Kỳ","Tu Ky District","Ngoại thành 1",49
+"318","2107","Huyện Thanh Miện","Thanh Mien District","Ngoại thành 1",49
+"319","2110","Huyện Thanh Hà","Thanh Ha District","Ngoại thành 1",49
+"320","2108","Huyện Ninh Giang","Ninh Giang District","Ngoại thành 1",49
+"321","2102","Thị xã Chí Linh","Chi Linh Ward","Ngoại thành 2",49
+"322","6408","Thị xã Long Mỹ","Long My Ward","Ngoại thành 1",3
+"323","6401","Thành phố Vị Thanh","Vi Thanh City","Nội thành",3
+"324","6407","Thị xã Ngã Bảy","Nga Bay Ward","Ngoại thành 2",3
+"325","6404","Huyện Phụng Hiệp","Phung Hiep District","Ngoại thành 2",3
+"326","6406","Huyện Châu Thành A","Chau Thanh A District","Ngoại thành 2",3
+"327","6402","Huyện Vị Thuỷ","Vi Thuy District","Ngoại thành 1",3
+"328","6403","Huyện Long Mỹ","Long My District","Ngoại thành 2",3
+"329","6405","Huyện Châu Thành","Chau Thanh District","Ngoại thành 2",3
+"330","2301","Thành phố Hòa Bình","Hoa Binh City","Nội thành",10
+"331","2308","Huyện Kim Bôi","Kim Boi District","Ngoại thành 2",10
+"332","2305","Huyện Lạc Sơn","Lac Son District","Ngoại thành 2",10
+"333","2309","Huyện Lạc Thủy","Lac Thuy District","Ngoại thành 2",10
+"334","2303","Huyện Mai Châu","Mai Chau District","Ngoại thành 2",10
+"335","2310","Huyện Yên Thủy","Yen Thuy District","Ngoại thành 2",10
+"336","2302","Huyện Đà Bắc","Da Bac District","Ngoại thành 1",10
+"337","2306","Huyện Kỳ Sơn","Ky Son District","Ngoại thành 1",10
+"338","2307","Huyện Lương Sơn","Luong Son District","Ngoại thành 2",10
+"339","2304","Huyện Tân Lạc","Tan Lac District","Ngoại thành 2",10
+"340","2311","Huyện Cao Phong","Cao Phong District","Ngoại thành 2",10
+"341","2201","Thành phố Hưng Yên","Hung Yen City","Nội thành",51
+"342","2202","Huyện Kim Động","Kim Dong District","Nội thành",63
+"343","2207","Huyện Phù Cừ","Phu Cu District","Ngoại thành 2",51
+"344","2203","Huyện Ân Thi","An Thi District","Ngoại thành 2",51
+"345","2204","Huyện Khoái Châu","Khoai Chau District","Ngoại thành 2",51
+"346","2208","Huyện Mỹ Hào","My Hao District","Ngoại thành 2",51
+"347","2205","Huyện Yên Mỹ","Yen My District","Ngoại thành 2",51
+"348","2206","Huyện Tiên Lữ","Tien Lu District","Ngoại thành 1",51
+"349","2210","Huyện Văn Giang","Van Giang District","Ngoại thành 2",51
+"350","2209","Huyện Văn Lâm","Van Lam District","Ngoại thành 2",51
+"351","4101","Thành phố Nha Trang","Nha Trang City","Nội thành",26
+"352","4106","Thành phố Cam Ranh","Cam Ranh City","Nội thành",26
+"353","4104","Huyện Diên Khánh","Dien Khanh District","Ngoại thành 1",26
+"354","4109","Huyện Cam Lâm","Cam Lam District","Ngoại thành 2",26
+"355","4102","Huyện Vạn Ninh","Van Ninh District","Ngoại thành 2",26
+"356","4105","Huyện Khánh Vĩnh","Khanh Vinh District","Ngoại thành 2",26
+"357","4107","Huyện Khánh Sơn","Khanh Son District","Ngoại thành 2",26
+"358","4103","Thị xã Ninh Hòa","Ninh Hoa Ward","Ngoại thành 2",26
+"359","5401","Thành phố Rạch Giá","Rach Gia City","Nội thành",37
+"360","5406","Huyện Châu Thành","Chau Thanh District","Ngoại thành 1",37
+"361","5405","Huyện Tân Hiệp","Tan Hiep District","Ngoại thành 2",37
+"362","5407","Huyện Giồng Riềng","Giong Rieng District","Ngoại thành 2",37
+"363","5409","Huyện An Biên","An Bien District","Ngoại thành 2",37
+"364","5408","Huyện Gò Quao","Go Quao District","Ngoại thành 2",37
+"365","5415","Huyện Giang Thành","Giang Thanh District","Ngoại thành 2",37
+"366","5414","Huyện U Minh Thượng","U Minh Thuong District","Ngoại thành 2",37
+"367","5411","Huyện Vĩnh Thuận","Vinh Thuan District","Ngoại thành 2",37
+"368","5410","Huyện An Minh","An Minh District","Ngoại thành 2",37
+"369","5404","Huyện Hòn Đất","Hon Dat District","Ngoại thành 2",37
+"370","5403","Huyện Kiên Lương","Kien Luong District","Ngoại thành 2",37
+"371","5402","Thị xã Hà Tiên","Ha Tien Ward","Ngoại thành 2",37
+"372","5412","Huyện đảo Phú Quốc","dao Phu Quoc District","Ngoại thành 2",37
+"373","3606","Huyện Kon Plông","Kon Plong District","Ngoại thành 2",20
+"374","3607","Huyện Đắk Hà","Dak Ha District","Ngoại thành 2",20
+"375","3604","Huyện Đắk Tô","Dak To District","Ngoại thành 2",20
+"376","3608","Huyện Kon Rẫy","Kon Ray District","Ngoại thành 2",20
+"377","3603","Huyện Ngọc Hồi","Ngoc Hoi District","Ngoại thành 2",20
+"378","3605","Huyện Sa Thầy","Sa Thay District","Ngoại thành 2",20
+"379","3610","Huyện Ia H Drai","Ia H Drai District","Ngoại thành 2",20
+"380","3601","Thành phố Kon Tum","Kon Tum City","Nội thành",20
+"381","3602","Huyện Đắk Glei","Dak Glei District","Ngoại thành 2",20
+"382","0701","Thành phố Lai Châu","Lai Chau City","Nội thành",1
+"383","0705","Huyện Mường Tè","Muong Te District","Ngoại thành 2",1
+"384","0708","Huyện Nậm Nhùm","Nam Nhum District","Ngoại thành 2",1
+"385","0703","Huyện Phong Thổ","Phong Tho District","Ngoại thành 2",1
+"386","0704","Huyện Sìn Hồ","Sin Ho District","Ngoại thành 2",1
+"387","0702","Huyện Tam Đường","Tam Duong District","Ngoại thành 2",1
+"388","0707","Huyện Tân Uyên","Tan Uyen District","Ngoại thành 2",1
+"389","0706","Huyện Than Uyên","Than Uyen District","Ngoại thành 2",1
+"390","4201","Thành phố Đà Lạt","Da Lat City","Nội thành",27
+"391","4205","Huyện Đơn Dương","Don Duong District","Ngoại thành 2",27
+"392","4203","Huyện Đức Trọng","Duc Trong District","Ngoại thành 2",27
+"393","4202","Thành phố Bảo Lộc","Bao Loc City","Ngoại thành 2",27
+"394","4211","Huyện Bảo Lâm","Bao Lam District","Ngoại thành 2",27
+"395","4212","Huyện Đam Rông","Dam Rong District","Ngoại thành 2",27
+"396","4206","Huyện Lạc Dương","Lac Duong District","Ngoại thành 1",27
+"397","4210","Huyện Lâm Hà","Lam Ha District","Ngoại thành 2",27
+"398","4204","Huyện Di Linh","Di Linh District","Ngoại thành 2",27
+"399","4209","Huyện Cát Tiên","Cat Tien District","Ngoại thành 2",27
+"400","4207","Huyện Đạ Huoai","Da Huoai District","Ngoại thành 2",27
+"401","4208","Huyện Đạ Tẻh","Da Teh District","Ngoại thành 2",27
+"402","1001","Thành phố Lạng Sơn","Lang Son City","Nội thành",8
+"403","1007","Huyện Cao Lộc","Cao Loc District","Ngoại thành 1",8
+"404","1006","Huyện Văn Quan","Van Quan District","Ngoại thành 2",8
+"405","1004","Huyện Văn Lãng","Van Lang District","Ngoại thành 2",8
+"406","1003","Huyện Bình Gia","Binh Gia District","Ngoại thành 2",8
+"407","1005","Huyện Bắc Sơn","Bac Son District","Ngoại thành 2",8
+"408","1011","Huyện Hữu Lũng","Huu Lung District","Ngoại thành 2",8
+"409","1008","Huyện Lộc Bình","Loc Binh District","Ngoại thành 1",8
+"410","1010","Huyện Đình Lập","Dinh Lap District","Ngoại thành 2",8
+"411","1009","Huyện Chi Lăng","Chi Lang District","Ngoại thành 2",8
+"412","1002","Huyện Tràng Định","Trang Dinh District","Ngoại thành 2",8
+"413","0803","Huyện Bát Xát","Bat Xat District","Ngoại thành 1",2
+"414","0807","Huyện Bảo Yên","Bao Yen District","Ngoại thành 2",2
+"415","0808","Huyện Bắc Hà","Bac Ha District","Ngoại thành 2",2
+"416","0809","Huyện Mường Khương","Muong Khuong District","Ngoại thành 2",2
+"417","0802","Huyện Xi Ma Cai","Xi Ma Cai District","Ngoại thành 2",2
+"418","0801","Thành phố Lào Cai","Lao Cai City","Nội thành",2
+"419","0805","Huyện Sa Pa","Sa Pa District","Ngoại thành 2",2
+"420","0806","Huyện Văn Bàn","Van Ban District","Ngoại thành 2",2
+"421","0804","Huyện Bảo Thắng","Bao Thang District","Ngoại thành 2",2
+"422","4901","Thành phố Tân An","Tan An City","Nội thành",32
+"423","4908","Huyện Bến Lức","Ben Luc District","Ngoại thành 1",32
+"424","4912","Huyện Cần Đước","Can Duoc District","Ngoại thành 2",32
+"425","4906","Huyện Đức Huệ","Duc Hue District","Ngoại thành 2",32
+"426","4913","Huyện Cần Giuộc","Can Giuoc District","Ngoại thành 2",32
+"427","4910","Huyện Châu Thành","Chau Thanh District","Ngoại thành 1",32
+"428","4907","Huyện Đức Hòa","Duc Hoa District","Ngoại thành 2",32
+"429","4902","Huyện Vĩnh Hưng","Vinh Hung District","Ngoại thành 2",32
+"430","4905","Huyện Thạnh Hóa","Thanh Hoa District","Ngoại thành 2",32
+"431","4904","Huyện Tân Thạnh","Tan Thanh District","Ngoại thành 2",32
+"432","4914","Huyện Tân Hưng","Tan Hung District","Ngoại thành 2",32
+"433","4903","Huyện Mộc Hóa","Moc Hoa District","Ngoại thành 2",32
+"434","4915","Thị xã Kiến Tường","Kien Tuong Ward","Ngoại thành 2",32
+"435","4911","Huyện Tân Trụ","Tan Tru District","Ngoại thành 1",32
+"436","4909","Huyện Thủ Thừa","Thu Thua District","Ngoại thành 1",32
+"437","2501","Thành phố Nam Định","Nam Dinh City","Nội thành",52
+"438","2510","Huyện Hải Hậu","Hai Hau District","Ngoại thành 2",52
+"439","2505","Huyện Ý Yên","Y Yen District","Ngoại thành 2",52
+"440","2504","Huyện Giao Thủy","Giao Thuy District","Ngoại thành 2",52
+"441","2502","Huyện Mỹ Lộc","My Loc District","Ngoại thành 1",52
+"442","2507","Huyện Nam Trực","Nam Truc District","Ngoại thành 1",52
+"443","2506","Huyện Vụ Bản","Vu Ban District","Ngoại thành 1",52
+"444","2508","Huyện Trực Ninh","Truc Ninh District","Ngoại thành 1",52
+"445","2509","Huyện Nghĩa Hưng","Nghia Hung District","Ngoại thành 1",52
+"446","2503","Huyện Xuân Trường","Xuan Truong District","Ngoại thành 2",52
+"447","2901","Thành phố Vinh","Vinh City","Nội thành",14
+"448","2902","Thị xã Cửa Lò","Cua Lo Ward","Ngoại thành 1",14
+"449","2914","Huyện Đô Lương","Do Luong District","Ngoại thành 2",14
+"450","2913","Huyện Anh Sơn","Anh Son District","Ngoại thành 2",14
+"451","2910","Huyện Tân Kỳ","Tan Ky District","Ngoại thành 2",14
+"452","2911","Huyện Yên Thành","Yen Thanh District","Ngoại thành 2",14
+"453","2912","Huyện Diễn Châu","Dien Chau District","Ngoại thành 2",14
+"454","2906","Huyện Quỳnh Lưu","Quynh Luu District","Ngoại thành 2",14
+"455","2921","Thị xã Hoàng Mai","Hoang Mai Ward","Ngoại thành 2",14
+"456","2920","Thị xã Thái Hòa","Thai Hoa Ward","Ngoại thành 2",14
+"457","2905","Huyện Nghĩa Đàn","Nghia Dan District","Ngoại thành 2",14
+"458","2904","Huyện Quỳ Hợp","Quy Hop District","Ngoại thành 2",14
+"459","2909","Huyện Con Cuông","Con Cuong District","Ngoại thành 2",14
+"460","2916","Huyện Nghi Lộc","Nghi Loc District","Ngoại thành 1",14
+"461","2908","Huyện Tương Dương","Tuong Duong District","Ngoại thành 2",14
+"462","2907","Huyện Kỳ Sơn","Ky Son District","Ngoại thành 2",14
+"463","2915","Huyện Thanh Chương","Thanh Chuong District","Ngoại thành 2",14
+"464","2903","Huyện Quỳ Châu","Quy Chau District","Ngoại thành 2",14
+"465","2919","Huyện Quế Phong","Que Phong District","Ngoại thành 2",14
+"466","2917","Huyện Nam Đàn","Nam Dan District","Ngoại thành 1",14
+"467","2918","Huyện Hưng Nguyên","Hung Nguyen District","Ngoại thành 1",14
+"468","2702","Thị xã Tam Điệp","Tam Diep Ward","Ngoại thành 1",11
+"469","2708","Huyện Yên Khánh","Yen Khanh District","Ngoại thành 1",11
+"470","2706","Huyện Yên Mô","Yen Mo District","Ngoại thành 1",11
+"471","2707","Huyện Kim Sơn","Kim Son District","Ngoại thành 1",11
+"472","2704","Huyện Gia Viễn","Gia Vien District","Ngoại thành 1",11
+"473","2701","Thành phố Ninh Bình","Ninh Binh City","Nội thành",11
+"474","2705","Huyện Hoa Lư","Hoa Lu District","Ngoại thành 1",11
+"475","2703","Huyện Nho Quan","Nho Quan District","Ngoại thành 2",11
+"476","4502","Huyện Ninh Sơn","Ninh Son District","Ngoại thành 2",28
+"477","4501","Thành phố Phan Rang – Tháp Chàm","Phan Rang ? Thap Cham City","Nội thành",28
+"478","4503","Huyện Ninh Hải","Ninh Hai District","Ngoại thành 1",28
+"479","4504","Huyện Ninh Phước","Ninh Phuoc District","Ngoại thành 1",28
+"480","4505","Huyện Bác Ái","Bac Ai District","Ngoại thành 2",28
+"481","4507","Huyện Thuận Nam","Thuan Nam District","Ngoại thành 1",28
+"482","4506","Huyện Thuận Bắc","Thuan Bac District","Ngoại thành 1",28
+"483","1501","Thành phố Việt Trì","Viet Tri City","Nội thành",53
+"484","1506","Huyện Cẩm Khê","Cam Khe District","Ngoại thành 2",53
+"485","1512","Huyện Thanh Thủy","Thanh Thuy District","Ngoại thành 2",53
+"486","1507","Huyện Yên Lập","Yen Lap District","Ngoại thành 2",53
+"487","1503","Huyện Đoan Hùng","Doan Hung District","Ngoại thành 2",53
+"488","1505","Huyện Hạ Hòa","Ha Hoa District","Ngoại thành 2",53
+"489","1510","Huyện Lâm Thao","Lam Thao District","Ngoại thành 1",53
+"490","1509","Huyện Phù Ninh","Phu Ninh District","Ngoại thành 2",53
+"491","1504","Huyện Thanh Ba","Thanh Ba District","Ngoại thành 2",53
+"492","1511","Huyện Tam Nông","Tam Nong District","Ngoại thành 1",53
+"493","1513","Huyện Tân Sơn","Tan Son District","Ngoại thành 2",53
+"494","1508","Huyện Thanh Sơn","Thanh Son District","Ngoại thành 2",53
+"495","1502","Thị xã Phú Thọ","Phu Tho Ward","Ngoại thành 2",53
+"496","3903","Thị Xã Sông Cầu","Song Cau Ward","Ngoại thành 2",24
+"497","3909","Huyện Tây Hòa","Tay Hoa District","Ngoại thành 2",24
+"498","3902","Huyện Đồng Xuân","Dong Xuan District","Ngoại thành 2",24
+"499","3907","Huyện Đông Hòa","Dong Hoa District","Ngoại thành 2",24
+"500","3906","Huyện Sông Hinh","Song Hinh District","Ngoại thành 2",24
+"501","3905","Huyện Sơn Hòa","Son Hoa District","Ngoại thành 2",24
+"502","3901","Thành phố Tuy Hòa","Tuy Hoa City","Nội thành",24
+"503","3908","Huyện Phú Hòa","Phu Hoa District","Ngoại thành 1",24
+"504","3904","Huyện Tuy An","Tuy An District","Ngoại thành 2",24
+"505","3101","Thành phố Đồng Hới","Dong Hoi City","Nội thành",16
+"506","3107","Huyện Lệ Thủy","Le Thuy District","Ngoại thành 2",16
+"507","3105","Huyện Bố Trạch","Bo Trach District","Ngoại thành 1",16
+"508","3108","Thị xã Ba Đồn","Ba Don Ward","Ngoại thành 2",16
+"509","3102","Huyện Tuyên Hóa","Tuyen Hoa District","Ngoại thành 2",16
+"510","3106","Huyện Quảng Ninh","Quang Ninh District","Ngoại thành 1",16
+"511","3103","Huyện Minh Hóa","Minh Hoa District","Ngoại thành 2",16
+"512","3104","Huyện Quảng Trạch","Quang Trach District","Ngoại thành 2",16
+"513","3401","Thành phố Tam Kỳ","Tam Ky City","Nội thành",19
+"514","3402","Thành phố Hội An","Hoi An City","Nội thành",19
+"515","3403","Huyện Duy Xuyên","Duy Xuyen District","Ngoại thành 1",19
+"516","3404","Huyện Điện Bàn","Dien Ban District","Ngoại thành 1",19
+"517","3412","Huyện Đông Giang","Dong Giang District","Ngoại thành 2",19
+"518","3407","Huyện Hiệp Đức","Hiep Duc District","Ngoại thành 2",19
+"519","3413","Huyện Nam Giang","Nam Giang District","Ngoại thành 2",19
+"520","3415","Huyện Nam Trà My","Nam Tra My District","Ngoại thành 2",19
+"521","3418","Huyện Nông Sơn","Nong Son District","Ngoại thành 2",19
+"522","3414","Huyện Phước Sơn","Phuoc Son District","Ngoại thành 2",19
+"523","3416","Huyện Tây Giang","Tay Giang District","Ngoại thành 2",19
+"524","3410","Huyện Tiên Phước","Tien Phuoc District","Ngoại thành 2",19
+"525","3408","Huyện Thăng Bình","Thang Binh District","Ngoại thành 2",19
+"526","3405","Huyện Đại Lộc","Dai Loc District","Ngoại thành 2",19
+"527","3409","Huyện Núi Thành","Nui Thanh District","Ngoại thành 2",19
+"528","3417","Huyện Phú Ninh","Phu Ninh District","Ngoại thành 1",19
+"529","3406","Huyện Quế Sơn","Que Son District","Ngoại thành 2",19
+"530","3411","Huyện Bắc Trà My","Bac Tra My District","Ngoại thành 2",19
+"531","3501","Thành phố Quảng Ngãi","Quang Ngai City","Nội thành",21
+"532","3505","Huyện Sơn Tịnh","Son Tinh District","Ngoại thành 1",21
+"533","3507","Huyện Tư Nghĩa","Tu Nghia District","Ngoại thành 1",21
+"534","3503","Huyện Bình Sơn","Binh Son District","Ngoại thành 2",21
+"535","3509","Huyện Minh Long","Minh Long District","Ngoại thành 2",21
+"536","3513","Huyện Sơn Tây","Son Tay District","Ngoại thành 2",21
+"537","3506","Huyện Sơn Hà","Son Ha District","Ngoại thành 2",21
+"538","3514","Huyện Tây Trà","Tay Tra District","Ngoại thành 2",21
+"539","3511","Huyện Đức Phổ","Duc Pho District","Ngoại thành 2",21
+"540","3508","Huyện Nghĩa Hành","Nghia Hanh District","Ngoại thành 1",21
+"541","3504","Huyện Trà Bồng","Tra Bong District","Ngoại thành 2",21
+"542","3510","Huyện Mộ Đức","Mo Duc District","Ngoại thành 1",21
+"543","3512","Huyện Ba Tơ","Ba To District","Ngoại thành 2",21
+"544","1702","Thành phố Cẩm Phả","Cam Pha City","Nội thành",9
+"545","1703","Thành phố Uông Bí","Uong Bi City","Ngoại thành 2",9
+"546","1704","Thành phố Móng Cái","Mong Cai City","Ngoại thành 2",9
+"547","1701","Thành phố Hạ Long","Ha Long City","Nội thành",9
+"548","1705","Huyện Bình Liêu","Binh Lieu District","Ngoại thành 2",9
+"549","1709","Huyện Ba Chẽ","Ba Che District","Ngoại thành 2",9
+"550","1713","Huyện đảo Vân Đồn","dao Van Don District","Ngoại thành 2",9
+"551","1707","Huyện Hải Hà","Hai Ha District","Ngoại thành 2",9
+"552","1710","Huyện Đông Triều","Dong Trieu District","Ngoại thành 2",9
+"553","1712","Huyện Hoành Bồ","Hoanh Bo District","Ngoại thành 2",9
+"554","1706","Huyện Đầm Hà","Dam Ha District","Ngoại thành 2",9
+"555","1708","Huyện Tiên Yên","Tien Yen District","Ngoại thành 2",9
+"556","1711","Thị xã Quảng Yên","Quang Yen Ward","Ngoại thành 2",9
+"557","1714","Huyện đảo Cô Tô","dao Co To District","Ngoại thành 2",9
+"558","3201","Thành phố Đông Hà","Dong Ha City","Nội thành",17
+"559","3202","Thị xã Quảng Trị","Quang Tri Ward","Ngoại thành 2",17
+"560","3208","Huyện Hướng Hóa","Huong Hoa District","Ngoại thành 2",17
+"561","3203","Huyện Vĩnh Linh","Vinh Linh District","Ngoại thành 2",17
+"562","3205","Huyện Cam Lộ","Cam Lo District","Ngoại thành 1",17
+"563","3207","Huyện Hải Lăng","Hai Lang District","Ngoại thành 2",17
+"564","3204","Huyện Gio Linh","Gio Linh District","Ngoại thành 1",17
+"565","3206","Huyện Triệu Phong","Trieu Phong District","Ngoại thành 1",17
+"566","3209","Huyện Đa Krông","Da Krong District","Ngoại thành 2",17
+"567","5901","Thành phố Sóc Trăng","Soc Trang City","Nội thành",41
+"568","5904","Huyện Mỹ Xuyên","My Xuyen District","Ngoại thành 1",41
+"569","5906","Huyện Long Phú","Long Phu District","Ngoại thành 2",41
+"570","5903","Huyện Mỹ Tú","My Tu District","Ngoại thành 2",41
+"571","5905","Huyện Thạnh Trị","Thanh Tri District","Ngoại thành 2",41
+"572","5907","Thị xã Vĩnh Châu","Vinh Chau Ward","Ngoại thành 2",41
+"573","5910","Huyện Châu Thành","Chau Thanh District","Ngoại thành 1",41
+"574","5902","Huyện Kế Sách","Ke Sach District","Ngoại thành 2",41
+"575","5911","Huyện Trần Đề","Tran De District","Ngoại thành 1",41
+"576","5909","Thị xã Ngã Năm","Nga Nam Ward","Ngoại thành 2",41
+"577","5908","Huyện Cù Lao Dung","Cu Lao Dung District","Ngoại thành 2",41
+"578","1401","Thành phố Sơn La","Son La City","Nội thành",5
+"579","1402","Huyện Quỳnh Nhai","Quynh Nhai District","Ngoại thành 2",5
+"580","1412","Huyện Vân Hồ","Van Ho District","Ngoại thành 2",5
+"581","1408","Huyện Yên Châu","Yen Chau District","Ngoại thành 2",5
+"582","1407","Huyện Mai Sơn","Mai Son District","Ngoại thành 2",5
+"583","1410","Huyện Mộc Châu","Moc Chau District","Ngoại thành 2",5
+"584","1406","Huyện Phù Yên","Phu Yen District","Ngoại thành 2",5
+"585","1409","Huyện Sông Mã","Song Ma District","Ngoại thành 2",5
+"586","1411","huyện Sốp Cộp","op Cop Ward","Ngoại thành 2",5
+"587","1403","Huyện Mường La","Muong La District","Ngoại thành 2",5
+"588","1404","Huyện Thuận Châu","Thuan Chau District","Ngoại thành 2",5
+"589","1405","Huyện Bắc Yên","Bac Yen District","Ngoại thành 2",5
+"590","4605","Huyện Châu Thành","Chau Thanh District","Ngoại thành 1",29
+"591","4606","Huyện Hòa Thành","Hoa Thanh District","Ngoại thành 1",29
+"592","4602","Huyện Tân Biên","Tan Bien District","Ngoại thành 2",29
+"593","4603","Huyện Tân Châu","Tan Chau District","Ngoại thành 2",29
+"594","4604","Huyện Dương Minh Châu","Duong Minh Chau District","Ngoại thành 1",29
+"595","4607","Huyện Bến Cầu","Ben Cau District","Ngoại thành 2",29
+"596","4608","Huyện Gò Dầu","Go Dau District","Ngoại thành 2",29
+"597","4601","Thành phố Tây Ninh","Tay Ninh City","Nội thành",29
+"598","4609","Huyện Trảng Bàng","Trang Bang District","Ngoại thành 2",29
+"599","2604","Huyện Đông Hưng","Dong Hung District","Ngoại thành 1",12
+"600","2605","Huyện Vũ Thư","Vu Thu District","Ngoại thành 1",12
+"601","2601","Thành phố Thái Bình","Thai Binh City","Nội thành",12
+"602","2603","Huyện Hưng Hà","Hung Ha District","Ngoại thành 2",12
+"603","2602","Huyện Quỳnh Phụ","Quynh Phu District","Ngoại thành 2",12
+"604","2608","Huyện Thái Thụy","Thai Thuy District","Ngoại thành 1",12
+"605","2607","Huyện Tiền Hải","Tien Hai District","Ngoại thành 1",12
+"606","2606","Huyện Kiến Xương","Kien Xuong District","Ngoại thành 1",12
+"607","1207","Huyện Đồng Hỷ","Dong Hy District","Ngoại thành 1",54
+"608","1204","Huyện Phú Lương","Phu Luong District","Ngoại thành 2",54
+"609","1201","Thành phố Thái Nguyên","Thai Nguyen City","Nội thành",54
+"610","1202","Thị xã Sông Công","Song Cong Ward","Ngoại thành 1",54
+"611","1206","Huyện Đại Từ","Dai Tu District","Ngoại thành 2",54
+"612","1203","Huyện Định Hóa","Dinh Hoa District","Ngoại thành 2",54
+"613","1209","Huyện Phổ Yên","Pho Yen District","Ngoại thành 2",54
+"614","1208","Huyện Phú Bình","Phu Binh District","Ngoại thành 2",54
+"615","1205","Huyện Võ Nhai","Vo Nhai District","Ngoại thành 2",54
+"616","2801","Thành phố Thanh Hóa","Thanh Hoa City","Nội thành",13
+"617","2803","Thị xã Sầm Sơn","Sam Son Ward","Ngoại thành 1",13
+"618","2826","Huyện Tĩnh Gia","Tinh Gia District","Ngoại thành 2",13
+"619","2809","Huyện Như Xuân","Nhu Xuan District","Ngoại thành 2",13
+"620","2808","Huyện Thường Xuân","Thuong Xuan District","Ngoại thành 2",13
+"621","2815","Huyện Thọ Xuân","Tho Xuan District","Ngoại thành 2",13
+"622","2812","Huyện Ngọc Lặc","Ngoc Lac District","Ngoại thành 2",13
+"623","2827","Huyện Yên Định","Yen Dinh District","Ngoại thành 2",13
+"624","2802","Thị xã Bỉm Sơn","Bim Son Ward","Ngoại thành 2",13
+"625","2821","Huyện Hà Trung","Ha Trung District","Ngoại thành 1",13
+"626","2806","Huyện Mường Lát","Muong Lat District","Ngoại thành 2",13
+"627","2804","Huyện Quan Hóa","Quan Hoa District","Ngoại thành 2",13
+"628","2813","Huyện Thạch Thành","Thach Thanh District","Ngoại thành 2",13
+"629","2816","Huyện Vĩnh Lộc","Vinh Loc District","Ngoại thành 2",13
+"630","2819","Huyện Nông Cống","Nong Cong District","Ngoại thành 2",13
+"631","2810","Huyện Như Thanh","Nhu Thanh District","Ngoại thành 2",13
+"632","2818","Huyện Triệu Sơn","Trieu Son District","Ngoại thành 2",13
+"633","2825","Huyện Quảng Xương","Quang Xuong District","Ngoại thành 1",13
+"634","2822","Huyện Hoằng Hóa","Hoang Hoa District","Ngoại thành 1",13
+"635","2820","Huyện Đông Sơn","Dong Son District","Ngoại thành 1",13
+"636","2824","Huyện Hậu Lộc","Hau Loc District","Ngoại thành 2",13
+"637","2805","Huyện Quan Sơn","Quan Son District","Ngoại thành 2",13
+"638","2823","Huyện Nga Sơn","Nga Son District","Ngoại thành 2",13
+"639","2817","Huyện Thiệu Hóa","Thieu Hoa District","Ngoại thành 1",13
+"640","2811","Huyện Lang Chánh","Lang Chanh District","Ngoại thành 2",13
+"641","2807","Huyện Bá Thước","Ba Thuoc District","Ngoại thành 2",13
+"642","2814","Huyện Cẩm Thủy","Cam Thuy District","Ngoại thành 2",13
+"643","3301","Thành phố Huế","Hue City","Nội thành",18
+"644","3305","Huyện Phú Vang","Phu Vang District","Ngoại thành 2",18
+"645","3307","Huyện Phú Lộc","Phu Loc District","Ngoại thành 2",18
+"646","3309","Huyện A Lưới","A Luoi District","Ngoại thành 2",18
+"647","3302","Huyện Phong Điền","Phong Dien District","Ngoại thành 2",18
+"648","3304","Thị xã Hương Trà","Huong Tra Ward","Ngoại thành 1",18
+"649","3306","Thị xã Hương Thủy","Huong Thuy Ward","Ngoại thành 1",18
+"650","3308","Huyện Nam Đông","Nam Dong District","Ngoại thành 2",18
+"651","3303","Huyện Quảng Điền","Quang Dien District","Ngoại thành 1",18
+"652","5301","Thành phố Mỹ Tho","My Tho City","Nội thành",36
+"653","5305","Huyện Châu Thành","Chau Thanh District","Ngoại thành 1",36
+"654","5306","Huyện Chợ Gạo","Cho Gao District","Ngoại thành 1",36
+"655","5303","Huyện Cái Bè","Cai Be District","Ngoại thành 2",36
+"656","5310","Huyện Tân Phú Đông","Tan Phu Dong District","Ngoại thành 2",36
+"657","5308","Huyện Gò Công Đông","Go Cong Dong District","Ngoại thành 2",36
+"658","5307","Huyện Gò Công Tây","Go Cong Tay District","Ngoại thành 1",36
+"659","5309","Huyện Tân Phước","Tan Phuoc District","Ngoại thành 1",36
+"660","5311","Thị xã Cai Lậy","Cai Lay Ward","Ngoại thành 2",36
+"661","5302","Thị xã Gò Công","Go Cong Ward","Ngoại thành 2",36
+"662","5304","Huyện Cai Lậy","Cai Lay District","Ngoại thành 1",36
+"663","5801","Thành phố Trà Vinh","Tra Vinh City","Nội thành",40
+"664","5809","Thị xã Duyên Hải","Duyen Hai Ward","Ngoại thành 2",40
+"665","5807","Huyện Cầu Ngang","Cau Ngang District","Ngoại thành 2",40
+"666","5805","Huyện Châu Thành","Chau Thanh District","Ngoại thành 1",40
+"667","5804","Huyện Tiểu Cần","Tieu Can District","Ngoại thành 2",40
+"668","5806","Huyện Trà Cú","Tra Cu District","Ngoại thành 2",40
+"669","5802","Huyện Càng Long","Cang Long District","Ngoại thành 2",40
+"670","5803","Huyện Cầu Kè","Cau Ke District","Ngoại thành 2",40
+"671","5808","Huyện Duyên Hải","Duyen Hai District","Ngoại thành 2",40
+"672","906","Huyện Yên Sơn","Yen Son District","Ngoại thành 1",7
+"673","0901","Thành phố Tuyên Quang","Tuyen Quang City","Nội thành",7
+"674","0904","Huyện Chiêm Hóa","Chiem Hoa District","Ngoại thành 2",7
+"675","0907","Huyện Sơn Dương","Son Duong District","Ngoại thành 2",7
+"676","0905","Huyện Hàm Yên","Ham Yen District","Ngoại thành 2",7
+"677","0902","Huyện Lâm Bình","Lam Binh District","Ngoại thành 2",7
+"678","0903","Huyện Na Hang","Na Hang District","Ngoại thành 2",7
+"679","5701","Thành phố Vĩnh Long","Vinh Long City","Nội thành",38
+"680","5703","Huyện Mang Thít","Mang Thit District","Ngoại thành 2",38
+"681","5707","Huyện Vũng Liêm","Vung Liem District","Ngoại thành 2",38
+"682","5702","Huyện Long Hồ","Long Ho District","Ngoại thành 1",38
+"683","5705","Huyện Tam Bình","Tam Binh District","Ngoại thành 2",38
+"684","5706","Huyện Trà Ôn","Tra On District","Ngoại thành 2",38
+"685","5704","Thị xã Bình Minh","Binh Minh Ward","Ngoại thành 2",38
+"686","5708","Huyện Bình Tân","Binh Tan District","Ngoại thành 2",38
+"687","1601","Thành phố Vĩnh Yên","Vinh Yen City","Nội thành",55
+"688","1606","Huyện Bình Xuyên","Binh Xuyen District","Ngoại thành 1",55
+"689","1604","Huyện Vĩnh Tường","Vinh Tuong District","Ngoại thành 1",55
+"690","1605","Huyện Yên Lạc","Yen Lac District","Ngoại thành 1",55
+"691","1603","Huyện Lập Thạch","Lap Thach District","Ngoại thành 2",55
+"692","1602","Huyện Tam Dương","Tam Duong District","Ngoại thành 1",55
+"693","1609","Huyện Tam Đảo","Tam Dao District","Ngoại thành 1",55
+"694","1607","Huyện Sông Lô","Song Lo District","Ngoại thành 2",55
+"695","1608","Thị xã Phúc Yên","Phuc Yen Ward","Ngoại thành 1",55
+"696","1301","Thành phố Yên Bái","Yen Bai City","Nội thành",6
+"697","1308","Huyện Trạm Tấu","Tram Tau District","Ngoại thành 2",6
+"698","1304","Huyện Yên Bình","Yen Binh District","Ngoại thành 2",6
+"699","1309","Huyện Lục Yên","Luc Yen District","Ngoại thành 2",6
+"700","1305","Huyện Mù Cang Chải","Mu Cang Chai District","Ngoại thành 2",6
+"701","1307","Huyện Trấn Yên","Tran Yen District","Ngoại thành 1",6
+"702","1306","Huyện Văn Chấn","Van Chan District","Ngoại thành 2",6
+"703","1303","Huyện Văn Yên","Van Yen District","Ngoại thành 2",6
+"704","1302","Thị xã Nghĩa Lộ","Nghia Lo Ward","Ngoại thành 2",6

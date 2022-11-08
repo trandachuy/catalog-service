@@ -1,0 +1,5 @@
+"id","from_post","to_post","country_code","price","currency_code"
+"1",1,5,"VN",0,"VND"
+"2",6,25,"VN",60000,"VND"
+"3",26,50,"VN",45000,"VND"
+"4",50,null,"VN",30000,"VND"
